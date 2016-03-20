@@ -3669,7 +3669,7 @@ MarlinViewWindow .source-list.sidebar.view .scrollbar .slider, GeditFileBrowserW
 @define-color selected_bg_color #9ab87c;
 @define-color selected_fg_color #ffffff;
 @define-color insensitive_bg_color #fbfbfb;
-@define-color insensitive_fg_color gtkalpha(#4a4a4a, 0.5);
+@define-color insensitive_fg_color alpha(#4a4a4a, 0.5);
 @define-color insensitive_base_color #ffffff;
 @define-color theme_unfocused_fg_color #4a4a4a;
 @define-color theme_unfocused_text_color #4a4a4a;
@@ -3682,12 +3682,12 @@ MarlinViewWindow .source-list.sidebar.view .scrollbar .slider, GeditFileBrowserW
 @define-color success_color #73d216;
 @define-color placeholder_text_color #A8A8A8;
 @define-color content_view_bg #ffffff;
-@define-color wm_title gtkalpha(#d7cfcf, 0.8);
-@define-color wm_unfocused_title gtkalpha(#d7cfcf, 0.5);
+@define-color wm_title alpha(#d7cfcf, 0.8);
+@define-color wm_unfocused_title alpha(#d7cfcf, 0.5);
 @define-color wm_bg #2f2f2f;
 @define-color wm_bg_unfocused #333333;
 @define-color wm_highlight #373737;
-@define-color wm_shadow gtkalpha(black, 0.35);
+@define-color wm_shadow alpha(black, 0.35);
 @define-color wm_button_close_bg #cc575d;
 @define-color wm_button_close_hover_bg #d7787d;
 @define-color wm_button_close_active_bg #be3841;
