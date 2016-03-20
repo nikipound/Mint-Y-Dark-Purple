@@ -1209,13 +1209,13 @@ GtkComboBox {
       @include entry(header-focus);
       background-clip: if($darker=='false' and $variant=='light', border-box, padding-box);
 
-      &.image { color: $selected_fg_color; }
+      &.image { color: transparentize($header_fg, 0.15); }
     }
     &:insensitive { @include entry(header-insensitive); }
 
     &:selected:focus {
-      background-color: $selected_fg_color;
-      color: $selected_bg_color;
+      background-color: $selected_bg_color;
+      color: $selected_fg_color;
     }
 
     &.progressbar {

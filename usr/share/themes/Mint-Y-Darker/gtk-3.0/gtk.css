@@ -1000,18 +1000,18 @@ GtkComboBox {
   .primary-toolbar .entry:backdrop, .header-bar .entry:backdrop {
     opacity: 0.85; }
   .primary-toolbar .entry:focus, .header-bar .entry:focus {
-    color: #ffffff;
+    color: rgba(215, 207, 207, 0.8);
     border-color: transparent;
     background-image: linear-gradient(to bottom, rgba(103, 103, 103, 0.4));
     background-clip: padding-box; }
     .primary-toolbar .entry:focus.image, .header-bar .entry:focus.image {
-      color: #ffffff; }
+      color: rgba(215, 207, 207, 0.65); }
   .primary-toolbar .entry:insensitive, .header-bar .entry:insensitive {
     color: rgba(215, 207, 207, 0.35);
     background-image: linear-gradient(to bottom, rgba(103, 103, 103, 0.25)); }
   .primary-toolbar .entry:selected:focus, .header-bar .entry:selected:focus {
-    background-color: #ffffff;
-    color: #9ab87c; }
+    background-color: #9ab87c;
+    color: #ffffff; }
   .primary-toolbar .entry.progressbar, .header-bar .entry.progressbar {
     border-color: #9ab87c;
     background-image: none;
@@ -1270,7 +1270,7 @@ GtkComboBox {
   .primary-toolbar GtkComboBox.combobox-entry .button.image, .header-bar GtkComboBox.combobox-entry .button.image, .primary-toolbar GtkComboBox.combobox-entry .button.image:hover, .header-bar GtkComboBox.combobox-entry .button.image:hover {
     color: inherit; }
   .primary-toolbar GtkComboBox.combobox-entry .button:hover, .header-bar GtkComboBox.combobox-entry .button:hover {
-    color: #ffffff;
+    color: rgba(215, 207, 207, 0.8);
     border-color: transparent;
     background-image: linear-gradient(to bottom, rgba(103, 103, 103, 0.4));
     box-shadow: none; }
@@ -2866,13 +2866,13 @@ GbSearchBox.linked:not(.vertical) > GtkMenuButton.button:first-child:dir(rtl) {
     color: inherit; }
   GbSearchBox.linked:not(.vertical) > GtkMenuButton.button:last-child:dir(ltr):hover,
   GbSearchBox.linked:not(.vertical) > GtkMenuButton.button:first-child:dir(rtl):hover {
-    color: #ffffff;
+    color: rgba(215, 207, 207, 0.8);
     border-color: transparent;
     background-image: linear-gradient(to bottom, rgba(103, 103, 103, 0.4)); }
   GbSearchBox.linked:not(.vertical) > GtkMenuButton.button:last-child:dir(ltr):active, GbSearchBox.linked:not(.vertical) > GtkMenuButton.button:last-child:dir(ltr):checked,
   GbSearchBox.linked:not(.vertical) > GtkMenuButton.button:first-child:dir(rtl):active,
   GbSearchBox.linked:not(.vertical) > GtkMenuButton.button:first-child:dir(rtl):checked {
-    color: #ffffff;
+    color: rgba(215, 207, 207, 0.8);
     border-color: transparent;
     background-image: linear-gradient(to bottom, rgba(103, 103, 103, 0.4)); }
   GbSearchBox.linked:not(.vertical) > GtkMenuButton.button:last-child:dir(ltr):insensitive,
@@ -3124,7 +3124,7 @@ MarlinViewWindow FMListView, MarlinViewWindow FMColumnView {
   .marlin-pathbar.pathbar.image, .marlin-pathbar.pathbar.image:hover {
     color: inherit; }
   .marlin-pathbar.pathbar:focus {
-    color: #ffffff;
+    color: rgba(215, 207, 207, 0.8);
     border-color: transparent;
     background-image: linear-gradient(to bottom, rgba(103, 103, 103, 0.4)); }
   .marlin-pathbar.pathbar:insensitive {
