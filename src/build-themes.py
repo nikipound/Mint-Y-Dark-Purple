@@ -8,6 +8,14 @@ VARIATIONS = ["Mint-Y",
 
 DEST = '../usr/share/themes'
 
+curdir = os.getcwd()
+
+os.chdir("gtk-3.0/3.18/")
+os.system("./parse-sass.sh")
+os.system("./render-assets.sh")
+
+os.chdir(curdir)
+
 if __name__ == '__main__':
     for variation in VARIATIONS:
         dest_folder = os.path.join(DEST, variation)
