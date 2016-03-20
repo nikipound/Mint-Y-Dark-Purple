@@ -168,7 +168,6 @@ NemoWindow {
 
   .sidebar {
     & .frame { border-width: 0; }
-    & .view { -gtk-icon-style: symbolic; }
     & .cell { padding: 0 2px; }
   }
 

@@ -2737,8 +2737,6 @@ NemoWindow EelEditableLabel.entry {
   transition: none; }
 NemoWindow .sidebar .frame {
   border-width: 0; }
-NemoWindow .sidebar .view {
-  -gtk-icon-style: symbolic; }
 NemoWindow .sidebar .cell {
   padding: 0 2px; }
 NemoWindow GtkSeparator.separator.horizontal, NemoWindow .sidebar GtkSeparator.horizontal.view.separator, .sidebar NemoWindow GtkSeparator.horizontal.view.separator {
@@ -3369,6 +3367,9 @@ GtkFileChooserDialog *,
 NautilusWindow *,
 NemoWindow {
   -GtkPaned-handle-size: 0; }
+
+GtkFileChooserDialog GtkPlacesSidebar.sidebar {
+  -gtk-icon-style: regular; }
 
 GtkFileChooserDialog.csd.background, GtkFileChooserDialog .list.sidebar,
 NautilusWindow.csd.background,

@@ -21,6 +21,8 @@ NemoWindow {
 }
 
 // Dark transparent sidebars
+GtkFileChooserDialog GtkPlacesSidebar.sidebar { -gtk-icon-style: regular; }
+
 GtkFileChooserDialog,
 NautilusWindow {
 
