@@ -998,7 +998,7 @@ GtkComboBox {
     opacity: 0.85; }
   .primary-toolbar .entry:focus, .header-bar .entry:focus {
     color: rgba(215, 207, 207, 0.8);
-    border-color: transparent;
+    border-color: #8fa876;
     background-image: linear-gradient(to bottom, rgba(103, 103, 103, 0.4));
     background-clip: padding-box; }
     .primary-toolbar .entry:focus.image, .header-bar .entry:focus.image {
@@ -1268,7 +1268,7 @@ GtkComboBox {
     color: inherit; }
   .primary-toolbar GtkComboBox.combobox-entry .button:hover, .header-bar GtkComboBox.combobox-entry .button:hover {
     color: rgba(215, 207, 207, 0.8);
-    border-color: transparent;
+    border-color: #8fa876;
     background-image: linear-gradient(to bottom, rgba(103, 103, 103, 0.4));
     box-shadow: none; }
   .primary-toolbar GtkComboBox.combobox-entry .button:insensitive, .header-bar GtkComboBox.combobox-entry .button:insensitive {
@@ -2733,9 +2733,6 @@ NautilusListView .view {
 NemoPlacesTreeView {
   -NemoPlacesTreeView-disk-full-bg-color: #BAC3CF;
   -NemoPlacesTreeView-disk-full-fg-color: #76905b; }
-  NemoPlacesTreeView:selected {
-    -NemoPlacesTreeView-disk-full-bg-color: #ffffff;
-    -NemoPlacesTreeView-disk-full-fg-color: #8fa876; }
 
 NemoWindow EelEditableLabel.entry {
   transition: none; }
@@ -2869,13 +2866,13 @@ GbSearchBox.linked:not(.vertical) > GtkMenuButton.button:first-child:dir(rtl) {
   GbSearchBox.linked:not(.vertical) > GtkMenuButton.button:last-child:dir(ltr):hover,
   GbSearchBox.linked:not(.vertical) > GtkMenuButton.button:first-child:dir(rtl):hover {
     color: rgba(215, 207, 207, 0.8);
-    border-color: transparent;
+    border-color: #8fa876;
     background-image: linear-gradient(to bottom, rgba(103, 103, 103, 0.4)); }
   GbSearchBox.linked:not(.vertical) > GtkMenuButton.button:last-child:dir(ltr):active, GbSearchBox.linked:not(.vertical) > GtkMenuButton.button:last-child:dir(ltr):checked,
   GbSearchBox.linked:not(.vertical) > GtkMenuButton.button:first-child:dir(rtl):active,
   GbSearchBox.linked:not(.vertical) > GtkMenuButton.button:first-child:dir(rtl):checked {
     color: rgba(215, 207, 207, 0.8);
-    border-color: transparent;
+    border-color: #8fa876;
     background-image: linear-gradient(to bottom, rgba(103, 103, 103, 0.4)); }
   GbSearchBox.linked:not(.vertical) > GtkMenuButton.button:last-child:dir(ltr):insensitive,
   GbSearchBox.linked:not(.vertical) > GtkMenuButton.button:first-child:dir(rtl):insensitive {
@@ -3127,7 +3124,7 @@ MarlinViewWindow FMListView, MarlinViewWindow FMColumnView {
     color: inherit; }
   .marlin-pathbar.pathbar:focus {
     color: rgba(215, 207, 207, 0.8);
-    border-color: transparent;
+    border-color: #8fa876;
     background-image: linear-gradient(to bottom, rgba(103, 103, 103, 0.4)); }
   .marlin-pathbar.pathbar:insensitive {
     color: rgba(215, 207, 207, 0.35);

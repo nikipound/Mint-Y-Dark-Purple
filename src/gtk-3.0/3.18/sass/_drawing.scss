@@ -77,7 +77,7 @@
   // focused header-bar entry
   //
     color: $header_fg;
-    border-color: if($darker=='false' and $variant=='light', $selected_bg_color, transparent);
+    border-color: $selected_bg_color;
     background-image: linear-gradient(to bottom, $header_entry_bg);
   }
 
