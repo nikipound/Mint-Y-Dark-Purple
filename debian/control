@@ -1,0 +1,11 @@
+Source: mint-y-theme
+Section: gnome
+Priority: optional
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+
+Package: mint-y-theme
+Architecture: all
+Description: Mint-Y themes
+ A flat and modern theme based on Arc.
