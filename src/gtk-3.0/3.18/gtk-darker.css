@@ -2733,6 +2733,13 @@ NautilusQueryEditor .search-bar.toolbar, NautilusQueryEditor .search-bar.inline-
 NautilusListView .view {
   border-bottom: 1px solid #dedede; }
 
+NemoPlacesTreeView {
+  -NemoPlacesTreeView-disk-full-bg-color: #BAC3CF;
+  -NemoPlacesTreeView-disk-full-fg-color: #81a65b; }
+  NemoPlacesTreeView:selected {
+    -NemoPlacesTreeView-disk-full-bg-color: #ffffff;
+    -NemoPlacesTreeView-disk-full-fg-color: #9ab87c; }
+
 NemoWindow EelEditableLabel.entry {
   transition: none; }
 NemoWindow .sidebar .frame {

@@ -162,6 +162,11 @@ NautilusListView .view { border-bottom: 1px solid $borders_color; }
 //
 .nemo-desktop.nemo-canvas-item { @extend .nautilus-desktop.nautilus-canvas-item; }
 
+NemoPlacesTreeView {
+  -NemoPlacesTreeView-disk-full-bg-color: $dark_sidebar_fg;
+  -NemoPlacesTreeView-disk-full-fg-color: darken($selected_bg_color, 10%);
+}
+
 NemoWindow {
 
   EelEditableLabel.entry { transition: none; }  // Workaround for invisible text in rename entry
