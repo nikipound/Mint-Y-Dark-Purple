@@ -34,7 +34,7 @@ if __name__ == '__main__':
             os.system("cp gtk-3.0/3.18/gtk.css %s" % version_folder)
             # Metacity
             os.system("cp -R metacity-1 %s" % dest_folder)
-            os.system("rm %s %s" % (os.path.join(dest_folder, "metacity-1", "metacity-theme-2-dark.xml"), os.path.join(dest_folder, "metacity-1", "metacity-theme-3-dark.xml")))
+            os.system("rm %s/*-dark*" % (os.path.join(dest_folder, "metacity-1")))
             # Cinnamon
             version_folder = os.path.join(dest_folder, "cinnamon")
             os.system("cp -R cinnamon/common-assets %s" % version_folder)
@@ -85,6 +85,7 @@ if __name__ == '__main__':
             os.system("cp -R metacity-1 %s" % dest_folder)
             os.system("mv %s %s" % (os.path.join(dest_folder, "metacity-1", "metacity-theme-2-dark.xml"), os.path.join(dest_folder, "metacity-1", "metacity-theme-2.xml")))
             os.system("mv %s %s" % (os.path.join(dest_folder, "metacity-1", "metacity-theme-3-dark.xml"), os.path.join(dest_folder, "metacity-1", "metacity-theme-3.xml")))
+            os.system("mv %s %s" % (os.path.join(dest_folder, "metacity-1", "thumbnail-dark.png"), os.path.join(dest_folder, "metacity-1", "thumbnail.png")))
             # Cinnamon
             version_folder = os.path.join(dest_folder, "cinnamon")
             os.system("cp -R cinnamon/common-assets %s" % version_folder)
