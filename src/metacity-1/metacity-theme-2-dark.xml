@@ -14,7 +14,7 @@
 <constant name="C_title_unfocused" value="#d7cfcf" />
 
 <constant name="C_wm_bg_focused" value="#2f2f2f" />
-<constant name="C_wm_bg_unfocused" value="#333333" />
+<constant name="C_wm_bg_unfocused" value="#2f2f2f" />
 
 <constant name="C_wm_highlight" value="#373737" />
 
