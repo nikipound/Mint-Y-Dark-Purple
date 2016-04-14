@@ -32,6 +32,7 @@ if __name__ == '__main__':
             version_folder = os.path.join(dest_folder, "gtk-3.0")
             os.system("cp -R gtk-3.0/3.18/assets %s" % version_folder)
             os.system("cp gtk-3.0/3.18/gtk.css %s" % version_folder)
+            os.system("cp gtk-3.0/3.18/thumbnail.png %s" % version_folder)
             # Metacity
             os.system("cp -R metacity-1 %s" % dest_folder)
             os.system("rm %s/*-dark*" % (os.path.join(dest_folder, "metacity-1")))
@@ -58,7 +59,7 @@ if __name__ == '__main__':
             version_folder = os.path.join(dest_folder, "gtk-3.0")
             os.system("cp -R gtk-3.0/3.18/assets %s" % version_folder)
             os.system("cp gtk-3.0/3.18/gtk-darker.css %s" % os.path.join(version_folder, "gtk.css"))
-            os.system("cp gtk-3.0/3.18/gtk-dark.css %s" % version_folder)            
+            os.system("cp gtk-3.0/3.18/gtk-dark.css %s" % version_folder)
             # XFCE-Notify
             os.system("cp -R xfce-notify-4.0 %s" % dest_folder)
             # XFWM
@@ -81,6 +82,7 @@ if __name__ == '__main__':
             version_folder = os.path.join(dest_folder, "gtk-3.0")
             os.system("cp -R gtk-3.0/3.18/assets %s" % version_folder)
             os.system("cp gtk-3.0/3.18/gtk-dark.css %s" % os.path.join(version_folder, "gtk.css"))
+            os.system("cp gtk-3.0/3.18/thumbnail-dark.png %s" % os.path.join(version_folder, "thumbnail.png"))
             # Metacity
             os.system("cp -R metacity-1 %s" % dest_folder)
             os.system("mv %s %s" % (os.path.join(dest_folder, "metacity-1", "metacity-theme-2-dark.xml"), os.path.join(dest_folder, "metacity-1", "metacity-theme-2.xml")))
