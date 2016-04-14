@@ -4,7 +4,7 @@
 
 $base_color: if($variant =='light', #ffffff, #404040);
 $text_color: if($variant == 'light', #4a4a4a, #D3D3D3);
-$bg_color: if($variant =='light', #F5F5F5, #383838);
+$bg_color: if($variant =='light', #F0F0F0, #383838);
 $fg_color: if($variant =='light', #4a4a4a, #D3D3D3);
 
 $selected_fg_color: #ffffff;
@@ -29,7 +29,7 @@ $insensitive_fg_color: if($variant == 'light', transparentize($fg_color, 0.45), 
 $insensitive_bg_color: if($variant == 'light', mix($bg_color, $base_color, 40%), lighten($bg_color, 2%));
 
 $header_bg: red;
-@if $variant=='light' { $header_bg: #e8e8e8; }
+@if $variant=='light' { $header_bg: #d9d9d9; }
 @if $variant=='dark' or $darker=='true' { $header_bg: #2f2f2f; }
 
 $header_bg_backdrop: if($darker == 'true' or $variant == 'dark', lighten($header_bg, 1.5%), lighten($header_bg, 3%));
