@@ -34,7 +34,7 @@ if __name__ == '__main__':
             os.system("cp gtk-3.0/3.18/gtk.css %s" % version_folder)
             # Metacity
             os.system("cp -R metacity-1 %s" % dest_folder)
-            os.system("rm %s %s" % (os.path.join(dest_folder, "metacity-1", "metacity-theme-1-dark.xml"), os.path.join(dest_folder, "metacity-1", "metacity-theme-2-dark.xml")))
+            os.system("rm %s %s" % (os.path.join(dest_folder, "metacity-1", "metacity-theme-2-dark.xml"), os.path.join(dest_folder, "metacity-1", "metacity-theme-3-dark.xml")))
             # Cinnamon
             version_folder = os.path.join(dest_folder, "cinnamon")
             os.system("cp -R cinnamon/common-assets %s" % version_folder)
@@ -58,11 +58,7 @@ if __name__ == '__main__':
             version_folder = os.path.join(dest_folder, "gtk-3.0")
             os.system("cp -R gtk-3.0/3.18/assets %s" % version_folder)
             os.system("cp gtk-3.0/3.18/gtk-darker.css %s" % os.path.join(version_folder, "gtk.css"))
-            os.system("cp gtk-3.0/3.18/gtk-dark.css %s" % version_folder)
-            # Metacity
-            os.system("cp -R metacity-1 %s" % dest_folder)
-            os.system("mv %s %s" % (os.path.join(dest_folder, "metacity-1", "metacity-theme-1-dark.xml"), os.path.join(dest_folder, "metacity-1", "metacity-theme-1.xml")))
-            os.system("mv %s %s" % (os.path.join(dest_folder, "metacity-1", "metacity-theme-2-dark.xml"), os.path.join(dest_folder, "metacity-1", "metacity-theme-2.xml")))
+            os.system("cp gtk-3.0/3.18/gtk-dark.css %s" % version_folder)            
             # XFCE-Notify
             os.system("cp -R xfce-notify-4.0 %s" % dest_folder)
             # XFWM
@@ -87,8 +83,8 @@ if __name__ == '__main__':
             os.system("cp gtk-3.0/3.18/gtk-dark.css %s" % os.path.join(version_folder, "gtk.css"))
             # Metacity
             os.system("cp -R metacity-1 %s" % dest_folder)
-            os.system("mv %s %s" % (os.path.join(dest_folder, "metacity-1", "metacity-theme-1-dark.xml"), os.path.join(dest_folder, "metacity-1", "metacity-theme-1.xml")))
             os.system("mv %s %s" % (os.path.join(dest_folder, "metacity-1", "metacity-theme-2-dark.xml"), os.path.join(dest_folder, "metacity-1", "metacity-theme-2.xml")))
+            os.system("mv %s %s" % (os.path.join(dest_folder, "metacity-1", "metacity-theme-3-dark.xml"), os.path.join(dest_folder, "metacity-1", "metacity-theme-3.xml")))
             # Cinnamon
             version_folder = os.path.join(dest_folder, "cinnamon")
             os.system("cp -R cinnamon/common-assets %s" % version_folder)
