@@ -60,6 +60,7 @@ if __name__ == '__main__':
             os.system("cp -R gtk-3.0/3.18/assets %s" % version_folder)
             os.system("cp gtk-3.0/3.18/gtk-darker.css %s" % os.path.join(version_folder, "gtk.css"))
             os.system("cp gtk-3.0/3.18/gtk-dark.css %s" % version_folder)
+            os.system("cp gtk-3.0/3.18/thumbnail.png %s" % version_folder)
             # XFCE-Notify
             os.system("cp -R xfce-notify-4.0 %s" % dest_folder)
             # XFWM
