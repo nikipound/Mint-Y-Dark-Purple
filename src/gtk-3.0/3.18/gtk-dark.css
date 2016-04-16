@@ -2659,12 +2659,15 @@ GtkHTML {
 SushiFontWidget {
   padding: 6px 12px; }
 
-TerminalWindow .background {
+TerminalScreen {
+  -TerminalScreen-background-darkness: 0.9;
+  background-color: #3f3f3f;
+  color: #fff; }
+
+TerminalScreenContainer .scrollbar:not(.slider) {
+  border-color: transparent;
   background-color: transparent; }
-TerminalWindow .scrollbar.vertical .slider {
-  margin-left: 3px; }
-TerminalWindow .scrollbar.trough {
-  border-width: 0; }
+
 TerminalWindow .notebook tab .button {
   color: #9d9d9d; }
   TerminalWindow .notebook tab .button:hover {

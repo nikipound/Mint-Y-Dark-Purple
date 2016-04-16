@@ -713,7 +713,7 @@ NemoWindow .primary-toolbar NemoPathBar.linked:not(.vertical):not(.path-bar) > .
   outline-offset: -1px;
   border-radius: 2px; }
   .menuitem.button.flat:hover, .menuitem.sidebar-button.button:hover {
-    background-color: #d9d9d9; }
+    background-color: #e8e8e8; }
   .menuitem.button.flat:checked, .menuitem.sidebar-button.button:checked {
     color: #4a4a4a; }
 
@@ -862,7 +862,7 @@ GtkComboBox {
   border-image: linear-gradient(to bottom, #d9d9d9, #c7c7c7) 1 0 1 0; }
 
 .inline-toolbar {
-  background-color: #d9d9d9;
+  background-color: #e8e8e8;
   border-style: solid;
   border-color: #d9d9d9;
   border-width: 0 1px 1px;
@@ -877,7 +877,7 @@ GtkComboBox {
   padding: 3px; }
 
 .action-bar {
-  background-color: #d9d9d9; }
+  background-color: #e8e8e8; }
 
 .header-bar {
   padding: 5px 5px 4px 5px;
@@ -2666,12 +2666,15 @@ GtkHTML {
 SushiFontWidget {
   padding: 6px 12px; }
 
-TerminalWindow .background {
+TerminalScreen {
+  -TerminalScreen-background-darkness: 0.9;
+  background-color: #3f3f3f;
+  color: #fff; }
+
+TerminalScreenContainer .scrollbar:not(.slider) {
+  border-color: transparent;
   background-color: transparent; }
-TerminalWindow .scrollbar.vertical .slider {
-  margin-left: 3px; }
-TerminalWindow .scrollbar.trough {
-  border-width: 0; }
+
 TerminalWindow .notebook tab .button {
   color: #848484; }
   TerminalWindow .notebook tab .button:hover {
@@ -2731,7 +2734,7 @@ NautilusQueryEditor .search-bar.toolbar, NautilusQueryEditor .search-bar.inline-
     background-color: rgba(154, 184, 124, 0.8);
     border-color: rgba(129, 166, 91, 0.8); }
   .disk-space-display.free {
-    background-color: #d9d9d9;
+    background-color: #e8e8e8;
     border-color: #cfcfcf; }
 
 NautilusListView .view {

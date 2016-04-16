@@ -57,16 +57,18 @@ SushiFontWidget {
 //
 // GNOME Terminal
 //
+TerminalScreen {
+  -TerminalScreen-background-darkness: 0.9;
+  background-color: #3f3f3f;
+  color: #fff;
+}
+
+TerminalScreenContainer .scrollbar:not(.slider) {
+  border-color: transparent;
+  background-color: transparent;
+}
+
 TerminalWindow {
-  .background {
-    background-color: transparent;
-  }
-
-  .scrollbar {
-    &.vertical .slider { margin-left: 3px; }
-    &.trough { border-width: 0; }
-  }
-
   .notebook {
     tab .button {
       color: mix($bg_color, $fg_color, 35%);
