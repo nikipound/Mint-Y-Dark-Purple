@@ -56,6 +56,8 @@ checkbox-mixed-dark
 checkbox-mixed-insensitive-dark
 checkbox-checked-selectionmode-dark
 checkbox-selectionmode-dark
+pane-separator
+pane-separator-vertical
 radio-checked-dark
 radio-checked-insensitive-dark
 radio-unchecked-dark

@@ -2679,11 +2679,19 @@ GtkPaned.wide {                     // this is for the paned with wide separator
   margin: 0;                        // no need of the invisible drag area so, reset margin
   .pane-separator {
     background-color: transparent;
-    border-style: none solid;
-    border-color: $borders_color;
-    border-width: 1px;
+    border-style: none;
+    background-image: -gtk-scaled(url("assets/pane-separator-vertical.png"), url("assets/pane-separator-vertical@2.png"));
+    background-repeat: no-repeat;
+    background-position: center;
   }
-  &.vertical .pane-separator { border-style: solid none;}
+  &.vertical .pane-separator {
+    color: $fg_color;
+    background-color: transparent;
+    border-style: none;
+    background-image: -gtk-scaled(url("assets/pane-separator.png"), url("assets/pane-separator@2.png"));
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
 
 //

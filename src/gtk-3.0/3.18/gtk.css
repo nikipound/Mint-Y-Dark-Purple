@@ -2291,11 +2291,17 @@ GtkPaned.wide {
   margin: 0; }
   GtkPaned.wide .pane-separator {
     background-color: transparent;
-    border-style: none solid;
-    border-color: #d9d9d9;
-    border-width: 1px; }
+    border-style: none;
+    background-image: -gtk-scaled(url("assets/pane-separator-vertical.png"), url("assets/pane-separator-vertical@2.png"));
+    background-repeat: no-repeat;
+    background-position: center; }
   GtkPaned.wide.vertical .pane-separator {
-    border-style: solid none; }
+    color: #4a4a4a;
+    background-color: transparent;
+    border-style: none;
+    background-image: -gtk-scaled(url("assets/pane-separator.png"), url("assets/pane-separator@2.png"));
+    background-repeat: no-repeat;
+    background-position: center; }
 
 GtkInfoBar {
   border-style: none; }

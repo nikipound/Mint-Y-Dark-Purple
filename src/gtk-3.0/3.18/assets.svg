@@ -24,17 +24,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="4"
-     inkscape:cx="85.685252"
-     inkscape:cy="210.03592"
+     inkscape:zoom="11.313708"
+     inkscape:cx="174.53606"
+     inkscape:cy="198.10129"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
-     showgrid="false"
+     showgrid="true"
      showborder="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1005"
-     inkscape:window-x="0"
-     inkscape:window-y="25"
+     inkscape:window-height="1029"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:snap-nodes="true"
      inkscape:snap-bbox="true"
@@ -5520,6 +5520,87 @@
          width="16"
          id="rect17883-39-99-8-6"
          style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0" />
+    </g>
+    <g
+       transform="translate(206,-219.63782)"
+       id="pane-separator-vertical"
+       inkscape:label="#g4138">
+      <circle
+         r="1.9003495"
+         cy="617.14966"
+         cx="868.63647"
+         transform="matrix(0.52621899,0,0,0.52621789,-456.09301,-320.75518)"
+         id="path5824"
+         style="display:inline;opacity:0.2;fill:#000000;fill-opacity:1;stroke:none;enable-background:new" />
+      <circle
+         r="1.9003495"
+         cy="617.14966"
+         cx="868.63647"
+         style="display:inline;opacity:0.2;fill:#000000;fill-opacity:1;stroke:none;enable-background:new"
+         id="path5828"
+         transform="matrix(0.52621899,0,0,0.52621789,-456.09301,-326.25519)" />
+      <circle
+         r="1.9003495"
+         cy="617.14966"
+         cx="868.63647"
+         transform="matrix(0.52621899,0,0,0.52621789,-456.09301,-331.75519)"
+         id="path5830"
+         style="display:inline;opacity:0.2;fill:#000000;fill-opacity:1;stroke:none;enable-background:new" />
+      <circle
+         r="1.9003495"
+         cy="617.14966"
+         cx="868.63647"
+         transform="matrix(0.52621899,0,0,0.52621789,-456.09301,-309.75517)"
+         id="path5824-3"
+         style="display:inline;opacity:0.2;fill:#000000;fill-opacity:1;stroke:none;enable-background:new" />
+      <circle
+         r="1.9003495"
+         cy="617.14966"
+         cx="868.63647"
+         style="display:inline;opacity:0.2;fill:#000000;fill-opacity:1;stroke:none;enable-background:new"
+         id="path5828-7"
+         transform="matrix(0.52621899,0,0,0.52621789,-456.09301,-315.25518)" />
+    </g>
+    <g
+       style="display:inline"
+       transform="matrix(0,1,-1,0,212,-189.63782)"
+       id="pane-separator"
+       inkscape:label="#g4138">
+      <circle
+         r="1.9003495"
+         cy="617.14966"
+         cx="868.63647"
+         transform="matrix(0.52621899,0,0,0.52621789,-456.09301,-320.75518)"
+         id="path5824-1"
+         style="display:inline;opacity:0.2;fill:#000000;fill-opacity:1;stroke:none;enable-background:new" />
+      <circle
+         r="1.9003495"
+         cy="617.14966"
+         cx="868.63647"
+         style="display:inline;opacity:0.2;fill:#000000;fill-opacity:1;stroke:none;enable-background:new"
+         id="path5828-9"
+         transform="matrix(0.52621899,0,0,0.52621789,-456.09301,-326.25519)" />
+      <circle
+         r="1.9003495"
+         cy="617.14966"
+         cx="868.63647"
+         transform="matrix(0.52621899,0,0,0.52621789,-456.09301,-331.75519)"
+         id="path5830-0"
+         style="display:inline;opacity:0.2;fill:#000000;fill-opacity:1;stroke:none;enable-background:new" />
+      <circle
+         r="1.9003495"
+         cy="617.14966"
+         cx="868.63647"
+         transform="matrix(0.52621899,0,0,0.52621789,-456.09301,-309.75517)"
+         id="path5824-3-6"
+         style="display:inline;opacity:0.2;fill:#000000;fill-opacity:1;stroke:none;enable-background:new" />
+      <circle
+         r="1.9003495"
+         cy="617.14966"
+         cx="868.63647"
+         style="display:inline;opacity:0.2;fill:#000000;fill-opacity:1;stroke:none;enable-background:new"
+         id="path5828-7-2"
+         transform="matrix(0.52621899,0,0,0.52621789,-456.09301,-315.25518)" />
     </g>
   </g>
 </svg>
