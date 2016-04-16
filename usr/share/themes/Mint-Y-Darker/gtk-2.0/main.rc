@@ -698,12 +698,6 @@ style "menu" {
   }
 }
 
-style "menu_framed_box" {
-
-  engine "adwaita" {
-  }
-}
-
 style "menu_item"
 {
   xthickness = 2
@@ -2377,7 +2371,6 @@ class "GtkToolbar"                                                  style "toolb
 class "*HandleBox"                                                  style "toolbar"
 
 widget_class "*<GtkMenu>*"                                          style "menu"
-widget_class "*<GtkMenu>*"                                          style "menu_framed_box"
 widget_class "*<GtkMenuItem>*"                                      style "menu_item"
 widget_class "*<GtkCheckButton>*"                                   style "checkbutton"
 widget_class "*<GtkComboBox>"                                       style "combobox"
