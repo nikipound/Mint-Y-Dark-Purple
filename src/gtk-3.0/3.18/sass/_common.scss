@@ -2712,6 +2712,10 @@ GtkInfoBar {
   color: $selected_fg_color;
 }
 
+.warning {
+  background-color: $destructive_color;
+}
+
 
 //
 // Buttons on selected backgrounds
