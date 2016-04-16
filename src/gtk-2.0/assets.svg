@@ -565,17 +565,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="11.313709"
-     inkscape:cx="277.70364"
-     inkscape:cy="278.26781"
+     inkscape:zoom="16.000001"
+     inkscape:cx="423.3125"
+     inkscape:cy="204.63685"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
-     showgrid="false"
+     showgrid="true"
      showborder="false"
-     inkscape:window-width="925"
-     inkscape:window-height="646"
-     inkscape:window-x="724"
-     inkscape:window-y="169"
+     inkscape:window-width="1308"
+     inkscape:window-height="720"
+     inkscape:window-x="65"
+     inkscape:window-y="90"
      inkscape:window-maximized="0"
      inkscape:snap-nodes="true"
      inkscape:snap-bbox="true"
@@ -4700,25 +4700,6 @@
          id="rect6168"
          style="opacity:1;fill:#dddddd;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     </g>
-    <g
-       id="tree_header"
-       inkscape:label="#g6293"
-       transform="translate(11,0)">
-      <rect
-         y="-87.637817"
-         x="410"
-         height="28"
-         width="10"
-         id="rect6289"
-         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-      <rect
-         y="-87.637817"
-         x="419"
-         height="28"
-         width="1"
-         id="rect6291"
-         style="opacity:0.05;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-    </g>
     <rect
        style="opacity:0.05;fill:none;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="null"
@@ -5278,6 +5259,31 @@
          width="24"
          id="rect5799-8-92-1-2"
          style="opacity:1;fill:#eaeaea;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <g
+       id="tree_header"
+       inkscape:label="#g4963">
+      <rect
+         y="-87.637817"
+         x="421"
+         height="28"
+         width="10"
+         id="rect6289"
+         style="opacity:1;fill:#ededed;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
+         y="-87.637817"
+         x="430"
+         height="28"
+         width="1"
+         id="rect6291"
+         style="opacity:0.07999998;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
+         y="-60.637821"
+         x="421"
+         height="1"
+         width="9"
+         id="rect4961"
+         style="opacity:0.07999998;fill:#000000;fill-opacity:1" />
     </g>
   </g>
 </svg>

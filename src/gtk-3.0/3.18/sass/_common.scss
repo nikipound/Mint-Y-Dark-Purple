@@ -1572,7 +1572,7 @@ column-header {
     @extend %column_header_button;
     $_column_header_color: mix($fg_color,$base_color,80%);
     color: $_column_header_color;
-    background-color: $base_color;
+    background-color: darken($bg_color, 1%);
     &:hover {
       @extend %column_header_button;
       color: $selected_bg_color;
@@ -1613,14 +1613,14 @@ column-header.button.dnd { // for treeview-like derive widgets
   border-style: none solid solid none;
   border-radius: 0;
   // border-color: transparentize(if($variant == 'light', black, black), 0.89);
-  border-color: if($variant == 'light', transparentize(black, 0.89), $borders_color);
+  border-color: $borders_color;
   /*border-image: linear-gradient(to bottom,
                                 transparentize(if($variant == 'light', black, white), 1) 20%,
                                 transparentize(if($variant == 'light', black, white), 0.89) 20%,
                                 transparentize(if($variant == 'light', black, white), 0.89) 80%,
                                 transparentize(if($variant == 'light', black, white), 1) 80%) 0 1 0 0 / 0 1px 0 0 stretch;*/
 
-  &:active, &:hover { background-color: $base_color; }
+  &:active, &:hover { background-color: lighten($bg_color, 2%); }
   &:active:hover { color: $fg_color; }
   &:insensitive {
     border-color: $bg_color;

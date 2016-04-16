@@ -1376,7 +1376,7 @@ GtkTreeView.view {
 
 column-header .button {
   color: #b6b6b6;
-  background-color: #404040; }
+  background-color: #353535; }
   column-header .button:hover {
     color: #8fa876;
     box-shadow: none;
@@ -1406,7 +1406,7 @@ column-header .button, column-header .button:hover, column-header .button:active
                                 transparentize(if($variant == 'light', black, white), 0.89) 80%,
                                 transparentize(if($variant == 'light', black, white), 1) 80%) 0 1 0 0 / 0 1px 0 0 stretch;*/ }
   column-header .button:active, column-header .button:hover {
-    background-color: #404040; }
+    background-color: #3d3d3d; }
   column-header .button:active:hover {
     color: #D3D3D3; }
   column-header .button:insensitive {

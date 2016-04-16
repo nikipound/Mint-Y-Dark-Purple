@@ -60,7 +60,6 @@ style "default" {
   GtkTreeView::vertical-separator = 4
   GtkTreeView::horizontal-separator = 4
   GtkTreeView::allow-rules = 1
-  GtkTreeView::odd_row_color = shade(0.98, @base_color)
 
   GtkExpander::expander-size = 11
 
@@ -2072,7 +2071,18 @@ style "treeview" {
   xthickness = 2
   ythickness = 0
 
+  base[NORMAL] = @base_color
 
+  engine "pixmap" {
+
+    image {
+      function = FLAT_BOX
+      recolorable = TRUE
+      state = NORMAL
+      file = "assets/null.png"
+      stretch = TRUE
+    }
+  }
 }    
 
 style "scrolled_window" {

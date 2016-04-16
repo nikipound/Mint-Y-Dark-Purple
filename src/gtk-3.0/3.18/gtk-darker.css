@@ -1379,7 +1379,7 @@ GtkTreeView.view {
 
 column-header .button {
   color: #6e6e6e;
-  background-color: #ffffff; }
+  background-color: #ededed; }
   column-header .button:hover {
     color: #9ab87c;
     box-shadow: none;
@@ -1402,14 +1402,14 @@ column-header .button, column-header .button:hover, column-header .button:active
   background-image: none;
   border-style: none solid solid none;
   border-radius: 0;
-  border-color: rgba(0, 0, 0, 0.11);
+  border-color: #d9d9d9;
   /*border-image: linear-gradient(to bottom,
                                 transparentize(if($variant == 'light', black, white), 1) 20%,
                                 transparentize(if($variant == 'light', black, white), 0.89) 20%,
                                 transparentize(if($variant == 'light', black, white), 0.89) 80%,
                                 transparentize(if($variant == 'light', black, white), 1) 80%) 0 1 0 0 / 0 1px 0 0 stretch;*/ }
   column-header .button:active, column-header .button:hover {
-    background-color: #ffffff; }
+    background-color: whitesmoke; }
   column-header .button:active:hover {
     color: #4a4a4a; }
   column-header .button:insensitive {
