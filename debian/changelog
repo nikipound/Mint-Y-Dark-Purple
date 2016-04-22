@@ -1,3 +1,36 @@
+mint-y-theme (1.0.1) sarah; urgency=medium
+
+  [ JosephMcc ]
+  * Actually add the .gitignore
+  * Fix the text color in some primary toolbar and header bar entries
+  * sidebars: don't use symbolic icons in the Nemo or GtkFileChooser sidebars
+  * quiet some warnings about gtkalpha
+  * Add some basic theming for Nemo disk full indicators
+  * Ensure we get a colored focus border on primary-toolbar/header-bar entries in the darker variation
+  * Redo theming for gnome terminal
+  * Recolor treeview headers to match the color used by cinnamon-settings headers. Also clean up the weird multi-color backgrounds in gtk2 treeviews
+  * Add images for .wide pane separator handles
+  * Make the titlebar assets match better to the metacity assets
+  * info-bars: Use a red color for the warning info bar. This gives us back the red banner when nemo is open as root
+  * Remove the strange white frame from around menus in the dark version of the gtk2 theme
+
+  [ Clement Lefebvre ]
+  * Generate theme during build
+  * Add credit to Arc and its author in the README file
+  * Fixed broken metacity themes in MATE
+  * Metacity-2 (Marco): Changed colors to neutral greys, use GTK selected shades for close button
+  * Metacity: Removed support for version 1, only ship one light and one dark theme, make them use neutral colors
+  * Metacity: Hardcode non-deviation colors (all but the close button, fixes Cinnamon selection), add thumbnails
+  * Metacity: Fix unfocused dark color
+  * Removed blue tint and lighten GTK3 sidebars
+  * Contrast: Darkened theme slightly BG (#f5f5f5 -> #f0f0f0) and top color (#e8e8e8 -> #d9d9d9)
+  * Updated metacity thumbnails, added gtk thumbnails
+  * Apply darkening to png assets
+  * Added missing GTK thumbnail to Mint-Y-Darker
+  * GTK2: Applied GTK3 changes to file-browser sidebars (caja and thunar), added missing support for terminals (fixes mate-terminal colors)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 22 Apr 2016 15:36:14 +0100
+
 mint-y-theme (1.0.0) sarah; urgency=low
 
   * Initial version
