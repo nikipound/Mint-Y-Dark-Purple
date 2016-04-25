@@ -2341,10 +2341,11 @@ GtkInfoBar {
       border-color: rgba(255, 255, 255, 0.2); }
 
 .tooltip {
-  color: #C3C3C3;
-  border-radius: 2px; }
+  color: #4a4a4a;
+  border-radius: 2px;
+  border: 1px solid #d0d0d0; }
   .tooltip.background {
-    background-color: #353535;
+    background-color: #fbeaa0;
     background-clip: padding-box; }
   .tooltip.window-frame.csd {
     background-color: transparent; }

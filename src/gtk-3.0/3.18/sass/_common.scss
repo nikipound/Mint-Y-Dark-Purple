@@ -2763,12 +2763,13 @@ GtkInfoBar {
   &.background {
     // background-color needs to be set this way otherwise it gets drawn twice
     // see https://bugzilla.gnome.org/show_bug.cgi?id=736155 for details.
-    background-color: $osd_bg_color;
+    background-color: $tooltip_bg_color;
     background-clip: padding-box;
   }
 
-  color: $osd_fg_color;
+  color: $tooltip_fg_color;
   border-radius: 2px;
+  border: 1px solid $tooltip_border_color;
 
   &.window-frame.csd {
     background-color: transparent;

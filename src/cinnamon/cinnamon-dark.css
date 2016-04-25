@@ -195,10 +195,11 @@ StScrollBar {
     color: #dce3d4; }
 
 #Tooltip {
-  border-radius: 3px;
+  border: 1px solid #d0d0d0;
+  border-radius: 2px;
   padding: 5px 12px;
-  background-color: rgba(53, 53, 53, 0.95);
-  color: #c3c3c3;
+  background-color: #fbeaa0;
+  color: #4a4a4a;
   font-size: 1em;
   font-weight: normal;
   text-align: center; }

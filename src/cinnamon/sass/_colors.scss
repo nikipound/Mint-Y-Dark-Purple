@@ -45,6 +45,10 @@ $dark_sidebar_bg: if($transparency == 'true', transparentize(#353535, 0.05), #35
 $dark_sidebar_fg: #c3c3c3;
 $dark_sidebar_border: if($variant == 'light', $dark_sidebar_bg, darken($dark_sidebar_bg, 5%));
 
+$tooltip_bg_color: #fbeaa0;
+$tooltip_fg_color: #4a4a4a;
+$tooltip_border_color: #d0d0d0;
+
 $osd_fg_color: $dark_sidebar_fg;
 $osd_bg_color: $dark_sidebar_bg;
 
