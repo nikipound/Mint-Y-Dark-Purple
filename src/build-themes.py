@@ -10,13 +10,31 @@ DEST = '../usr/share/themes'
 
 curdir = os.getcwd()
 
+print("Updating Gtk3 assets")
 os.chdir("gtk-3.0/3.18/")
 os.system("./parse-sass.sh")
 os.system("./render-assets.sh")
+print("Gtk3 assets updated")
+
+os.chdir(curdir)
+
+print("Updating Gtk2 assets")
+os.chdir("gtk-2.0/")
+os.system("./render-assets.sh")
+os.system("./render-dark-assets.sh")
+print("Gtk2 assets updated")
+
+os.chdir(curdir)
+
+print("Updating Cinnamon assets")
+os.chdir("cinnamon/")
+os.system("./parse-sass.sh")
+print("Cinnamon assets updated")
 
 os.chdir(curdir)
 
 if __name__ == '__main__':
+    print("Building themes")
     for variation in VARIATIONS:
         dest_folder = os.path.join(DEST, variation)
         if variation == "Mint-Y":
