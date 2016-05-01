@@ -1018,7 +1018,7 @@ GtkComboBox {
   .primary-toolbar .button:active, .header-bar .button:active, .primary-toolbar .button:checked, .header-bar .button:checked {
     color: #ffffff;
     outline-color: rgba(255, 255, 255, 0.3);
-    border-color: #cfcfcf;
+    border-color: rgba(81, 67, 67, 0.2);
     background-color: #9ab87c;
     background-clip: border-box; }
   .primary-toolbar .button:insensitive, .header-bar .button:insensitive {
@@ -1068,7 +1068,7 @@ GtkComboBox {
   .header-bar .linked:not(.vertical).path-bar > .button:checked {
     color: #ffffff;
     outline-color: rgba(255, 255, 255, 0.3);
-    border-color: #cfcfcf;
+    border-color: rgba(81, 67, 67, 0.2);
     background-color: #9ab87c; }
   .primary-toolbar .linked:not(.vertical):not(.path-bar).stack-switcher > .button:insensitive, .header-bar .linked:not(.vertical):not(.path-bar).stack-switcher > .button:insensitive,
   .primary-toolbar .linked:not(.vertical).path-bar > .button:insensitive,
@@ -2514,7 +2514,7 @@ GtkVolumeButton.button {
   .titlebar .button.titlebutton:checked {
     color: #ffffff;
     outline-color: rgba(255, 255, 255, 0.3);
-    border-color: #cfcfcf;
+    border-color: rgba(81, 67, 67, 0.2);
     background-color: #9ab87c; }
   .header-bar .button.titlebutton.close, .header-bar .button.titlebutton.maximize, .header-bar .button.titlebutton.minimize,
   .titlebar .button.titlebutton.close,
@@ -2726,7 +2726,7 @@ NemoWindow .primary-toolbar NemoPathBar.linked:not(.vertical):not(.path-bar) > .
   NemoWindow .primary-toolbar NemoPathBar.linked:not(.vertical):not(.path-bar) > .button:active, NemoWindow .primary-toolbar NemoPathBar.linked:not(.vertical):not(.path-bar) > .button:checked {
     color: #ffffff;
     outline-color: rgba(255, 255, 255, 0.3);
-    border-color: #cfcfcf;
+    border-color: rgba(81, 67, 67, 0.2);
     background-color: #9ab87c; }
   NemoWindow .primary-toolbar NemoPathBar.linked:not(.vertical):not(.path-bar) > .button:insensitive {
     color: rgba(81, 67, 67, 0.5); }
