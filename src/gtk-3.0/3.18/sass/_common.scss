@@ -519,7 +519,7 @@ $_dot_color: $selected_bg_color;
   .linked:not(.vertical) > &:active,
   .linked:not(.vertical) > &:checked {
     @extend %linked;
-    @extend %linked_button;
+    // @extend %linked_button;
   }
 
   .linked.vertical > &,
@@ -602,9 +602,6 @@ $_dot_color: $selected_bg_color;
   > .entry.error:focus:not(:only-child) + GtkComboBox > .the-button-in-the-combobox,
   > .entry.error:focus:not(:only-child) + GtkComboBoxText > .the-button-in-the-combobox { border-left-color: if($variant=='light', $error_color, $entry_border); }
 
-
-  > .button:hover:not(:checked):not(:active):not(:only-child),
-  > .button:hover:not(:checked):not(:active) + .button:not(:checked):not(:active) { box-shadow: -1px 0 $button_border; }
   > .button:first-child:hover:not(:checked):not(:active) { box-shadow: none; }
   > .button:checked + .button:not(:checked):not(:active):hover { box-shadow: none; }
   > .button:checked + .entry { border-left-color: if($variant=='light', $selected_bg_color, $entry_border); }
@@ -616,15 +613,10 @@ $_dot_color: $selected_bg_color;
 
 $_linked_separator_color: if($variant=='light', transparentize($button_border, 0.6), transparentize($button_border, 0.5));
 
-  > .button:hover:not(:checked):not(:active):not(:only-child) {
-
-    &:hover {
-      box-shadow: inset  1px 0 $_linked_separator_color,
-                  inset -1px 0 $_linked_separator_color;
-    }
-    &:first-child:hover { box-shadow: inset -1px 0 $_linked_separator_color; }
-    &:last-child:hover { box-shadow: inset 1px 0 $_linked_separator_color; }
-  }
+  > .button:not(:first-child):not(:only-child) {
+      border-left-color: $_linked_separator_color;
+      &:last-child { border-left-color: $_linked_separator_color; }
+	}
 }
 
 // vertical
@@ -1295,26 +1287,16 @@ GtkComboBox {
   .linked:not(.vertical):not(.path-bar).stack-switcher > .button:insensitive,
   .linked:not(.vertical).path-bar > .button:insensitive {
     @extend %linked;
-    @extend %linked_button;
   }
 
   .linked:not(.vertical).path-bar,
   .linked:not(.vertical):not(.path-bar).stack-switcher {
 
-    $_linked_separator_color: $header_button_border;
+    $_linked_separator_color: transparentize($header_button_border, 0.6);
 
-    > .button:not(:checked):not(:active):not(:only-child) {
-      box-shadow: inset  1px 0 $_linked_separator_color;
-      &:last-child { box-shadow: inset 1px 0 $_linked_separator_color; }
-    }
-
-    > .button:hover:not(:checked):not(:active):not(:only-child) {
-      &:hover {
-        box-shadow: inset  1px 0 $_linked_separator_color,
-                    inset -1px 0 $_linked_separator_color;
-      }
-      &:first-child:hover { box-shadow: inset -1px 0 $_linked_separator_color; }
-      &:last-child:hover { box-shadow: inset 1px 0 $_linked_separator_color; }
+    > .button:not(:first-child):not(:only-child) {
+      border-left-color: $_linked_separator_color;
+      &:last-child { border-left-color: $_linked_separator_color; }
     }
   }
 

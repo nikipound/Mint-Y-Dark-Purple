@@ -195,27 +195,15 @@ NemoWindow {
   .primary-toolbar NemoPathBar.linked:not(.vertical):not(.path-bar) > .button:checked,
   .primary-toolbar NemoPathBar.linked:not(.vertical):not(.path-bar) > .button:insensitive {
     @extend %linked;
-    @extend %linked_button;
   }
 
   .primary-toolbar NemoPathBar.linked:not(.vertical):not(.path-bar) {
 
-    $_linked_separator_color: $header_button_border;
+    $_linked_separator_color: transparentize($header_button_border, 0.6);
 
-    > .button:not(:checked):not(:active):not(:only-child) {
-      box-shadow: inset  1px 0 $_linked_separator_color;
-      &:last-child { box-shadow: inset 1px 0 $_linked_separator_color; }
-    }
-
-    > .button:hover:not(:checked):not(:active):not(:only-child) {
-      box-shadow: none;
-
-        &:hover {
-          box-shadow: inset  1px 0 $_linked_separator_color,
-                      inset -1px 0 $_linked_separator_color;
-        }
-        &:first-child:hover { box-shadow: inset -1px 0 $_linked_separator_color; }
-        &:last-child:hover { box-shadow: inset 1px 0 $_linked_separator_color; }
+    > .button:not(:first-child):not(:only-child) {
+      border-left-color: $_linked_separator_color;
+      &:last-child { border-left-color: $_linked_separator_color; }
     }
   }
 }
