@@ -10,8 +10,8 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="52"
-   height="52"
+   width="104"
+   height="104"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
@@ -38,7 +38,8 @@
        fx="0"
        fy="0"
        r="52"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(52.000005,1000.3622)" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -48,8 +49,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="5.6"
-     inkscape:cx="-47.128893"
-     inkscape:cy="44.448238"
+     inkscape:cx="20.217701"
+     inkscape:cy="44.091095"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -57,7 +58,7 @@
      inkscape:guide-bbox="true"
      inkscape:snap-global="true"
      inkscape:window-width="1920"
-     inkscape:window-height="1030"
+     inkscape:window-height="1027"
      inkscape:window-x="1920"
      inkscape:window-y="0"
      inkscape:window-maximized="1">
@@ -102,7 +103,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -110,16 +111,12 @@
      inkscape:label="Ebene 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-1000.3622)">
-    <path
-       sodipodi:type="arc"
-       style="fill:url(#radialGradient3863);fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;fill-opacity:1"
+     transform="translate(0,-948.3622)">
+    <circle
+       style="fill:url(#radialGradient3863);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path2991"
-       sodipodi:cx="0"
-       sodipodi:cy="0"
-       sodipodi:rx="52"
-       sodipodi:ry="52"
-       d="M 52,0 A 52,52 0 0 1 0,52 52,52 0 0 1 -52,0 52,52 0 0 1 0,-52 52,52 0 0 1 52,0 Z"
-       transform="translate(0,1000.3622)" />
+       cx="52.000004"
+       cy="1000.3622"
+       r="52" />
   </g>
 </svg>

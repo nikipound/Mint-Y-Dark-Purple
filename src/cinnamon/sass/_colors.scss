@@ -2,10 +2,10 @@
 // it gets @if ed depending on $variant
 
 
-$base_color: if($variant =='light', #ffffff, #383838);
-$text_color: if($variant == 'light', #5c616c, #D3DAE3);
-$bg_color: if($variant =='light', #F5F6F7, #2f2f2f);
-$fg_color: if($variant =='light', #5c616c, #D3DAE3);
+$base_color: if($variant =='light', #ffffff, #404040);
+$text_color: if($variant == 'light', #4a4a4a, #D3D3D3);
+$bg_color: if($variant =='light', #F0F0F0, #2f2f2f);
+$fg_color: if($variant =='light', #4a4a4a, #D3D3D3);
 
 $selected_fg_color: #ffffff;
 $selected_bg_color: if($variant == 'light', #9ab87c, #8fa876);
