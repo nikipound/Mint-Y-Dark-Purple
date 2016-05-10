@@ -1,3 +1,16 @@
+mint-y-theme (1.0.2) sarah; urgency=medium
+
+  [ JosephMcc ]
+  * Recolor the tooltips in all theme variations
+  * gtk3: Clean up linked button borders Fix several small issues. Also quit using the selected_bg_color for active buttons since it gives the visual appearance of the active button being larger than its neighbors.
+  * light-gtk-theme: Darken the foreground elements of header widgets a bit This includes toolbar, header bars, and menu bars
+  * Fix an error in the previous commit that left active linked buttons with the wrong border color
+  * build-themes.py: Make sure we update all the needed assets when generating the themes. Not just the gtk3 assets
+  * cinnamon: Make some general improvements to the cinnamon themes
+  * Cinnamon: Use the same theming for panel launchers regardless of whether they are located on the top or bottom panel.
+
+ -- Clemnt Lefebvre <root@linuxmint.com>  Tue, 10 May 2016 16:45:33 +0100
+
 mint-y-theme (1.0.1) sarah; urgency=medium
 
   [ JosephMcc ]
