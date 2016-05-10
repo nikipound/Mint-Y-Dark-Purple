@@ -1458,9 +1458,7 @@ StScrollBar {
 
   &:hover {
     border: 0px solid $selected_bg_color;
-
-    .panel-bottom & { border-bottom-width: 1px; }
-    .panel-top & { border-top-width: 1px; }
+    border-bottom-width: 1px;
   }
 }
 
