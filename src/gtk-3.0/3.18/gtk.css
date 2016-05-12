@@ -344,26 +344,26 @@ GtkSearchEntry.entry {
     background-clip: border-box;
     color: #ffffff;
     outline-color: rgba(255, 255, 255, 0.3);
-    background-color: #4DADD4;
-    border-color: #4DADD4; }
+    background-color: #6db442;
+    border-color: #6db442; }
     .button.suggested-action.flat, .suggested-action.sidebar-button.button {
       border-color: transparent;
       background-color: transparent;
       background-image: none;
-      color: #4DADD4;
-      outline-color: rgba(77, 173, 212, 0.3); }
+      color: #6db442;
+      outline-color: rgba(109, 180, 66, 0.3); }
     .button.suggested-action:hover {
       background-clip: border-box;
       color: #ffffff;
       outline-color: rgba(255, 255, 255, 0.3);
-      background-color: #76c0de;
-      border-color: #76c0de; }
+      background-color: #88c663;
+      border-color: #88c663; }
     .button.suggested-action:active, .button.suggested-action:checked {
       background-clip: border-box;
       color: #ffffff;
       outline-color: rgba(255, 255, 255, 0.3);
-      background-color: #2e96c0;
-      border-color: #2e96c0; }
+      background-color: #568f34;
+      border-color: #568f34; }
     .button.suggested-action.flat:insensitive, .suggested-action.sidebar-button.button:insensitive {
       border-color: transparent;
       background-color: transparent;
@@ -1134,26 +1134,26 @@ GtkComboBox {
   background-clip: border-box;
   color: #ffffff;
   outline-color: rgba(255, 255, 255, 0.3);
-  background-color: #4DADD4;
-  border-color: #4DADD4; }
+  background-color: #6db442;
+  border-color: #6db442; }
   .primary-toolbar .button.suggested-action.flat, .header-bar .button.suggested-action.flat, .primary-toolbar .suggested-action.sidebar-button.button, .header-bar .suggested-action.sidebar-button.button {
     border-color: transparent;
     background-color: transparent;
     background-image: none;
-    color: #4DADD4;
-    outline-color: rgba(77, 173, 212, 0.3); }
+    color: #6db442;
+    outline-color: rgba(109, 180, 66, 0.3); }
   .primary-toolbar .button.suggested-action:hover, .header-bar .button.suggested-action:hover {
     background-clip: border-box;
     color: #ffffff;
     outline-color: rgba(255, 255, 255, 0.3);
-    background-color: #76c0de;
-    border-color: #76c0de; }
+    background-color: #88c663;
+    border-color: #88c663; }
   .primary-toolbar .button.suggested-action:active, .header-bar .button.suggested-action:active, .primary-toolbar .button.suggested-action:checked, .header-bar .button.suggested-action:checked {
     background-clip: border-box;
     color: #ffffff;
     outline-color: rgba(255, 255, 255, 0.3);
-    background-color: #2e96c0;
-    border-color: #2e96c0; }
+    background-color: #568f34;
+    border-color: #568f34; }
   .primary-toolbar .button.suggested-action.flat:insensitive, .header-bar .button.suggested-action.flat:insensitive, .primary-toolbar .suggested-action.sidebar-button.button:insensitive, .header-bar .suggested-action.sidebar-button.button:insensitive, .primary-toolbar .button.suggested-action:insensitive, .header-bar .button.suggested-action:insensitive {
     color: rgba(81, 67, 67, 0.45);
     background-color: rgba(217, 217, 217, 0);
@@ -3305,20 +3305,20 @@ SwitchboardCategoryView .view:selected:focus {
   background-clip: border-box;
   color: #ffffff;
   outline-color: rgba(255, 255, 255, 0.3);
-  background-color: #4DADD4;
-  border-color: #4DADD4; }
+  background-color: #6db442;
+  border-color: #6db442; }
   #restart_button.button:hover {
     background-clip: border-box;
     color: #ffffff;
     outline-color: rgba(255, 255, 255, 0.3);
-    background-color: #76c0de;
-    border-color: #76c0de; }
+    background-color: #88c663;
+    border-color: #88c663; }
   #restart_button.button:active, #restart_button.button:checked {
     background-clip: border-box;
     color: #ffffff;
     outline-color: rgba(255, 255, 255, 0.3);
-    background-color: #2e96c0;
-    border-color: #2e96c0; }
+    background-color: #568f34;
+    border-color: #568f34; }
 
 #greeter_infobar {
   border-bottom-width: 0;
