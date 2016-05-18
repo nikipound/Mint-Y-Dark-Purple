@@ -36,7 +36,7 @@ $darker_asset_suffix: if($darker=='true', '-dark', $asset_suffix);
   -GtkWidget-text-handle-height: 20;
 
   -GtkDialog-button-spacing: 4;
-  -GtkDialog-action-area-border: 0;
+  -GtkDialog-action-area-border: 6;
 
   -GtkStatusbar-shadow-type: none;
 
