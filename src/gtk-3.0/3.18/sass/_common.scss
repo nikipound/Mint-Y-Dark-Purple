@@ -1657,8 +1657,8 @@ column-header.button.dnd { // for treeview-like derive widgets
     padding: 5px;
     &:hover {
       color: $fg_color;
-      background-color: if($variant == 'light', transparentize(black, 0.96), transparentize(white, 0.95));
-      border: solid if($variant == 'light', transparentize(black, 0.92), transparentize(white, 0.93));
+      background-color: if($variant == 'light', transparentize(black, 0.95), transparentize(white, 0.94));
+      border: solid if($variant == 'light', transparentize(black, 0.88), transparentize(white, 0.89));
       border-width: 1px 0 1px 0;
     }
     &:insensitive {

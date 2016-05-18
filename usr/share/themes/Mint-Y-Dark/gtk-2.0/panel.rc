@@ -33,7 +33,7 @@ style "theme-panel" {
 style "panelbar" {
 
   fg[NORMAL] = "#edf5fb"
-  fg[ACTIVE] = "#ff0000"
+  fg[ACTIVE] = "#edf5fb"
   fg[PRELIGHT] = "#edf5fb"
   fg[SELECTED] = @selected_fg_color
 

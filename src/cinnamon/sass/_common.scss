@@ -287,8 +287,8 @@ StScrollBar {
 
     &:active {
       color: $fg_color;
-      border-color: transparentize($fg_color, 0.93);
-      background-color: transparentize($fg_color, 0.95);
+      border-color: transparentize($fg_color, 0.89);
+      background-color: transparentize($fg_color, 0.92);
     }
     &:insensitive {
       color: transparentize($fg_color, 0.5);

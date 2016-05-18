@@ -1399,8 +1399,8 @@ column-header .button, column-header .button:hover, column-header .button:active
     padding: 5px; }
     .menu .menuitem:hover {
       color: #D3D3D3;
-      background-color: rgba(255, 255, 255, 0.05);
-      border: solid rgba(255, 255, 255, 0.07);
+      background-color: rgba(255, 255, 255, 0.06);
+      border: solid rgba(255, 255, 255, 0.11);
       border-width: 1px 0 1px 0; }
     .menu .menuitem:insensitive {
       color: rgba(211, 211, 211, 0.45); }

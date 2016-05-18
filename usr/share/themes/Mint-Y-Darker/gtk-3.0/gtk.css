@@ -1402,8 +1402,8 @@ column-header .button, column-header .button:hover, column-header .button:active
     padding: 5px; }
     .menu .menuitem:hover {
       color: #4a4a4a;
-      background-color: rgba(0, 0, 0, 0.04);
-      border: solid rgba(0, 0, 0, 0.08);
+      background-color: rgba(0, 0, 0, 0.05);
+      border: solid rgba(0, 0, 0, 0.12);
       border-width: 1px 0 1px 0; }
     .menu .menuitem:insensitive {
       color: rgba(74, 74, 74, 0.55); }
