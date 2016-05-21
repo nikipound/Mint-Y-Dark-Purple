@@ -1,3 +1,21 @@
+mint-y-theme (1.0.3) sarah; urgency=medium
+
+  [ JosephMcc ]
+  * suggested-action: Use a green shade instead of blue for suggested action buttons
+
+  [ Michael Webster ]
+  * Update build-deps with ruby-sass, optipng
+
+  [ JosephMcc ]
+  * Forgot to git add a couple of image files for pane separators
+  * metacity: Add thicker borders to the metacity-2 theme
+  * gtk2: Fix the color of the panel background
+  * metacity-2: Ensure there is no titlebar on border type windows
+  * dialogs: Add a border around dialog buttons
+  * menus: Darken hovered menu items a bit
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sat, 21 May 2016 15:27:20 +0100
+
 mint-y-theme (1.0.2) sarah; urgency=medium
 
   [ JosephMcc ]
@@ -9,7 +27,7 @@ mint-y-theme (1.0.2) sarah; urgency=medium
   * cinnamon: Make some general improvements to the cinnamon themes
   * Cinnamon: Use the same theming for panel launchers regardless of whether they are located on the top or bottom panel.
 
- -- Clemnt Lefebvre <root@linuxmint.com>  Tue, 10 May 2016 16:45:33 +0100
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 10 May 2016 16:45:33 +0100
 
 mint-y-theme (1.0.1) sarah; urgency=medium
 
