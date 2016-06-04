@@ -1,3 +1,9 @@
+mint-y-theme (1.0.4) sarah; urgency=medium
+
+  * Fixed Mint-Y-Darker definition (uses Mint-Y-Dark metacity theme)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sat, 04 Jun 2016 18:40:42 +0100
+
 mint-y-theme (1.0.3) sarah; urgency=medium
 
   [ JosephMcc ]
