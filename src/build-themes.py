@@ -58,6 +58,7 @@ if __name__ == '__main__':
             version_folder = os.path.join(dest_folder, "cinnamon")
             os.system("cp -R cinnamon/common-assets %s" % version_folder)
             os.system("cp -R cinnamon/light-assets %s" % version_folder)
+            os.system("cp cinnamon/mint-y-thumbnail.png %s" % os.path.join(version_folder, "thumbnail.png"))
             os.system("cp cinnamon/cinnamon.css %s" % version_folder)
             # XFCE-Notify
             os.system("cp -R xfce-notify-4.0 %s" % dest_folder)
@@ -111,6 +112,7 @@ if __name__ == '__main__':
             version_folder = os.path.join(dest_folder, "cinnamon")
             os.system("cp -R cinnamon/common-assets %s" % version_folder)
             os.system("cp -R cinnamon/dark-assets %s" % version_folder)
+            os.system("cp cinnamon/mint-y-dark-thumbnail.png %s" % os.path.join(version_folder, "thumbnail.png"))
             os.system("cp cinnamon/cinnamon-dark.css %s" % os.path.join(version_folder, "cinnamon.css"))
             # XFCE-Notify
             os.system("cp -R xfce-notify-4.0 %s" % dest_folder)
