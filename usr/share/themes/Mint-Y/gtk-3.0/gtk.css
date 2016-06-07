@@ -2268,7 +2268,8 @@ GtkInfoBar {
   background-color: #9ab87c;
   color: #ffffff; }
 
-.warning {
+.warning,
+.error {
   background-color: #F04A50; }
 
 .list-row:selected .button, GtkInfoBar .button {

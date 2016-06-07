@@ -2694,7 +2694,8 @@ GtkInfoBar {
   color: $selected_fg_color;
 }
 
-.warning {
+.warning,
+.error {
   background-color: $destructive_color;
 }
 
