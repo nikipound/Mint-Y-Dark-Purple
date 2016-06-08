@@ -176,6 +176,13 @@ NemoWindow {
   .sidebar {
     & .frame { border-width: 0; }
     & .cell { padding: 0 2px; }
+    & .scrollbar.vertical .trough { background-color: transparent; }
+    & .scrollbar.vertical .slider { 
+      background-color: mix($fg_color, $bg_color, 40%);
+
+      &:hover { background-color: mix($fg_color, $bg_color, 20%); } 
+    }
+    
   }
 
   GtkSeparator.separator.horizontal { color: $borders_color; }

@@ -2708,6 +2708,12 @@ NemoWindow .sidebar .frame {
   border-width: 0; }
 NemoWindow .sidebar .cell {
   padding: 0 2px; }
+NemoWindow .sidebar .scrollbar.vertical .trough {
+  background-color: transparent; }
+NemoWindow .sidebar .scrollbar.vertical .slider {
+  background-color: #767676; }
+  NemoWindow .sidebar .scrollbar.vertical .slider:hover {
+    background-color: #575757; }
 NemoWindow GtkSeparator.separator.horizontal, NemoWindow .sidebar GtkSeparator.horizontal.view.separator, .sidebar NemoWindow GtkSeparator.horizontal.view.separator {
   color: #292929; }
 NemoWindow .primary-toolbar NemoPathBar.linked:not(.vertical):not(.path-bar) > .button {
