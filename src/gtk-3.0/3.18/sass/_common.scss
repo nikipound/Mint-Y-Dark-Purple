@@ -986,7 +986,8 @@ GtkComboBox {
   }
 }
 
-.primary-toolbar {
+.primary-toolbar,
+.primary-toolbar .toolbar {
   color: $header_fg;
   background-color: opacify($header_bg, 1);
   box-shadow: none;
@@ -2062,7 +2063,8 @@ GtkSwitch {
   }
 
   .header-bar GtkSwitch.trough#{$k},
-  .primary-toolbar GtkSwitch.trough#{$k} {
+  .primary-toolbar GtkSwitch.trough#{$k},
+  .primary-toolbar .toolbar GtkSwitch.trough#{$k} {
     background-image: -gtk-scaled(url("assets/switch#{$l}-header#{$darker_asset_suffix}.png"),url("assets/switch#{$l}-header#{$darker_asset_suffix}@2.png"));
   }
 }
