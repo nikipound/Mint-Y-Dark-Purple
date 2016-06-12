@@ -2152,10 +2152,6 @@ GtkCheckButton.text-button, GtkRadioButton.text-button {
     border-radius: 50%;
     box-shadow: none;
 
-    &:hover {
-    background-image: linear-gradient(to bottom, lighten($button_bg, 5%));
-    border-color: $_slider_border;
-    }
     &:insensitive {
       background-image: linear-gradient(to bottom, mix($entry_bg, $bg_color, 55%));
       border-color: transparentize($_slider_border, 0.2);

@@ -1995,9 +1995,6 @@ GtkCheckButton.text-button, GtkRadioButton.text-button {
     border: 1px solid rgba(143, 143, 143, 0.5);
     border-radius: 50%;
     box-shadow: none; }
-    .scale.slider:hover {
-      background-image: linear-gradient(to bottom, white);
-      border-color: rgba(143, 143, 143, 0.5); }
     .scale.slider:insensitive {
       background-image: linear-gradient(to bottom, #f8f8f8);
       border-color: rgba(143, 143, 143, 0.3); }
