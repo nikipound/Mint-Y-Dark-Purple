@@ -3016,6 +3016,16 @@ GbViewStack.focused GtkBox.header.notebook {
 EphyWindow .floating-bar {
   color: #4a4a4a; }
 
+.xreader-window .primary-toolbar .toolbar .button.the-button-in-the-combobox, .xreader-window .primary-toolbar .inline-toolbar .button.the-button-in-the-combobox {
+  color: rgba(215, 207, 207, 0.8);
+  outline-color: rgba(215, 207, 207, 0.1);
+  border-color: rgba(16, 16, 16, 0.4);
+  background-color: rgba(103, 103, 103, 0.4); }
+  .xreader-window .primary-toolbar .toolbar .button.the-button-in-the-combobox:hover, .xreader-window .primary-toolbar .inline-toolbar .button.the-button-in-the-combobox:hover {
+    background-color: rgba(141, 141, 141, 0.4); }
+  .xreader-window .primary-toolbar .toolbar .button.the-button-in-the-combobox:insensitive, .xreader-window .primary-toolbar .inline-toolbar .button.the-button-in-the-combobox:insensitive {
+    color: rgba(215, 207, 207, 0.4); }
+
 .documents-load-more.button {
   border-width: 1px 0 0;
   border-radius: 0; }

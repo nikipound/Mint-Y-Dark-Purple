@@ -452,10 +452,17 @@ GbViewStack.focused GtkBox.header.notebook {
 }
 
 //
-// Epiphany
+// Epiphany / Xreader
 //
 EphyWindow .floating-bar { // Epiphany overrides the floating-bar style, so reset it
   color: $fg_color;
+}
+
+.xreader-window .primary-toolbar .toolbar .button.the-button-in-the-combobox {
+	@include button(header-hover);
+
+	&:hover { background-color: lighten($header_button_bg, 15%); }
+	&:insensitive { color: transparentize($header_fg, 0.4); }
 }
 
 //
