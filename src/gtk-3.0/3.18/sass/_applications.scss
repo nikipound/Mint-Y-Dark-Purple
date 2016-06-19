@@ -582,6 +582,13 @@ PanelApplet {
   background-image: linear-gradient(to bottom, $panel_bg);
 }
 
+.gnome-panel-menu-bar.menubar {
+  color: $panel_fg;
+  font: bold;
+}
+
+.gnome-panel-menu-bar.menubar .menu { font: regular; }
+
 PanelApplet .button, PanelApplet .button:backdrop {
   padding: 4px;
   border: 2px solid transparent;
@@ -628,6 +635,7 @@ NaTrayApplet {
 
 ClockBox {
   color: $panel_fg;
+  font: bold;
 }
 
 // Xfce Panel

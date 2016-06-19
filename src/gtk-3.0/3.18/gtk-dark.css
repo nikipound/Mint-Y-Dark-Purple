@@ -3099,6 +3099,13 @@ PanelApplet {
   color: #C3C3C3;
   background-image: linear-gradient(to bottom, #292929); }
 
+.gnome-panel-menu-bar.menubar {
+  color: #C3C3C3;
+  font: bold; }
+
+.gnome-panel-menu-bar.menubar .menu {
+  font: regular; }
+
 PanelApplet .button, PanelApplet .button:backdrop {
   padding: 4px;
   border: 2px solid transparent;
@@ -3138,7 +3145,8 @@ NaTrayApplet {
   -NaTrayApplet-icon-size: 16; }
 
 ClockBox {
-  color: #C3C3C3; }
+  color: #C3C3C3;
+  font: bold; }
 
 .xfce4-panel.panel {
   background-color: #292929; }
