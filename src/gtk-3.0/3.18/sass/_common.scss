@@ -998,6 +998,11 @@ GtkComboBox {
 
   //&:backdrop { background-color: opacify($header_bg_backdrop, 1); }
 
+  // Workaroud for insensitive labels in a few places like xed and xviewer
+  & .label:insensitive {
+    color: if($darker=='true', transparentize($header_fg, 0.45), $insensitive_fg_color);
+  }
+
   .separator { @extend %header_separator; }
 
   @extend %header_widgets;

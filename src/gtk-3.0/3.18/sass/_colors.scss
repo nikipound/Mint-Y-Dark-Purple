@@ -3,9 +3,9 @@
 
 
 $base_color: if($variant =='light', #ffffff, #404040);
-$text_color: if($variant == 'light', #4a4a4a, #D3D3D3);
+$text_color: if($variant == 'light', #4a4a4a, #DADADA);
 $bg_color: if($variant =='light', #F0F0F0, #383838);
-$fg_color: if($variant =='light', #4a4a4a, #D3D3D3);
+$fg_color: if($variant =='light', #4a4a4a, #DADADA);
 
 $selected_fg_color: #ffffff;
 $selected_bg_color: if($variant == 'light', #9ab87c, #8fa876);
@@ -25,7 +25,7 @@ $destructive_color: #F04A50;
 $suggested_color: #6db442;
 
 //insensitive state derived colors
-$insensitive_fg_color: if($variant == 'light', transparentize($fg_color, 0.45), transparentize($fg_color, 0.55));
+$insensitive_fg_color: if($variant == 'light', transparentize($fg_color, 0.45), transparentize($fg_color, 0.45));
 $insensitive_bg_color: if($variant == 'light', mix($bg_color, $base_color, 40%), lighten($bg_color, 2%));
 
 $header_bg: red;
@@ -36,8 +36,8 @@ $header_bg_backdrop: if($darker == 'true' or $variant == 'dark', lighten($header
 
 $header_border: if($variant == 'light' and $darker=='false', darken($header_bg, 7%), darken($header_bg, 4%));
 
-$header_fg: if($variant == 'light', saturate(transparentize($fg_color, 0.1), 10%), saturate(transparentize($fg_color, 0.2), 10%));
-$header_fg: if($darker == 'true', saturate(transparentize(#D3D3D3, 0.2), 10%), $header_fg);
+$header_fg: if($variant == 'light', saturate(transparentize($fg_color, 0.1), 10%), saturate(transparentize($fg_color, 0.0), 10%));
+$header_fg: if($darker == 'true', saturate(transparentize(#DADADA, 0.0), 10%), $header_fg);
 
 $dark_sidebar_bg: if($variant == 'light', #454545, #353535);
 $dark_sidebar_fg: #C3C3C3;

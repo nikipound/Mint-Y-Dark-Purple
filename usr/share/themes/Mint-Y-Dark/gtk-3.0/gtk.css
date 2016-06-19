@@ -21,14 +21,14 @@
   -GtkDialog-button-spacing: 4;
   -GtkDialog-action-area-border: 6;
   -GtkStatusbar-shadow-type: none;
-  outline-color: rgba(211, 211, 211, 0.3);
+  outline-color: rgba(218, 218, 218, 0.3);
   outline-style: dashed;
   outline-offset: -3px;
   outline-width: 1px;
   outline-radius: 2px; }
 
 .background {
-  color: #D3D3D3;
+  color: #DADADA;
   background-color: #383838; }
 
 *:insensitive {
@@ -36,25 +36,25 @@
 
 .gtkstyle-fallback {
   background-color: #383838;
-  color: #D3D3D3; }
+  color: #DADADA; }
   .gtkstyle-fallback:prelight {
     background-color: #525252;
-    color: #D3D3D3; }
+    color: #DADADA; }
   .gtkstyle-fallback:active {
     background-color: #1f1f1f;
-    color: #D3D3D3; }
+    color: #DADADA; }
   .gtkstyle-fallback:insensitive {
     background-color: #3d3d3d;
-    color: rgba(211, 211, 211, 0.45); }
+    color: rgba(218, 218, 218, 0.55); }
   .gtkstyle-fallback:selected {
     background-color: #8fa876;
     color: #ffffff; }
 
 .view {
-  color: #D3D3D3;
+  color: #DADADA;
   background-color: #404040; }
   .view.dim-label, .view.label.separator, .header-bar .view.subtitle {
-    color: rgba(211, 211, 211, 0.55); }
+    color: rgba(218, 218, 218, 0.55); }
     .view.dim-label:selected, .view.label.separator:selected, .header-bar .view.subtitle:selected, .view.dim-label:selected:focus, .view.label.separator:selected:focus, .header-bar .view.subtitle:selected:focus {
       color: rgba(255, 255, 255, 0.65);
       text-shadow: none; }
@@ -64,9 +64,9 @@
   background-color: rgba(118, 144, 91, 0.2); }
 
 .label.separator, .popover .label.separator, .sidebar .label.view.separator {
-  color: #D3D3D3; }
+  color: #DADADA; }
 .label:insensitive {
-  color: rgba(211, 211, 211, 0.45); }
+  color: rgba(218, 218, 218, 0.55); }
 
 .dim-label, .label.separator, .popover .label.separator, .sidebar .label.view.separator, .header-bar .subtitle {
   opacity: 0.55; }
@@ -122,7 +122,7 @@ GtkTextView {
   padding: 5px 8px;
   border-radius: 3px;
   transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  color: #D3D3D3;
+  color: #DADADA;
   border-color: #292929;
   background-color: #404040;
   background-image: linear-gradient(to bottom, #404040); }
@@ -132,7 +132,7 @@ GtkTextView {
     padding-right: 0; }
   .entry.flat, .entry.flat:focus {
     padding: 2px;
-    color: #D3D3D3;
+    color: #DADADA;
     border-color: #292929;
     background-color: #404040;
     background-image: linear-gradient(to bottom, #404040);
@@ -140,13 +140,13 @@ GtkTextView {
     border-radius: 0; }
   .entry:focus {
     background-clip: border-box;
-    color: #D3D3D3;
+    color: #DADADA;
     border-color: #292929;
     background-color: #404040;
     background-image: linear-gradient(to bottom, #404040);
     box-shadow: inset 1px 0 #8fa876, inset -1px 0 #8fa876, inset 0 1px #8fa876, inset 0 -1px #8fa876; }
   .entry:insensitive {
-    color: rgba(211, 211, 211, 0.45);
+    color: rgba(218, 218, 218, 0.55);
     border-color: rgba(41, 41, 41, 0.55);
     background-color: rgba(64, 64, 64, 0.55);
     background-image: linear-gradient(to bottom, rgba(64, 64, 64, 0.55)); }
@@ -185,7 +185,7 @@ GtkTextView {
       background-color: #ffffff;
       color: #FC4138; }
   .entry.image {
-    color: #b6b6b6; }
+    color: #bbbbbb; }
   .osd .entry {
     color: #C3C3C3;
     border-color: rgba(22, 22, 22, 0.4);
@@ -214,8 +214,8 @@ GtkSearchEntry.entry {
   border: 1px solid;
   border-radius: 3px;
   padding: 5px 8px;
-  color: #D3D3D3;
-  outline-color: rgba(211, 211, 211, 0.3);
+  color: #DADADA;
+  outline-color: rgba(218, 218, 218, 0.3);
   border-color: #292929;
   background-color: #454545; }
   .button.flat, .sidebar-button.button {
@@ -231,8 +231,8 @@ GtkSearchEntry.entry {
       .button.flat:hover:active, .sidebar-button.button:hover:active {
         transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94); }
   .button:hover {
-    color: #D3D3D3;
-    outline-color: rgba(211, 211, 211, 0.3);
+    color: #DADADA;
+    outline-color: rgba(218, 218, 218, 0.3);
     border-color: #292929;
     background-color: #525252;
     -gtk-image-effect: highlight; }
@@ -244,7 +244,7 @@ GtkSearchEntry.entry {
     background-color: #8fa876;
     transition-duration: 50ms; }
   .button:active {
-    color: #D3D3D3; }
+    color: #DADADA; }
   .button:active:hover, .button:checked {
     color: #ffffff; }
   .button.flat:insensitive, .sidebar-button.button:insensitive {
@@ -252,7 +252,7 @@ GtkSearchEntry.entry {
     background-color: transparent;
     background-image: none; }
   .button:insensitive {
-    color: rgba(211, 211, 211, 0.45);
+    color: rgba(218, 218, 218, 0.55);
     border-color: rgba(41, 41, 41, 0.55);
     background-color: rgba(69, 69, 69, 0.55); }
     .button:insensitive > GtkLabel {
@@ -369,9 +369,9 @@ GtkSearchEntry.entry {
       border-color: transparent;
       background-color: transparent;
       background-image: none;
-      color: rgba(211, 211, 211, 0.45); }
+      color: rgba(218, 218, 218, 0.55); }
     .button.suggested-action:insensitive {
-      color: rgba(211, 211, 211, 0.45);
+      color: rgba(218, 218, 218, 0.55);
       border-color: rgba(41, 41, 41, 0.55);
       background-color: rgba(69, 69, 69, 0.55); }
       .button.suggested-action:insensitive > GtkLabel {
@@ -404,9 +404,9 @@ GtkSearchEntry.entry {
       border-color: transparent;
       background-color: transparent;
       background-image: none;
-      color: rgba(211, 211, 211, 0.45); }
+      color: rgba(218, 218, 218, 0.55); }
     .button.destructive-action:insensitive {
-      color: rgba(211, 211, 211, 0.45);
+      color: rgba(218, 218, 218, 0.55);
       border-color: rgba(41, 41, 41, 0.55);
       background-color: rgba(69, 69, 69, 0.55); }
       .button.destructive-action:insensitive > GtkLabel {
@@ -459,13 +459,13 @@ GtkSearchEntry.entry {
     border-width: 1px; }
 
 .inline-toolbar GtkToolButton > .button {
-  color: #D3D3D3;
-  outline-color: rgba(211, 211, 211, 0.3);
+  color: #DADADA;
+  outline-color: rgba(218, 218, 218, 0.3);
   border-color: #292929;
   background-color: #454545; }
   .inline-toolbar GtkToolButton > .button:hover {
-    color: #D3D3D3;
-    outline-color: rgba(211, 211, 211, 0.3);
+    color: #DADADA;
+    outline-color: rgba(218, 218, 218, 0.3);
     border-color: #292929;
     background-color: #525252; }
   .inline-toolbar GtkToolButton > .button:active, .inline-toolbar GtkToolButton > .button:checked {
@@ -474,7 +474,7 @@ GtkSearchEntry.entry {
     border-color: #292929;
     background-color: #8fa876; }
   .inline-toolbar GtkToolButton > .button:insensitive {
-    color: rgba(211, 211, 211, 0.45);
+    color: rgba(218, 218, 218, 0.55);
     border-color: rgba(41, 41, 41, 0.55);
     background-color: rgba(69, 69, 69, 0.55); }
     .inline-toolbar GtkToolButton > .button:insensitive > GtkLabel {
@@ -698,7 +698,7 @@ NemoWindow .primary-toolbar NemoPathBar.linked:not(.vertical):not(.path-bar) > .
   .menuitem.button.flat:hover, .menuitem.sidebar-button.button:hover {
     background-color: #484848; }
   .menuitem.button.flat:checked, .menuitem.sidebar-button.button:checked {
-    color: #D3D3D3; }
+    color: #DADADA; }
 
 *:link, .button:link, .button:visited {
   color: #c2d0b4; }
@@ -726,7 +726,7 @@ NemoWindow .primary-toolbar NemoPathBar.linked:not(.vertical):not(.path-bar) > .
     background-image: none;
     border: 1px solid rgba(41, 41, 41, 0.6);
     border-style: none none none solid;
-    color: #cccccc;
+    color: #d2d2d2;
     border-radius: 0;
     box-shadow: none; }
     .spinbutton .button:dir(rtl) {
@@ -734,13 +734,13 @@ NemoWindow .primary-toolbar NemoPathBar.linked:not(.vertical):not(.path-bar) > .
     .spinbutton .button:first-child {
       color: red; }
     .spinbutton .button:insensitive {
-      color: rgba(211, 211, 211, 0.45); }
+      color: rgba(218, 218, 218, 0.55); }
     .spinbutton .button:active {
       background-color: #8fa876;
       color: #ffffff; }
   .spinbutton.vertical .button:first-child, .spinbutton.vertical:dir(rtl) .button:first-child {
-    color: #D3D3D3;
-    outline-color: rgba(211, 211, 211, 0.3);
+    color: #DADADA;
+    outline-color: rgba(218, 218, 218, 0.3);
     border-color: #292929;
     background-color: #454545; }
     .spinbutton.vertical .button:first-child:active, .spinbutton.vertical:dir(rtl) .button:first-child:active {
@@ -749,19 +749,19 @@ NemoWindow .primary-toolbar NemoPathBar.linked:not(.vertical):not(.path-bar) > .
       border-color: #292929;
       background-color: #8fa876; }
     .spinbutton.vertical .button:first-child:hover, .spinbutton.vertical:dir(rtl) .button:first-child:hover {
-      color: #D3D3D3;
-      outline-color: rgba(211, 211, 211, 0.3);
+      color: #DADADA;
+      outline-color: rgba(218, 218, 218, 0.3);
       border-color: #292929;
       background-color: #525252; }
     .spinbutton.vertical .button:first-child:insensitive, .spinbutton.vertical:dir(rtl) .button:first-child:insensitive {
-      color: rgba(211, 211, 211, 0.45);
+      color: rgba(218, 218, 218, 0.55);
       border-color: rgba(41, 41, 41, 0.55);
       background-color: rgba(69, 69, 69, 0.55); }
       .spinbutton.vertical .button:first-child:insensitive > GtkLabel, .spinbutton.vertical:dir(rtl) .button:first-child:insensitive > GtkLabel {
         color: inherit; }
   .spinbutton.vertical .button:last-child, .spinbutton.vertical:dir(rtl) .button:last-child {
-    color: #D3D3D3;
-    outline-color: rgba(211, 211, 211, 0.3);
+    color: #DADADA;
+    outline-color: rgba(218, 218, 218, 0.3);
     border-color: #292929;
     background-color: #454545; }
     .spinbutton.vertical .button:last-child:active, .spinbutton.vertical:dir(rtl) .button:last-child:active {
@@ -770,12 +770,12 @@ NemoWindow .primary-toolbar NemoPathBar.linked:not(.vertical):not(.path-bar) > .
       border-color: #292929;
       background-color: #8fa876; }
     .spinbutton.vertical .button:last-child:hover, .spinbutton.vertical:dir(rtl) .button:last-child:hover {
-      color: #D3D3D3;
-      outline-color: rgba(211, 211, 211, 0.3);
+      color: #DADADA;
+      outline-color: rgba(218, 218, 218, 0.3);
       border-color: #292929;
       background-color: #525252; }
     .spinbutton.vertical .button:last-child:insensitive, .spinbutton.vertical:dir(rtl) .button:last-child:insensitive {
-      color: rgba(211, 211, 211, 0.45);
+      color: rgba(218, 218, 218, 0.55);
       border-color: rgba(41, 41, 41, 0.55);
       background-color: rgba(69, 69, 69, 0.55); }
       .spinbutton.vertical .button:last-child:insensitive > GtkLabel, .spinbutton.vertical:dir(rtl) .button:last-child:insensitive > GtkLabel {
@@ -804,7 +804,7 @@ GtkComboBox {
     padding-top: 3px;
     padding-bottom: 3px; }
   GtkComboBox:insensitive {
-    color: rgba(211, 211, 211, 0.45); }
+    color: rgba(218, 218, 218, 0.55); }
   GtkComboBox .separator.vertical, GtkComboBox .sidebar .vertical.view.separator, .sidebar GtkComboBox .vertical.view.separator {
     -GtkWidget-wide-separators: true; }
   GtkComboBox.combobox-entry .entry:dir(ltr) {
@@ -835,12 +835,16 @@ GtkComboBox {
 .primary-toolbar,
 .primary-toolbar .toolbar,
 .primary-toolbar .inline-toolbar {
-  color: rgba(215, 207, 207, 0.8);
+  color: #ded6d6;
   background-color: #2f2f2f;
   box-shadow: none;
   border-width: 0 0 1px 0;
   border-style: solid;
   border-image: linear-gradient(to bottom, #2f2f2f, #1d1d1d) 1 0 1 0; }
+  .primary-toolbar .label:insensitive,
+  .primary-toolbar .toolbar .label:insensitive,
+  .primary-toolbar .inline-toolbar .label:insensitive {
+    color: rgba(218, 218, 218, 0.55); }
 
 .inline-toolbar {
   background-color: #303030;
@@ -866,13 +870,13 @@ GtkComboBox {
   border-style: solid;
   border-radius: 0;
   border-color: #252525;
-  color: rgba(215, 207, 207, 0.8);
+  color: #ded6d6;
   background-color: #2f2f2f; }
   .csd .header-bar {
     background-color: #2f2f2f;
     border-color: #252525; }
   .header-bar:backdrop {
-    color: rgba(215, 207, 207, 0.5); }
+    color: rgba(222, 214, 214, 0.7); }
   .header-bar .title {
     padding-left: 12px;
     padding-right: 12px; }
@@ -944,13 +948,13 @@ GtkComboBox {
   padding-left: 7px;
   padding-right: 7px;
   border-radius: 3px 3px 0 0;
-  color: rgba(215, 207, 207, 0.8);
+  color: #ded6d6;
   background-color: #2f2f2f;
   box-shadow: inset 0 1px #373737; }
   .csd .titlebar {
     background-color: #2f2f2f; }
   .titlebar:backdrop {
-    color: rgba(215, 207, 207, 0.5);
+    color: rgba(222, 214, 214, 0.7);
     background-color: #333333; }
     .csd .titlebar:backdrop {
       background-color: #333333; }
@@ -969,12 +973,12 @@ GtkComboBox {
   -GtkWidget-wide-separators: true;
   -GtkWidget-separator-width: 1px;
   border-width: 0 1px;
-  border-image: linear-gradient(to bottom, rgba(215, 207, 207, 0) 25%, rgba(215, 207, 207, 0.15) 25%, rgba(215, 207, 207, 0.15) 75%, rgba(215, 207, 207, 0) 75%) 0 1/0 1px stretch; }
+  border-image: linear-gradient(to bottom, rgba(222, 214, 214, 0) 25%, rgba(222, 214, 214, 0.35) 25%, rgba(222, 214, 214, 0.35) 75%, rgba(222, 214, 214, 0) 75%) 0 1/0 1px stretch; }
   .primary-toolbar .separator:backdrop, .header-bar .header-bar-separator:backdrop, .header-bar > GtkBox > .separator.vertical:backdrop {
     opacity: 0.6; }
 
 .primary-toolbar .entry, .header-bar .entry {
-  color: rgba(215, 207, 207, 0.8);
+  color: #ded6d6;
   border-color: rgba(16, 16, 16, 0.4);
   background-image: linear-gradient(to bottom, rgba(103, 103, 103, 0.4));
   background-color: transparent; }
@@ -983,14 +987,14 @@ GtkComboBox {
   .primary-toolbar .entry:backdrop, .header-bar .entry:backdrop {
     opacity: 0.85; }
   .primary-toolbar .entry:focus, .header-bar .entry:focus {
-    color: rgba(215, 207, 207, 0.8);
+    color: #ded6d6;
     border-color: #8fa876;
     background-image: linear-gradient(to bottom, rgba(103, 103, 103, 0.4));
     background-clip: padding-box; }
     .primary-toolbar .entry:focus.image, .header-bar .entry:focus.image {
-      color: rgba(215, 207, 207, 0.65); }
+      color: rgba(222, 214, 214, 0.85); }
   .primary-toolbar .entry:insensitive, .header-bar .entry:insensitive {
-    color: rgba(215, 207, 207, 0.35);
+    color: rgba(222, 214, 214, 0.55);
     background-image: linear-gradient(to bottom, rgba(103, 103, 103, 0.25)); }
   .primary-toolbar .entry:selected:focus, .header-bar .entry:selected:focus {
     background-color: #8fa876;
@@ -1020,16 +1024,16 @@ GtkComboBox {
       background-color: #ffffff;
       color: #FC4138; }
 .primary-toolbar .button, .header-bar .button {
-  color: rgba(215, 207, 207, 0.8);
-  outline-color: rgba(215, 207, 207, 0.1);
+  color: #ded6d6;
+  outline-color: rgba(222, 214, 214, 0.3);
   outline-offset: -3px;
   background-color: rgba(47, 47, 47, 0);
   border-color: rgba(47, 47, 47, 0); }
   .primary-toolbar .button:backdrop, .header-bar .button:backdrop {
     opacity: 0.7; }
   .primary-toolbar .button:hover, .header-bar .button:hover {
-    color: rgba(215, 207, 207, 0.8);
-    outline-color: rgba(215, 207, 207, 0.1);
+    color: #ded6d6;
+    outline-color: rgba(222, 214, 214, 0.3);
     border-color: rgba(16, 16, 16, 0.4);
     background-color: rgba(103, 103, 103, 0.4); }
   .primary-toolbar .button:active, .header-bar .button:active, .primary-toolbar .button:checked, .header-bar .button:checked {
@@ -1039,7 +1043,7 @@ GtkComboBox {
     background-color: #8fa876;
     background-clip: padding-box; }
   .primary-toolbar .button:insensitive, .header-bar .button:insensitive {
-    color: rgba(215, 207, 207, 0.35);
+    color: rgba(222, 214, 214, 0.55);
     background-color: rgba(47, 47, 47, 0);
     border-color: rgba(47, 47, 47, 0); }
     .primary-toolbar .button:insensitive > GtkLabel,
@@ -1090,8 +1094,8 @@ GtkComboBox {
 .primary-toolbar .toolbar .linked:not(.vertical).path-bar > .button,
 .primary-toolbar .inline-toolbar .linked:not(.vertical).path-bar > .button,
 .header-bar .linked:not(.vertical).path-bar > .button {
-  color: rgba(215, 207, 207, 0.8);
-  outline-color: rgba(215, 207, 207, 0.1);
+  color: #ded6d6;
+  outline-color: rgba(222, 214, 214, 0.3);
   border-color: rgba(16, 16, 16, 0.4);
   background-color: rgba(103, 103, 103, 0.4); }
   .primary-toolbar .linked:not(.vertical):not(.path-bar).stack-switcher > .button:hover,
@@ -1126,7 +1130,7 @@ GtkComboBox {
   .primary-toolbar .toolbar .linked:not(.vertical).path-bar > .button:insensitive,
   .primary-toolbar .inline-toolbar .linked:not(.vertical).path-bar > .button:insensitive,
   .header-bar .linked:not(.vertical).path-bar > .button:insensitive {
-    color: rgba(215, 207, 207, 0.4); }
+    color: rgba(222, 214, 214, 0.6); }
 .primary-toolbar .linked:not(.vertical).path-bar > .button:not(:first-child):not(:only-child),
 .primary-toolbar .toolbar .linked:not(.vertical).path-bar > .button:not(:first-child):not(:only-child),
 .primary-toolbar .inline-toolbar .linked:not(.vertical).path-bar > .button:not(:first-child):not(:only-child), .header-bar .linked:not(.vertical).path-bar > .button:not(:first-child):not(:only-child),
@@ -1216,7 +1220,7 @@ GtkComboBox {
     background-color: #568f34;
     border-color: #568f34; }
   .primary-toolbar .button.suggested-action.flat:insensitive, .header-bar .button.suggested-action.flat:insensitive, .primary-toolbar .suggested-action.sidebar-button.button:insensitive, .header-bar .suggested-action.sidebar-button.button:insensitive, .primary-toolbar .button.suggested-action:insensitive, .header-bar .button.suggested-action:insensitive {
-    color: rgba(215, 207, 207, 0.35);
+    color: rgba(222, 214, 214, 0.55);
     background-color: rgba(47, 47, 47, 0);
     border-color: rgba(47, 47, 47, 0); }
     .primary-toolbar .button.suggested-action.flat:insensitive > GtkLabel,
@@ -1256,7 +1260,7 @@ GtkComboBox {
     background-color: #ec1b22;
     border-color: #ec1b22; }
   .primary-toolbar .button.destructive-action.flat:insensitive, .header-bar .button.destructive-action.flat:insensitive, .primary-toolbar .destructive-action.sidebar-button.button:insensitive, .header-bar .destructive-action.sidebar-button.button:insensitive, .primary-toolbar .button.destructive-action:insensitive, .header-bar .button.destructive-action:insensitive {
-    color: rgba(215, 207, 207, 0.35);
+    color: rgba(222, 214, 214, 0.55);
     background-color: rgba(47, 47, 47, 0);
     border-color: rgba(47, 47, 47, 0); }
     .primary-toolbar .button.destructive-action.flat:insensitive > GtkLabel,
@@ -1279,30 +1283,30 @@ GtkComboBox {
   .primary-toolbar .spinbutton:focus .button:insensitive, .header-bar .spinbutton:focus .button:insensitive {
     color: rgba(255, 255, 255, 0.4); }
 .primary-toolbar .spinbutton .button, .header-bar .spinbutton .button {
-  color: rgba(215, 207, 207, 0.8); }
+  color: #ded6d6; }
   .primary-toolbar .spinbutton .button:hover, .header-bar .spinbutton .button:hover {
-    background-color: rgba(215, 207, 207, 0.05);
+    background-color: rgba(222, 214, 214, 0.25);
     border-color: transparent; }
   .primary-toolbar .spinbutton .button:insensitive, .header-bar .spinbutton .button:insensitive {
-    color: rgba(215, 207, 207, 0.5); }
+    color: rgba(222, 214, 214, 0.7); }
   .primary-toolbar .spinbutton .button:active, .header-bar .spinbutton .button:active {
     background-color: rgba(0, 0, 0, 0.1); }
 .primary-toolbar GtkComboBox:insensitive, .header-bar GtkComboBox:insensitive {
-  color: rgba(215, 207, 207, 0.2); }
+  color: rgba(222, 214, 214, 0.4); }
 .primary-toolbar GtkComboBox.combobox-entry .button, .header-bar GtkComboBox.combobox-entry .button {
-  color: rgba(215, 207, 207, 0.8);
+  color: #ded6d6;
   border-color: rgba(16, 16, 16, 0.4);
   background-image: linear-gradient(to bottom, rgba(103, 103, 103, 0.4));
   background-color: transparent; }
   .primary-toolbar GtkComboBox.combobox-entry .button.image, .header-bar GtkComboBox.combobox-entry .button.image, .primary-toolbar GtkComboBox.combobox-entry .button.image:hover, .header-bar GtkComboBox.combobox-entry .button.image:hover {
     color: inherit; }
   .primary-toolbar GtkComboBox.combobox-entry .button:hover, .header-bar GtkComboBox.combobox-entry .button:hover {
-    color: rgba(215, 207, 207, 0.8);
+    color: #ded6d6;
     border-color: #8fa876;
     background-image: linear-gradient(to bottom, rgba(103, 103, 103, 0.4));
     box-shadow: none; }
   .primary-toolbar GtkComboBox.combobox-entry .button:insensitive, .header-bar GtkComboBox.combobox-entry .button:insensitive {
-    color: rgba(215, 207, 207, 0.35);
+    color: rgba(222, 214, 214, 0.55);
     background-image: linear-gradient(to bottom, rgba(103, 103, 103, 0.25)); }
 .primary-toolbar GtkComboBox.combobox-entry .entry:dir(ltr), .header-bar GtkComboBox.combobox-entry .entry:dir(ltr) {
   border-right-style: none; }
@@ -1363,27 +1367,27 @@ GtkTreeView.view {
   -GtkTreeView-tree-line-width: 1;
   -GtkTreeView-tree-line-pattern: '';
   -GtkTreeView-expander-size: 16;
-  border-left-color: rgba(211, 211, 211, 0.15);
+  border-left-color: rgba(218, 218, 218, 0.15);
   border-top-color: rgba(0, 0, 0, 0.1); }
   GtkTreeView.view:selected {
     border-radius: 0;
     border-left-color: #c7d4bb;
-    border-top-color: rgba(211, 211, 211, 0.1); }
+    border-top-color: rgba(218, 218, 218, 0.1); }
   GtkTreeView.view:insensitive {
-    color: rgba(211, 211, 211, 0.45); }
+    color: rgba(218, 218, 218, 0.55); }
     GtkTreeView.view:insensitive:selected {
       color: #bccbad; }
   GtkTreeView.view.dnd {
     border-style: solid none;
     border-width: 1px;
-    border-color: #b1bea5; }
+    border-color: #b5c1a8; }
   GtkTreeView.view.expander {
     -gtk-icon-source: -gtk-icontheme("pan-end-symbolic");
-    color: #8a8a8a; }
+    color: #8d8d8d; }
     GtkTreeView.view.expander:dir(rtl) {
       -gtk-icon-source: -gtk-icontheme("pan-end-symbolic-rtl"); }
     GtkTreeView.view.expander:hover {
-      color: #D3D3D3; }
+      color: #DADADA; }
     GtkTreeView.view.expander:selected {
       color: #dde5d6; }
       GtkTreeView.view.expander:selected:hover {
@@ -1399,20 +1403,20 @@ GtkTreeView.view {
       box-shadow: none;
       background-image: linear-gradient(to bottom, #ffffff); }
   GtkTreeView.view.trough, GtkTreeView.view.trough:selected {
-    color: #D3D3D3;
+    color: #DADADA;
     background-image: linear-gradient(to bottom, #292929);
     border-radius: 3px;
     border-width: 0; }
 
 column-header .button {
-  color: #b6b6b6;
+  color: #bbbbbb;
   background-color: #353535; }
   column-header .button:hover {
     color: #8fa876;
     box-shadow: none;
     transition: none; }
   column-header .button:active {
-    color: #D3D3D3;
+    color: #DADADA;
     transition: none; }
 column-header:last-child .button, column-header:last-child.button {
   border-right-style: none;
@@ -1438,7 +1442,7 @@ column-header .button, column-header .button:hover, column-header .button:active
   column-header .button:active, column-header .button:hover {
     background-color: #3d3d3d; }
   column-header .button:active:hover {
-    color: #D3D3D3; }
+    color: #DADADA; }
   column-header .button:insensitive {
     border-color: #383838;
     background-image: none; }
@@ -1447,9 +1451,9 @@ column-header .button, column-header .button:hover, column-header .button:active
   -GtkWidget-window-dragging: true;
   padding: 0px;
   background-color: #2f2f2f;
-  color: rgba(215, 207, 207, 0.8); }
+  color: #ded6d6; }
   .menubar:backdrop {
-    color: rgba(215, 207, 207, 0.5); }
+    color: rgba(222, 214, 214, 0.7); }
   .menubar > .menuitem {
     padding: 6px 8px;
     border: solid transparent;
@@ -1458,7 +1462,7 @@ column-header .button, column-header .button:hover, column-header .button:active
       background-color: #8fa876;
       color: #ffffff; }
     .menubar > .menuitem:insensitive {
-      color: rgba(215, 207, 207, 0.2);
+      color: rgba(222, 214, 214, 0.4);
       border-color: transparent; }
 
 .menu {
@@ -1474,12 +1478,12 @@ column-header .button, column-header .button:hover, column-header .button:active
   .menu .menuitem {
     padding: 5px; }
     .menu .menuitem:hover {
-      color: #D3D3D3;
+      color: #DADADA;
       background-color: rgba(255, 255, 255, 0.06);
       border: solid rgba(255, 255, 255, 0.11);
       border-width: 1px 0 1px 0; }
     .menu .menuitem:insensitive {
-      color: rgba(211, 211, 211, 0.45); }
+      color: rgba(218, 218, 218, 0.55); }
     .menu .menuitem.separator {
       color: rgba(64, 64, 64, 0); }
     .menu .menuitem.arrow {
@@ -1644,14 +1648,14 @@ column-header .button, column-header .button:hover, column-header .button:active
         box-shadow: inset 0 1px #292929, inset 0 -1px #292929, inset 1px 0 #292929, inset -1px 0 #404040; }
     .notebook tab GtkLabel {
       padding: 0 2px;
-      color: rgba(211, 211, 211, 0.45); }
+      color: rgba(218, 218, 218, 0.55); }
     .notebook tab .prelight-page GtkLabel, .notebook tab GtkLabel.prelight-page {
-      color: rgba(211, 211, 211, 0.725); }
+      color: rgba(218, 218, 218, 0.775); }
     .notebook tab .active-page GtkLabel, .notebook tab GtkLabel.active-page {
-      color: #D3D3D3; }
+      color: #DADADA; }
     .notebook tab .button {
       padding: 0;
-      color: #9d9d9d; }
+      color: #a1a1a1; }
       .notebook tab .button:hover {
         color: #ff4d4d; }
       .notebook tab .button:active {
@@ -1659,13 +1663,13 @@ column-header .button, column-header .button:hover, column-header .button:active
       .notebook tab .button > GtkImage {
         padding: 2px; }
   .notebook.arrow {
-    color: rgba(211, 211, 211, 0.45); }
+    color: rgba(218, 218, 218, 0.55); }
     .notebook.arrow:hover {
-      color: rgba(211, 211, 211, 0.725); }
+      color: rgba(218, 218, 218, 0.775); }
     .notebook.arrow:active {
-      color: #D3D3D3; }
+      color: #DADADA; }
     .notebook.arrow:insensitive {
-      color: rgba(211, 211, 211, 0.15); }
+      color: rgba(218, 218, 218, 0.25); }
 
 .scrollbar {
   -GtkRange-slider-width: 13;
@@ -1682,7 +1686,7 @@ column-header .button, column-header .button:hover, column-header .button:active
     -GtkRange-slider-width: 6px; }
     .scrollbar.overlay-indicator:not(.dragging):not(.hovering) .slider {
       margin: 0;
-      background-color: #a5a5a5;
+      background-color: darkgray;
       border: 1px solid rgba(0, 0, 0, 0.3);
       background-clip: padding-box; }
     .scrollbar.overlay-indicator:not(.dragging):not(.hovering) .trough {
@@ -1700,9 +1704,9 @@ column-header .button, column-header .button:hover, column-header .button:active
     background-color: #3d3d3d;
     border: 1px none #292929; }
   .scrollbar .slider {
-    background-color: #767676; }
+    background-color: #797979; }
     .scrollbar .slider:hover {
-      background-color: #676767; }
+      background-color: dimgray; }
     .scrollbar .slider:prelight:active {
       background-color: #8fa876; }
     .scrollbar .slider:insensitive {
@@ -1968,7 +1972,7 @@ GtkCheckButton.text-button, GtkRadioButton.text-button {
   padding: 1px 2px 4px;
   outline-offset: 0; }
   GtkCheckButton.text-button:insensitive, GtkCheckButton.text-button:insensitive:active, GtkCheckButton.text-button:insensitive:inconsistent, GtkRadioButton.text-button:insensitive, GtkRadioButton.text-button:insensitive:active, GtkRadioButton.text-button:insensitive:inconsistent {
-    color: rgba(211, 211, 211, 0.45); }
+    color: rgba(218, 218, 218, 0.55); }
 
 .scale {
   -GtkScale-slider-length: 15;
@@ -2042,7 +2046,7 @@ GtkCheckButton.text-button, GtkRadioButton.text-button {
 GtkProgressBar {
   padding: 0;
   font-size: smaller;
-  color: rgba(211, 211, 211, 0.7); }
+  color: rgba(218, 218, 218, 0.7); }
   GtkProgressBar.osd {
     -GtkProgressBar-xspacing: 0;
     -GtkProgressBar-yspacing: 0;
@@ -2128,7 +2132,7 @@ GtkScrolledWindow GtkViewport.frame {
 .list-row.activatable:hover, GtkPlacesSidebar.sidebar .has-open-popup {
   background-color: rgba(255, 255, 255, 0.03); }
 .list-row.activatable:active {
-  color: #D3D3D3; }
+  color: #DADADA; }
 .list-row.activatable:selected:active {
   color: #ffffff; }
 .list-row.activatable:selected:hover, GtkPlacesSidebar.sidebar .has-open-popup:selected {
@@ -2194,7 +2198,7 @@ GtkScrolledWindow GtkViewport.frame {
     -gtk-icon-source: -gtk-icontheme("pan-down-symbolic"); }
 
 GtkCalendar {
-  color: #D3D3D3;
+  color: #DADADA;
   border: 1px solid #292929;
   border-radius: 3px;
   padding: 2px; }
@@ -2203,24 +2207,24 @@ GtkCalendar {
     color: #ffffff;
     border-radius: 1.5px; }
   GtkCalendar.header {
-    color: #D3D3D3;
+    color: #DADADA;
     border: none;
     border-radius: 0; }
   GtkCalendar.button, GtkCalendar.button:focus {
-    color: rgba(211, 211, 211, 0.45);
+    color: rgba(218, 218, 218, 0.45);
     border-color: transparent;
     background-color: transparent;
     background-image: none; }
     GtkCalendar.button:hover, GtkCalendar.button:focus:hover {
-      color: #D3D3D3; }
+      color: #DADADA; }
     GtkCalendar.button:insensitive, GtkCalendar.button:focus:insensitive {
-      color: rgba(211, 211, 211, 0.45);
+      color: rgba(218, 218, 218, 0.55);
       background-color: transparent;
       background-image: none; }
   GtkCalendar:inconsistent {
     color: alpha(currentColor,0.55); }
   GtkCalendar.highlight {
-    color: #D3D3D3; }
+    color: #DADADA; }
 
 .message-dialog .dialog-action-area .button {
   padding: 8px; }
@@ -2275,7 +2279,7 @@ GtkPlacesSidebar.sidebar .sidebar-placeholder-row {
 GtkPlacesSidebar.sidebar .sidebar-new-bookmark-row {
   background-color: #1f1f1f; }
 GtkPlacesSidebar.sidebar .list-row.activatable {
-  color: rgba(211, 211, 211, 0.8);
+  color: rgba(218, 218, 218, 0.8);
   border-width: 0;
   border-style: solid; }
 .sidebar-button.button {
@@ -2324,7 +2328,7 @@ GtkPaned.wide {
     background-repeat: no-repeat;
     background-position: center; }
   GtkPaned.wide.vertical .pane-separator {
-    color: #D3D3D3;
+    color: #DADADA;
     background-color: transparent;
     border-style: none;
     background-image: -gtk-scaled(url("assets/pane-separator.png"), url("assets/pane-separator@2.png"));
@@ -2428,13 +2432,13 @@ GtkColorSwatch.overlay, GtkColorSwatch.overlay:selected {
 GtkColorSwatch#add-color-button {
   border-style: solid;
   border-width: 1px;
-  color: #D3D3D3;
-  outline-color: rgba(211, 211, 211, 0.3);
+  color: #DADADA;
+  outline-color: rgba(218, 218, 218, 0.3);
   border-color: #292929;
   background-color: #454545; }
   GtkColorSwatch#add-color-button:hover {
-    color: #D3D3D3;
-    outline-color: rgba(211, 211, 211, 0.3);
+    color: #DADADA;
+    outline-color: rgba(218, 218, 218, 0.3);
     border-color: #292929;
     background-color: #525252; }
   GtkColorSwatch#add-color-button .overlay {
@@ -2455,8 +2459,8 @@ GtkColorButton.button {
 .scale-popup .button {
   padding: 6px; }
   .scale-popup .button:hover {
-    color: #D3D3D3;
-    outline-color: rgba(211, 211, 211, 0.3);
+    color: #DADADA;
+    outline-color: rgba(218, 218, 218, 0.3);
     border-color: #292929;
     background-color: #525252; }
 
@@ -2580,8 +2584,8 @@ GtkVolumeButton.button {
   background-color: rgba(47, 47, 47, 0); }
   .header-bar .button.titlebutton:hover,
   .titlebar .button.titlebutton:hover {
-    color: rgba(215, 207, 207, 0.8);
-    outline-color: rgba(215, 207, 207, 0.1);
+    color: #ded6d6;
+    outline-color: rgba(222, 214, 214, 0.3);
     border-color: rgba(16, 16, 16, 0.4);
     background-color: rgba(103, 103, 103, 0.4); }
   .header-bar .button.titlebutton:active, .header-bar .button.titlebutton:checked,
@@ -2697,7 +2701,7 @@ PantheonTerminalPantheonTerminalWindow .notebook.header.top {
 
 GtkHTML {
   background-color: #404040;
-  color: #D3D3D3; }
+  color: #DADADA; }
   GtkHTML:active {
     color: #ffffff;
     background-color: #8fa876; }
@@ -2715,9 +2719,9 @@ TerminalScreenContainer .scrollbar:not(.slider) {
   background-color: transparent; }
 
 TerminalWindow .notebook tab .button {
-  color: #9d9d9d; }
+  color: #a1a1a1; }
   TerminalWindow .notebook tab .button:hover {
-    color: #D3D3D3;
+    color: #DADADA;
     border-color: #292929;
     background-color: #454545; }
 TerminalWindow .notebook .active-page .button:hover, TerminalWindow .notebook .prelight-page .button:hover {
@@ -2732,13 +2736,13 @@ TerminalWindow .notebook .active-page .button:active, TerminalWindow .notebook .
   color: #ffffff;
   text-shadow: 1px 1px rgba(0, 0, 0, 0.6); }
   .nautilus-desktop.nautilus-canvas-item:active, .nemo-desktop.nemo-canvas-item:active {
-    color: #D3D3D3; }
+    color: #DADADA; }
   .nautilus-desktop.nautilus-canvas-item:selected, .nemo-desktop.nemo-canvas-item:selected {
     color: #ffffff; }
 
 .nautilus-canvas-item.dim-label, .nautilus-canvas-item.label.separator, .header-bar .nautilus-canvas-item.subtitle,
 .nautilus-list-dim-label {
-  color: #868686; }
+  color: #898989; }
   .nautilus-canvas-item.dim-label:selected, .nautilus-canvas-item.label.separator:selected, .header-bar .nautilus-canvas-item.subtitle:selected, .nautilus-canvas-item.dim-label:selected:focus, .nautilus-canvas-item.label.separator:selected:focus, .header-bar .nautilus-canvas-item.subtitle:selected:focus,
   .nautilus-list-dim-label:selected,
   .nautilus-list-dim-label:selected:focus {
@@ -2767,8 +2771,8 @@ NautilusQueryEditor .search-bar.toolbar, NautilusQueryEditor .search-bar.inline-
   border-style: solid;
   border-width: 1px; }
   .disk-space-display.unknown {
-    background-color: rgba(211, 211, 211, 0.5);
-    border-color: rgba(186, 186, 186, 0.5); }
+    background-color: rgba(218, 218, 218, 0.5);
+    border-color: rgba(193, 193, 193, 0.5); }
   .disk-space-display.used {
     background-color: rgba(143, 168, 118, 0.8);
     border-color: rgba(118, 144, 91, 0.8); }
@@ -2792,14 +2796,14 @@ NemoWindow .sidebar .cell {
 NemoWindow .sidebar .scrollbar.vertical .trough {
   background-color: transparent; }
 NemoWindow .sidebar .scrollbar.vertical .slider {
-  background-color: #767676; }
+  background-color: #797979; }
   NemoWindow .sidebar .scrollbar.vertical .slider:hover {
-    background-color: #575757; }
+    background-color: #585858; }
 NemoWindow GtkSeparator.separator.horizontal, NemoWindow .sidebar GtkSeparator.horizontal.view.separator, .sidebar NemoWindow GtkSeparator.horizontal.view.separator {
   color: #292929; }
 NemoWindow .primary-toolbar NemoPathBar.linked:not(.vertical):not(.path-bar) > .button {
-  color: rgba(215, 207, 207, 0.8);
-  outline-color: rgba(215, 207, 207, 0.1);
+  color: #ded6d6;
+  outline-color: rgba(222, 214, 214, 0.3);
   border-color: rgba(16, 16, 16, 0.4);
   background-color: rgba(103, 103, 103, 0.4); }
   NemoWindow .primary-toolbar NemoPathBar.linked:not(.vertical):not(.path-bar) > .button:hover {
@@ -2810,7 +2814,7 @@ NemoWindow .primary-toolbar NemoPathBar.linked:not(.vertical):not(.path-bar) > .
     border-color: transparent;
     background-color: #8fa876; }
   NemoWindow .primary-toolbar NemoPathBar.linked:not(.vertical):not(.path-bar) > .button:insensitive {
-    color: rgba(215, 207, 207, 0.4); }
+    color: rgba(222, 214, 214, 0.6); }
 NemoWindow .primary-toolbar NemoPathBar.linked:not(.vertical):not(.path-bar) > .button:not(:first-child):not(:only-child) {
   border-left-color: rgba(16, 16, 16, 0); }
   NemoWindow .primary-toolbar NemoPathBar.linked:not(.vertical):not(.path-bar) > .button:not(:first-child):not(:only-child):last-child {
@@ -2829,10 +2833,10 @@ NemoWindow .primary-toolbar NemoPathBar.linked:not(.vertical):not(.path-bar) > .
       background-color: #8fa876; }
 
 .open-document-selector-name-label {
-  color: #D3D3D3; }
+  color: #DADADA; }
 
 .open-document-selector-path-label {
-  color: #8a8a8a;
+  color: #8d8d8d;
   font-size: smaller; }
   .open-document-selector-path-label:selected {
     color: rgba(255, 255, 255, 0.9); }
@@ -2847,7 +2851,7 @@ NemoWindow .primary-toolbar NemoPathBar.linked:not(.vertical):not(.path-bar) > .
   .gedit-document-panel .list-row .button GtkImage {
     color: inherit; }
 .gedit-document-panel .prelight-row .button {
-  color: #9d9d9d; }
+  color: #a1a1a1; }
 .gedit-document-panel .list-row .button:hover,
 .gedit-document-panel .prelight-row .button:hover {
   color: #ff4d4d; }
@@ -2860,12 +2864,12 @@ NemoWindow .primary-toolbar NemoPathBar.linked:not(.vertical):not(.path-bar) > .
   .gedit-document-panel .prelight-row:selected .button:hover:active {
     color: #ffffff; }
 .gedit-document-panel .prelight-row .button:active {
-  color: #D3D3D3; }
+  color: #DADADA; }
 
 .gedit-document-panel-dragged-row {
   border: 1px solid #292929;
   background-color: #1f1f1f;
-  color: #D3D3D3; }
+  color: #DADADA; }
 
 GeditStatusbar {
   border-top: 1px solid #292929;
@@ -2883,7 +2887,7 @@ GeditFileBrowserWidget .toolbar, GeditFileBrowserWidget .inline-toolbar {
   border-bottom: 1px solid #292929; }
 
 .gedit-search-entry-occurrences-tag {
-  color: rgba(211, 211, 211, 0.6);
+  color: rgba(218, 218, 218, 0.6);
   border: none;
   margin: 2px;
   padding: 2px; }
@@ -2897,12 +2901,12 @@ GeditViewFrame .gedit-search-slider {
   border-style: solid; }
 
 GbWorkbench .floating-bar {
-  color: #D3D3D3; }
+  color: #DADADA; }
 
 GbSearchBox.linked:not(.vertical) > GtkMenuButton.button:last-child:dir(ltr),
 GbSearchBox.linked:not(.vertical) > GtkMenuButton.button:first-child:dir(rtl) {
   padding: 0 10px;
-  color: rgba(215, 207, 207, 0.8);
+  color: #ded6d6;
   border-color: rgba(16, 16, 16, 0.4);
   background-image: linear-gradient(to bottom, rgba(103, 103, 103, 0.4));
   background-color: transparent; }
@@ -2912,18 +2916,18 @@ GbSearchBox.linked:not(.vertical) > GtkMenuButton.button:first-child:dir(rtl) {
     color: inherit; }
   GbSearchBox.linked:not(.vertical) > GtkMenuButton.button:last-child:dir(ltr):hover,
   GbSearchBox.linked:not(.vertical) > GtkMenuButton.button:first-child:dir(rtl):hover {
-    color: rgba(215, 207, 207, 0.8);
+    color: #ded6d6;
     border-color: #8fa876;
     background-image: linear-gradient(to bottom, rgba(103, 103, 103, 0.4)); }
   GbSearchBox.linked:not(.vertical) > GtkMenuButton.button:last-child:dir(ltr):active, GbSearchBox.linked:not(.vertical) > GtkMenuButton.button:last-child:dir(ltr):checked,
   GbSearchBox.linked:not(.vertical) > GtkMenuButton.button:first-child:dir(rtl):active,
   GbSearchBox.linked:not(.vertical) > GtkMenuButton.button:first-child:dir(rtl):checked {
-    color: rgba(215, 207, 207, 0.8);
+    color: #ded6d6;
     border-color: #8fa876;
     background-image: linear-gradient(to bottom, rgba(103, 103, 103, 0.4)); }
   GbSearchBox.linked:not(.vertical) > GtkMenuButton.button:last-child:dir(ltr):insensitive,
   GbSearchBox.linked:not(.vertical) > GtkMenuButton.button:first-child:dir(rtl):insensitive {
-    color: rgba(215, 207, 207, 0.35);
+    color: rgba(222, 214, 214, 0.55);
     background-image: linear-gradient(to bottom, rgba(103, 103, 103, 0.25)); }
 GbSearchBox.linked:not(.vertical) > GtkMenuButton.button:last-child:dir(ltr),
 GbSearchBox.linked:not(.vertical) > GtkMenuButton.button:last-child:dir(ltr):hover,
@@ -2987,7 +2991,7 @@ GtkEntry.gb-command-bar-entry.entry.flat:focus {
 
 GbTerminalView {
   background-color: #404040;
-  color: #D3D3D3; }
+  color: #DADADA; }
 
 GbSourceStyleSchemeWidget GtkSourceView {
   font-family: Monospace; }
@@ -3008,17 +3012,17 @@ GbViewStack.focused GtkBox.header.notebook {
     opacity: 1; }
 
 EphyWindow .floating-bar {
-  color: #D3D3D3; }
+  color: #DADADA; }
 
 .xreader-window .primary-toolbar .toolbar .button.the-button-in-the-combobox, .xreader-window .primary-toolbar .inline-toolbar .button.the-button-in-the-combobox {
-  color: rgba(215, 207, 207, 0.8);
-  outline-color: rgba(215, 207, 207, 0.1);
+  color: #ded6d6;
+  outline-color: rgba(222, 214, 214, 0.3);
   border-color: rgba(16, 16, 16, 0.4);
   background-color: rgba(103, 103, 103, 0.4); }
   .xreader-window .primary-toolbar .toolbar .button.the-button-in-the-combobox:hover, .xreader-window .primary-toolbar .inline-toolbar .button.the-button-in-the-combobox:hover {
     background-color: rgba(141, 141, 141, 0.4); }
   .xreader-window .primary-toolbar .toolbar .button.the-button-in-the-combobox:insensitive, .xreader-window .primary-toolbar .inline-toolbar .button.the-button-in-the-combobox:insensitive {
-    color: rgba(215, 207, 207, 0.4); }
+    color: rgba(222, 214, 214, 0.6); }
 
 .documents-load-more.button {
   border-width: 1px 0 0;
@@ -3030,7 +3034,7 @@ EphyWindow .floating-bar {
   border-radius: 2px; }
 
 .documents-collection-icon {
-  background-color: rgba(211, 211, 211, 0.3);
+  background-color: rgba(218, 218, 218, 0.3);
   border-radius: 2px; }
 
 .documents-favorite.button:active,
@@ -3197,18 +3201,18 @@ MarlinViewWindow FMListView, MarlinViewWindow FMColumnView {
   border-radius: 3px;
   padding-left: 4px;
   padding-right: 4px;
-  color: rgba(215, 207, 207, 0.8);
+  color: #ded6d6;
   border-color: rgba(16, 16, 16, 0.4);
   background-image: linear-gradient(to bottom, rgba(103, 103, 103, 0.4));
   background-color: transparent; }
   .marlin-pathbar.pathbar.image, .marlin-pathbar.pathbar.image:hover {
     color: inherit; }
   .marlin-pathbar.pathbar:focus {
-    color: rgba(215, 207, 207, 0.8);
+    color: #ded6d6;
     border-color: #8fa876;
     background-image: linear-gradient(to bottom, rgba(103, 103, 103, 0.4)); }
   .marlin-pathbar.pathbar:insensitive {
-    color: rgba(215, 207, 207, 0.35);
+    color: rgba(222, 214, 214, 0.55);
     background-image: linear-gradient(to bottom, rgba(103, 103, 103, 0.25)); }
   .marlin-pathbar.pathbar:active, .marlin-pathbar.pathbar:checked {
     color: #8fa876; }
@@ -3288,14 +3292,14 @@ WingpanelWidgetsIndicatorPopover.popover {
       border: solid rgba(255, 255, 255, 0.07);
       border-width: 1px 0; }
     WingpanelWidgetsIndicatorPopover.popover .menuitem *:insensitive {
-      color: rgba(211, 211, 211, 0.45); }
+      color: rgba(218, 218, 218, 0.55); }
 
 PantheonTerminalPantheonTerminalWindow.background {
   background-color: transparent; }
 
 SwitchboardCategoryView .view:selected,
 SwitchboardCategoryView .view:selected:focus {
-  color: #D3D3D3; }
+  color: #DADADA; }
 
 .cs-header {
   padding: 6px;
@@ -3324,7 +3328,7 @@ SwitchboardCategoryView .view:selected:focus {
   font: normal;
   border-style: none;
   background-color: transparent;
-  color: #D3D3D3; }
+  color: #DADADA; }
 
 #content_frame {
   padding-bottom: 14px;
@@ -3335,13 +3339,13 @@ SwitchboardCategoryView .view:selected:focus {
   border-width: 1px 1px 0 1px; }
 
 #content_frame .button {
-  color: #D3D3D3;
-  outline-color: rgba(211, 211, 211, 0.3);
+  color: #DADADA;
+  outline-color: rgba(218, 218, 218, 0.3);
   border-color: #292929;
   background-color: #454545; }
   #content_frame .button:hover {
-    color: #D3D3D3;
-    outline-color: rgba(211, 211, 211, 0.3);
+    color: #DADADA;
+    outline-color: rgba(218, 218, 218, 0.3);
     border-color: #292929;
     background-color: #525252; }
   #content_frame .button:active, #content_frame .button:checked {
@@ -3350,7 +3354,7 @@ SwitchboardCategoryView .view:selected:focus {
     border-color: #292929;
     background-color: #8fa876; }
   #content_frame .button:insensitive {
-    color: rgba(211, 211, 211, 0.45);
+    color: rgba(218, 218, 218, 0.55);
     border-color: rgba(41, 41, 41, 0.55);
     background-color: rgba(69, 69, 69, 0.55); }
     #content_frame .button:insensitive > GtkLabel {
@@ -3388,7 +3392,7 @@ SwitchboardCategoryView .view:selected:focus {
     background-color: rgba(109, 109, 109, 0.25); }
 
 #login_window #user_combobox {
-  color: #D3D3D3;
+  color: #DADADA;
   font: 13px; }
   #login_window #user_combobox .menu {
     font: normal; }
@@ -3747,23 +3751,23 @@ MarlinViewWindow .source-list.sidebar.view .scrollbar .slider, GeditFileBrowserW
   MarlinViewWindow .sidebar .scrollbar .slider:insensitive, GeditFileBrowserWidget .scrollbar .slider:insensitive {
     background-color: transparent; }
 
-@define-color theme_fg_color #D3D3D3;
-@define-color theme_text_color #D3D3D3;
+@define-color theme_fg_color #DADADA;
+@define-color theme_text_color #DADADA;
 @define-color theme_bg_color #383838;
 @define-color theme_base_color #404040;
 @define-color theme_selected_bg_color #8fa876;
 @define-color theme_selected_fg_color #ffffff;
-@define-color fg_color #D3D3D3;
-@define-color text_color #D3D3D3;
+@define-color fg_color #DADADA;
+@define-color text_color #DADADA;
 @define-color bg_color #383838;
 @define-color base_color #404040;
 @define-color selected_bg_color #8fa876;
 @define-color selected_fg_color #ffffff;
 @define-color insensitive_bg_color #3d3d3d;
-@define-color insensitive_fg_color alpha(lightgray, 0.5);
+@define-color insensitive_fg_color alpha(#dadada, 0.5);
 @define-color insensitive_base_color #404040;
-@define-color theme_unfocused_fg_color #D3D3D3;
-@define-color theme_unfocused_text_color #D3D3D3;
+@define-color theme_unfocused_fg_color #DADADA;
+@define-color theme_unfocused_text_color #DADADA;
 @define-color theme_unfocused_bg_color #383838;
 @define-color theme_unfocused_base_color #404040;
 @define-color borders #292929;
@@ -3773,8 +3777,8 @@ MarlinViewWindow .source-list.sidebar.view .scrollbar .slider, GeditFileBrowserW
 @define-color success_color #73d216;
 @define-color placeholder_text_color #A8A8A8;
 @define-color content_view_bg #404040;
-@define-color wm_title alpha(#d7cfcf, 0.8);
-@define-color wm_unfocused_title alpha(#d7cfcf, 0.5);
+@define-color wm_title alpha(#ded6d6, 0.8);
+@define-color wm_unfocused_title alpha(#ded6d6, 0.5);
 @define-color wm_bg #2f2f2f;
 @define-color wm_bg_unfocused #333333;
 @define-color wm_highlight #373737;
