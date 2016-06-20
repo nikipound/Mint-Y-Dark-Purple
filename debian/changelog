@@ -1,3 +1,19 @@
+mint-y-theme (1.0.6) sarah; urgency=medium
+
+  [ JosephMcc ]
+  * gtk3: Use the the red warning color for error type infobars
+  * metacity-3: Add better support for Cinnamon tiling features
+  * nemo-sidebar: Restyle the scrollbar in the nemo sidebar
+  * gtk3: Add a couple more selectors for primary-toolbars
+  * xreader: Restyle the toolbar zoom combobox
+  * scale sliders: Remove the :hover effect from GtkScale sliders
+  * gtk3: Workaround an issue with the dark theme in synapic
+  * gnome-panel: Improve the styling a bit so you can at least read some of the panel items
+  * dark-themes: Adjust foreground text colors
+  * cinnamon: Add and properly name the missing corner-ripple.svg
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 20 Jun 2016 12:21:30 +0100
+
 mint-y-theme (1.0.5) sarah; urgency=medium
 
   [ JosephMcc ]
