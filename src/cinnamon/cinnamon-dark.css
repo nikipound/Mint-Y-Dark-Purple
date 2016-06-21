@@ -518,7 +518,7 @@ StScrollBar {
   border-radius: 2px; }
 
 .calendar-day-base {
-  font-size: 80%;
+  font-size: 85%;
   text-align: center;
   width: 25px;
   height: 25px;
@@ -529,11 +529,11 @@ StScrollBar {
 .calendar-day-heading {
   color: rgba(211, 211, 211, 0.85);
   margin-top: 1em;
-  font-size: 70%; }
+  font-size: 80%; }
 
 .calendar-day {
   border-width: 0;
-  color: rgba(211, 211, 211, 0.8); }
+  color: rgba(211, 211, 211, 0.9); }
 
 .calendar-day-top {
   border-top-width: 0; }
@@ -558,6 +558,10 @@ StScrollBar {
 .calendar-other-month-day {
   color: rgba(211, 211, 211, 0.3);
   opacity: 1; }
+
+.calendar-week-number {
+  color: rgba(211, 211, 211, 0.85);
+  font-size: 80%; }
 
 #notification {
   border: 1px solid #202020;

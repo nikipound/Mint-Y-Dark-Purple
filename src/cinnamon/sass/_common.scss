@@ -669,7 +669,7 @@ StScrollBar {
 }
 
 .calendar-day-base {
-  font-size: 80%;
+  font-size: 85%;
   text-align: center;
   width: 25px;
   height: 25px;
@@ -681,12 +681,12 @@ StScrollBar {
 .calendar-day-heading {
   color: transparentize($fg_color, 0.15);
   margin-top: 1em;
-  font-size: 70%;
+  font-size: 80%;
 }
 
 .calendar-day {
   border-width: 0;
-  color: transparentize($fg_color, 0.2);
+  color: transparentize($fg_color, 0.1);
 }
 
 .calendar-day-top {
@@ -716,6 +716,11 @@ StScrollBar {
 .calendar-other-month-day {
   color: transparentize($fg_color, 0.7);
   opacity: 1;
+}
+
+.calendar-week-number {
+  color: transparentize($fg_color, 0.15);
+  font-size: 80%;
 }
 
 //
