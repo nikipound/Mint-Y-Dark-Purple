@@ -536,32 +536,6 @@ SynapseGuiSelectionContainer *:selected,
 SynapseGuiViewVirgilio *:selected { background-color: $selected_bg_color; }
 
 //
-// Synaptic Package Manager
-//
-
-// Workaround for the Quick Filter entry in the toolbar
-GtkWindow > GtkBox > GtkBox > GtkToolbar > GtkToolItem > GtkBox .entry {
-  color: #4a4a4a;
-  border-color: $entry-border;
-	background-color: #ffffff;
-  background-image: none;
-
-	&:focused {
-    color: #4a4a4a;
-    border-color: $entry_border;
-		background-color: #ffffff;
-    background-image: none;
-	}
-
-  &:insensitive {
-    color: transparentize(#4a4a4a, 0.45);
-    border-color: transparentize($entry_border, 0.45);
-    background-color: transparentize(#ffffff, 0.45);
-    background-image: none;
-  }
-}
-
-//
 // Transmission
 //
 .tr-workarea .undershoot,
