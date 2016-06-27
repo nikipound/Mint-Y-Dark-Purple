@@ -2233,6 +2233,9 @@ GtkCalendar {
   GtkCalendar.highlight {
     color: #4a4a4a; }
 
+.dialog-action-area .button.text-button {
+  padding: 6px 16px; }
+
 .message-dialog .dialog-action-area .button {
   padding: 8px; }
 
