@@ -293,6 +293,15 @@ StScrollBar {
       padding-right: 4px; }
     #panelLeft:rtl {
       padding-left: 4px; }
+    #panelLeft.vertical {
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-top: 2px;
+      padding-bottom: 2px; }
+      #panelLeft.vertical:ltr {
+        padding-right: 0px; }
+      #panelLeft.vertical:rtl {
+        padding-left: 0px; }
   #panelRight:dnd {
     background-gradient-direction: vertical;
     background-gradient-start: rgba(0, 0, 255, 0.05);
@@ -303,6 +312,15 @@ StScrollBar {
   #panelRight:rtl {
     padding-right: 4px;
     spacing: 0px; }
+  #panelRight.vertical {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 2px;
+    padding-bottom: 2px; }
+    #panelRight.vertical:ltr {
+      padding-right: 0px; }
+    #panelRight.vertical:rtl {
+      padding-left: 0px; }
   #panelCenter {
     spacing: 4px; }
     #panelCenter:dnd {
@@ -313,20 +331,69 @@ StScrollBar {
     border-image: none;
     background-color: rgba(252, 65, 56, 0.5); }
 
-.panel-top, .panel-bottom {
+.panelLeft {
+  spacing: 4px; }
+  .panelLeft:dnd {
+    background-gradient-direction: vertical;
+    background-gradient-start: rgba(255, 0, 0, 0.05);
+    background-gradient-end: rgba(255, 0, 0, 0.2); }
+  .panelLeft:ltr {
+    padding-right: 4px; }
+  .panelLeft:rtl {
+    padding-left: 4px; }
+  .panelLeft.vertical {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 2px;
+    padding-bottom: 2px; }
+    .panelLeft.vertical:ltr {
+      padding-right: 0px; }
+    .panelLeft.vertical:rtl {
+      padding-left: 0px; }
+.panelRight:dnd {
+  background-gradient-direction: vertical;
+  background-gradient-start: rgba(0, 0, 255, 0.05);
+  background-gradient-end: rgba(0, 0, 255, 0.2); }
+.panelRight:ltr {
+  padding-left: 4px;
+  spacing: 0px; }
+.panelRight:rtl {
+  padding-right: 4px;
+  spacing: 0px; }
+.panelRight.vertical {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 2px;
+  padding-bottom: 2px; }
+  .panelRight.vertical:ltr {
+    padding-left: 0px;
+    spacing: 0px; }
+  .panelRight.vertical:rtl {
+    padding-right: 0px;
+    spacing: 0px; }
+.panelCenter {
+  spacing: 4px; }
+  .panelCenter.vertical {
+    padding-left: 0px;
+    padding-right: 0px; }
+  .panelCenter:dnd {
+    background-gradient-direction: vertical;
+    background-gradient-start: rgba(0, 255, 0, 0.05);
+    background-gradient-end: rgba(0, 255, 0, 0.2); }
+.panel-top, .panel-bottom, .panel-left, .panel-right {
   color: #ffffff;
   font-size: 1em;
   padding: 0px; }
 .panel-top {
   border-image: url("common-assets/panel/panel-top.svg") 1 1 1 1; }
-.panel-bottom {
+.panel-bottom, .panel-left, .panel-right {
   border-image: url("common-assets/panel/panel-bottom.svg") 1 1 1 1; }
 .panel-dummy {
   background-color: rgba(252, 65, 56, 0.5); }
   .panel-dummy:entered {
     background-color: rgba(252, 65, 56, 0.6); }
 .panel-status-button {
-  border-widht: 0;
+  border-width: 0;
   -natural-hpadding: 3px;
   -minimum-hpadding: 3px;
   font-weight: bold;
@@ -947,6 +1014,12 @@ StScrollBar {
   spacing: 6px;
   padding-left: 10px;
   padding-top: 1px; }
+  .window-list-box.vertical {
+    spacing: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px; }
 .window-list-item-label {
   font-weight: bold;
   width: 15em;
@@ -958,6 +1031,12 @@ StScrollBar {
   padding-right: 8px;
   transition-duration: 100;
   color: rgba(255, 255, 255, 0.6); }
+  .window-list-item-box.right {
+    padding-left: 0px;
+    padding-right: 0px; }
+  .window-list-item-box.left {
+    padding-left: 0px;
+    padding-right: 0px; }
   .window-list-item-box:hover {
     color: #ffffff; }
   .window-list-item-box:active, .window-list-item-box:checked, .window-list-item-box:focus {
@@ -1118,6 +1197,11 @@ StScrollBar {
 
 #panel-launchers-box {
   padding-left: 7px; }
+  #panel-launchers-box.vertical {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 0px;
+    padding-right: 0px; }
 
 .panel-launcher {
   margin: 1px;
@@ -1143,6 +1227,11 @@ StScrollBar {
   color: rgba(255, 255, 255, 0.6);
   text-shadow: none;
   transition-duration: 100; }
+  .applet-box.vertical {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 3px;
+    padding-bottom: 3px; }
   .applet-box:hover {
     color: #ffffff;
     background-color: #8fa876; }
