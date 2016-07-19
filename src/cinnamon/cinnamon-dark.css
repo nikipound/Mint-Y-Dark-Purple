@@ -326,7 +326,7 @@ StScrollBar {
   .panel-dummy:entered {
     background-color: rgba(252, 65, 56, 0.6); }
 .panel-status-button {
-  border-widht: 0;
+  border-width: 0;
   -natural-hpadding: 3px;
   -minimum-hpadding: 3px;
   font-weight: bold;
