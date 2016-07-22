@@ -1,3 +1,16 @@
+mint-y-theme (1.0.8) sarah; urgency=medium
+
+  [ Clement Lefebvre ]
+  * Revert "gtk3: Workaround an issue with the dark theme in synapic"
+
+  [ JosephMcc ]
+  * gtk3: adjust the padding used on buttons in the dialog action area
+  * Fix a typo in the Cinnamon theme
+  * metacity: Fix alignment of titlebar buttons between normal and maximized windows
+  * xfwm: Redo the xfwm window manager theme
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 22 Jul 2016 13:19:09 +0200
+
 mint-y-theme (1.0.7) sarah; urgency=medium
 
   [ JosephMcc ]
