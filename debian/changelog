@@ -1,3 +1,13 @@
+mint-y-theme (1.0.9) sarah; urgency=medium
+
+  [ JosephMcc ]
+  * xfce: Fix the shadows on desktop icon labels
+
+  [ Marcus Lundgren ]
+  * metacity: Removed left/right borders on maximized windows in the light theme
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 12 Aug 2016 11:15:22 +0200
+
 mint-y-theme (1.0.8) sarah; urgency=medium
 
   [ Clement Lefebvre ]
