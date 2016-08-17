@@ -362,6 +362,14 @@ StScrollBar {
     }
     &:ltr { padding-right: 4px; }
     &:rtl { padding-left: 4px; }
+    &.vertical {
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-top: 2px;
+      padding-bottom: 2px;
+      &:ltr { padding-right: 0px; }
+      &:rtl { padding-left: 0px; }
+    }
   }
 
   &Right {
@@ -373,6 +381,14 @@ StScrollBar {
     }
     &:ltr { padding-left: 4px; spacing: 0px; }
     &:rtl { padding-right: 4px; spacing: 0px; }
+    &.vertical {
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-top: 2px;
+      padding-bottom: 2px;
+      &:ltr { padding-right: 0px; }
+      &:rtl { padding-left: 0px; }
+    }
   }
 
   &Center {
@@ -393,14 +409,71 @@ StScrollBar {
 
 .panel {
 
-  &-top, &-bottom {
+  &Left {
+    spacing: 4px;
+
+    &:dnd {
+      background-gradient-direction: vertical;
+      background-gradient-start: rgba(255,0,0,0.05);
+      background-gradient-end: rgba(255,0,0,0.2);
+    }
+    &:ltr { padding-right: 4px; }
+    &:rtl { padding-left: 4px; }
+
+    &.vertical {
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-top: 2px;
+      padding-bottom: 2px;
+      &:ltr { padding-right: 0px; }
+      &:rtl { padding-left: 0px; }
+    }
+  }
+
+  &Right {
+
+    &:dnd {
+      background-gradient-direction: vertical;
+      background-gradient-start: rgba(0,0,255,0.05);
+      background-gradient-end: rgba(0,0,255,0.2);
+    }
+    &:ltr { padding-left: 4px; spacing: 0px; }
+    &:rtl { padding-right: 4px; spacing: 0px; }
+
+    &.vertical {
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-top: 2px;
+      padding-bottom: 2px;
+      &:ltr { padding-left: 0px; spacing: 0px; }
+      &:rtl { padding-right: 0px; spacing: 0px; }
+    }
+  }
+
+  &Center {
+    spacing: 4px;
+
+    &.vertical {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+
+    &:dnd {
+      background-gradient-direction: vertical;
+      background-gradient-start: rgba(0,255,0,0.05);
+      background-gradient-end: rgba(0,255,0,0.2);
+    }
+  }
+
+
+  &-top, &-bottom, &-left, &-right {
     color: $selected_fg_color;
     font-size: 1em;
     padding: 0px;
   }
 
   &-top { border-image: url('common-assets/panel/panel-top.svg') 1 1 1 1; }
-  &-bottom { border-image: url('common-assets/panel/panel-bottom.svg') 1 1 1 1; }
+  &-bottom, &-left, &-right { border-image: url('common-assets/panel/panel-bottom.svg') 1 1 1 1; }
 
   &-dummy {
     background-color: transparentize($error_color, 0.5);
@@ -1235,6 +1308,14 @@ StScrollBar {
     spacing: 6px;
     padding-left: 10px;
     padding-top: 1px;
+
+    &.vertical {
+      spacing: 0px;
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
   }
 
   &-item-label {
@@ -1250,6 +1331,15 @@ StScrollBar {
     padding-right: 8px;
     transition-duration: 100;
     color: transparentize($selected_fg_color, 0.4);
+
+    &.right {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+    &.left {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
 
     &:hover {color: $selected_fg_color;}
 
@@ -1454,6 +1544,13 @@ StScrollBar {
 //
 #panel-launchers-box {
   padding-left: 7px;
+
+  &.vertical {
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left:0px;
+	padding-right: 0px;
+  }
 }
 
 .panel-launcher {
@@ -1493,6 +1590,13 @@ StScrollBar {
     color: transparentize($selected_fg_color, 0.4);
     text-shadow: none;
     transition-duration: 100;
+
+    &.vertical {
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+    }
 
     &:hover {
       color: $selected_fg_color;
