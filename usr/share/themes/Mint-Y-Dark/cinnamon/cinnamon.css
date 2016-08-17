@@ -1020,6 +1020,8 @@ StScrollBar {
     padding-right: 0px;
     padding-top: 10px;
     padding-bottom: 10px; }
+  .window-list-box:highlight {
+    background-color: rgba(252, 65, 56, 0.5); }
 .window-list-item-label {
   font-weight: bold;
   width: 15em;
@@ -1235,6 +1237,10 @@ StScrollBar {
   .applet-box:hover {
     color: #ffffff;
     background-color: #8fa876; }
+  .applet-box:highlight {
+    background-image: none;
+    border-image: none;
+    background-color: rgba(252, 65, 56, 0.5); }
 .applet-label {
   font-weight: bold;
   color: rgba(255, 255, 255, 0.6); }
@@ -1263,6 +1269,8 @@ StScrollBar {
 
 .desklet {
   color: #D3D3D3; }
+  .desklet:highlight {
+    background-color: rgba(252, 65, 56, 0.5); }
   .desklet-with-borders {
     border: 1px solid #202020;
     border-radius: 5px;
@@ -1270,6 +1278,8 @@ StScrollBar {
     color: #D3D3D3;
     padding: 12px;
     padding-bottom: 16px; }
+    .desklet-with-borders:highlight {
+      background-color: rgba(252, 65, 56, 0.5); }
   .desklet-with-borders-and-header {
     border: 1px solid #202020;
     border-top-width: 0;
@@ -1281,6 +1291,8 @@ StScrollBar {
     border-radius-topright: 0;
     padding: 12px;
     padding-bottom: 17px; }
+    .desklet-with-borders-and-header:highlight {
+      background-color: rgba(252, 65, 56, 0.5); }
   .desklet-header {
     border: 1px solid #202020;
     border-radius: 5px 5px 0 0;
@@ -1296,10 +1308,12 @@ StScrollBar {
 .photoframe-box {
   border: 1px solid #202020;
   border-radius: 5px;
-  background-color: #2f2f2f;
+  background-color: transparentize #2f2f2f, 0.9;
   color: #D3D3D3;
   padding: 12px;
   padding-bottom: 16px; }
+  .photoframe-box:highlight {
+    background-color: rgba(252, 65, 56, 0.5); }
 
 /*FIXME*/
 .workspace-osd {
