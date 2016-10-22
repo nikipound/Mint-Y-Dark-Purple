@@ -1161,7 +1161,9 @@ StScrollBar {
     padding: 10px;
     border: 1px solid rgba(0,0,0,0);
 
-    &:hover { @extend %button:hover; }
+    &:hover {
+      background-color: if($variant =='light', darken($bg_color, 2%), lighten($button_bg, 5%));
+    }
   }
 
   &-places {
