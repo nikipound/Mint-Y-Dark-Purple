@@ -363,10 +363,7 @@ StScrollBar {
     &:ltr { padding-right: 4px; }
     &:rtl { padding-left: 4px; }
     &.vertical {
-      padding-left: 0px;
-      padding-right: 0px;
-      padding-top: 2px;
-      padding-bottom: 2px;
+      padding: 0px;
       &:ltr { padding-right: 0px; }
       &:rtl { padding-left: 0px; }
     }
@@ -382,10 +379,7 @@ StScrollBar {
     &:ltr { padding-left: 4px; spacing: 0px; }
     &:rtl { padding-right: 4px; spacing: 0px; }
     &.vertical {
-      padding-left: 0px;
-      padding-right: 0px;
-      padding-top: 2px;
-      padding-bottom: 2px;
+      padding: 0px;
       &:ltr { padding-right: 0px; }
       &:rtl { padding-left: 0px; }
     }
@@ -421,10 +415,7 @@ StScrollBar {
     &:rtl { padding-left: 4px; }
 
     &.vertical {
-      padding-left: 0px;
-      padding-right: 0px;
-      padding-top: 2px;
-      padding-bottom: 2px;
+      padding: 0px;
       &:ltr { padding-right: 0px; }
       &:rtl { padding-left: 0px; }
     }
@@ -441,10 +432,7 @@ StScrollBar {
     &:rtl { padding-right: 4px; spacing: 0px; }
 
     &.vertical {
-      padding-left: 0px;
-      padding-right: 0px;
-      padding-top: 2px;
-      padding-bottom: 2px;
+      padding: 0px;
       &:ltr { padding-left: 0px; spacing: 0px; }
       &:rtl { padding-right: 0px; spacing: 0px; }
     }

@@ -294,10 +294,7 @@ StScrollBar {
     #panelLeft:rtl {
       padding-left: 4px; }
     #panelLeft.vertical {
-      padding-left: 0px;
-      padding-right: 0px;
-      padding-top: 2px;
-      padding-bottom: 2px; }
+      padding: 0px; }
       #panelLeft.vertical:ltr {
         padding-right: 0px; }
       #panelLeft.vertical:rtl {
@@ -313,10 +310,7 @@ StScrollBar {
     padding-right: 4px;
     spacing: 0px; }
   #panelRight.vertical {
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-top: 2px;
-    padding-bottom: 2px; }
+    padding: 0px; }
     #panelRight.vertical:ltr {
       padding-right: 0px; }
     #panelRight.vertical:rtl {
@@ -342,10 +336,7 @@ StScrollBar {
   .panelLeft:rtl {
     padding-left: 4px; }
   .panelLeft.vertical {
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-top: 2px;
-    padding-bottom: 2px; }
+    padding: 0px; }
     .panelLeft.vertical:ltr {
       padding-right: 0px; }
     .panelLeft.vertical:rtl {
@@ -361,10 +352,7 @@ StScrollBar {
   padding-right: 4px;
   spacing: 0px; }
 .panelRight.vertical {
-  padding-left: 0px;
-  padding-right: 0px;
-  padding-top: 2px;
-  padding-bottom: 2px; }
+  padding: 0px; }
   .panelRight.vertical:ltr {
     padding-left: 0px;
     spacing: 0px; }
