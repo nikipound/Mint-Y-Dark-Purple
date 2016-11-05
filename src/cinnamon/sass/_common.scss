@@ -526,25 +526,25 @@ StScrollBar {
   &-top, &-bottom, &-left, &-right {
     color: $selected_fg_color;
     border: none;
-    background-color: transparentize($bg_color, 0.01);
+    background-color: transparentize($panel_bg, 0.01);
     font-size: 1em;
     padding: 0px;
   }
 
   &-top {
-    box-shadow: 0 1px $borders_color;
+    box-shadow: 0 1px darken($panel_bg, 6%);
   }
 
   &-bottom {
-    box-shadow: 0 -1px $borders_color;
+    box-shadow: 0 -1px darken($panel_bg, 6%);
   }
 
   &-left {
-    box-shadow: 1px 0 $borders_color;
+    box-shadow: 1px 0 darken($panel_bg, 6%);
   }
 
   &-right {
-    box-shadow: -1px 0 $borders_color;
+    box-shadow: -1px 0 darken($panel_bg, 6%);
   }
 
   &-dummy {
@@ -1599,7 +1599,7 @@ StScrollBar {
   background-color: transparentize(black, 0.8);
   width: 20px;
   height: 14px;
-  color: lighten($insensitive_fg_color, 10%);
+  color: transparentize($selected_fg_color, 0.55);
   padding: 3px;
   padding-top: 4px;
   transition-duration: 200;
@@ -1616,10 +1616,16 @@ StScrollBar {
     background-color: $selected_bg_color;
     color: $selected_fg_color;
 
-    &:hover { background-color: transparentize($selected_bg_color, 0.3); }
+    &:hover {
+      background-color: transparentize($selected_bg_color, 0.3);
+      color: $selected_fg_color;
+    }
   }
 
-  &:hover { background-color: transparentize($fg_color, 0.8); }
+  &:hover {
+    background-color: transparentize($fg_color, 0.8);
+    color: $selected_fg_color;
+  }
 }
 
 /* Controls the style when using the "Visual representation" option */

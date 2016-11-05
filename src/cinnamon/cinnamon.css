@@ -423,17 +423,17 @@ StScrollBar {
 .panel-top, .panel-bottom, .panel-left, .panel-right {
   color: #ffffff;
   border: none;
-  background-color: rgba(240, 240, 240, 0.99);
+  background-color: rgba(47, 47, 47, 0.99);
   font-size: 1em;
   padding: 0px; }
 .panel-top {
-  box-shadow: 0 1px #d9d9d9; }
+  box-shadow: 0 1px #202020; }
 .panel-bottom {
-  box-shadow: 0 -1px #d9d9d9; }
+  box-shadow: 0 -1px #202020; }
 .panel-left {
-  box-shadow: 1px 0 #d9d9d9; }
+  box-shadow: 1px 0 #202020; }
 .panel-right {
-  box-shadow: -1px 0 #d9d9d9; }
+  box-shadow: -1px 0 #202020; }
 .panel-dummy {
   background-color: rgba(252, 65, 56, 0.5); }
   .panel-dummy:entered {
@@ -1226,7 +1226,7 @@ StScrollBar {
   background-color: rgba(0, 0, 0, 0.2);
   width: 20px;
   height: 14px;
-  color: rgba(100, 100, 100, 0.55);
+  color: rgba(255, 255, 255, 0.45);
   padding: 3px;
   padding-top: 4px;
   transition-duration: 200; }
@@ -1240,9 +1240,11 @@ StScrollBar {
     background-color: #9ab87c;
     color: #ffffff; }
     .workspace-button:outlined:hover {
-      background-color: rgba(154, 184, 124, 0.7); }
+      background-color: rgba(154, 184, 124, 0.7);
+      color: #ffffff; }
   .workspace-button:hover {
-    background-color: rgba(74, 74, 74, 0.2); }
+    background-color: rgba(74, 74, 74, 0.2);
+    color: #ffffff; }
 
 /* Controls the style when using the "Visual representation" option */
 .workspace-graph {
@@ -1257,15 +1259,15 @@ StScrollBar {
   border: 1px solid #9ab87c; }
 
 .workspace-graph .workspace .windows {
-  -active-window-background: rgba(79, 79, 79, 0.95);
+  -active-window-background: #555555;
   -active-window-border: rgba(0, 0, 0, 0.8);
-  -inactive-window-background: rgba(79, 79, 79, 0.95);
+  -inactive-window-background: #555555;
   -inactive-window-border: rgba(0, 0, 0, 0.8); }
 
 .workspace-graph .workspace:active .windows {
-  -active-window-background: rgba(105, 105, 105, 0.95);
+  -active-window-background: #6f6f6f;
   -active-window-border: rgba(0, 0, 0, 0.8);
-  -inactive-window-background: rgba(54, 54, 54, 0.95);
+  -inactive-window-background: #3c3c3c;
   -inactive-window-border: rgba(0, 0, 0, 0.8); }
 
 .panel-launchers {
