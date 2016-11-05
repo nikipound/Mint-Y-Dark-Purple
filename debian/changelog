@@ -1,3 +1,18 @@
+mint-y-theme (1.1.0) serena; urgency=medium
+
+  [ brownsr ]
+  * [3.2] vertical panels
+
+  [ JosephMcc ]
+  * cinnamon: Add theming for the new highlight effect provided by cinnamon-settings which indicates the xlet the settings are currently being applied to
+  * cinnamon: Tweak the theming for vertical panel launchers so they do move around when hovered
+  * cinnamon: Highlight hovered item in the cinnamon menu favorites box
+
+  [ brownsr ]
+  * remove unreactive strip at top/bottom in vertical panels fixes cinnamon #5748
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sat, 05 Nov 2016 15:43:49 +0000
+
 mint-y-theme (1.0.9) sarah; urgency=medium
 
   [ JosephMcc ]
