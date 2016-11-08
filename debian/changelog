@@ -1,3 +1,13 @@
+mint-y-theme (1.1.1) serena; urgency=medium
+
+  [ JosephMcc ]
+  * cinnamon: Update for Cinnamon 3.2 changes
+  * cinnamon: Fix the panel colors in the light version of the theme
+  * cinnamon: Fix the color of hovered window list items in the light theme
+  * cinnamon: Fix text color in notifications in the light theme
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 08 Nov 2016 13:08:03 +0000
+
 mint-y-theme (1.1.0) serena; urgency=medium
 
   [ brownsr ]
