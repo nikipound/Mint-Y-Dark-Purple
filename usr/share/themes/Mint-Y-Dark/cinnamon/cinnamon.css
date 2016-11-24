@@ -1316,7 +1316,7 @@ StScrollBar {
     padding-bottom: 3px; }
     .applet-box.vertical StLabel {
       padding-top: 0; }
-  .applet-box:hover {
+  .applet-box:hover, .applet-box:checked {
     color: #ffffff;
     background-color: #8fa876; }
   .applet-box:highlight {
@@ -1326,13 +1326,13 @@ StScrollBar {
 .applet-label {
   font-weight: bold;
   color: rgba(255, 255, 255, 0.6); }
-  .applet-label:hover, .applet-box:hover > .applet-label {
+  .applet-label:hover, .applet-label:checked, .applet-box:hover > .applet-label, .applet-box:checked > .applet-label {
     color: #ffffff;
     text-shadow: none; }
 .applet-icon {
   color: #ffffff;
   icon-size: 22px; }
-  .applet-icon:hover, .applet-box:hover > .applet-icon {
+  .applet-icon:hover, .applet-icon:checked, .applet-box:hover > .applet-icon, .applet-box:checked > .applet-icon {
     color: #ffffff;
     text-shadow: none; }
 
