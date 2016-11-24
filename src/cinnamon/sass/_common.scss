@@ -751,7 +751,7 @@ StScrollBar {
 
 
 //
-// Calendar 
+// Calendar
 //
 .calendar {
   padding: .4em 1.75em;
@@ -1592,6 +1592,11 @@ StScrollBar {
 .workspace-switcher {
   padding-left: 3px;
   padding-right: 3px;
+
+  .panel-left &,
+  .panel-right & {
+    padding: 0;
+  }
 }
 
 .workspace-button {
@@ -1631,7 +1636,7 @@ StScrollBar {
 /* Controls the style when using the "Visual representation" option */
 .workspace-graph {
   padding: 3px;
-  spacing: 3px;
+  spacing: 6px;
 }
 
 .workspace-graph .workspace {
@@ -1778,7 +1783,7 @@ StScrollBar {
 }
 
 //
-// Desklets (desklet.js) 
+// Desklets (desklet.js)
 //
 .desklet {
   color: $fg_color;
@@ -1827,7 +1832,7 @@ StScrollBar {
     padding-bottom: 6px;
   }
 
-  &-drag-placeholder { 
+  &-drag-placeholder {
     border: 2px solid $selected_bg_color;
     background-color: transparentize($selected_bg_color, 0.7);
   }

@@ -1220,6 +1220,8 @@ StScrollBar {
 .workspace-switcher {
   padding-left: 3px;
   padding-right: 3px; }
+  .panel-left .workspace-switcher, .panel-right .workspace-switcher {
+    padding: 0; }
 
 .workspace-button {
   border: 1px solid rgba(0, 0, 0, 0.4);
@@ -1249,7 +1251,7 @@ StScrollBar {
 /* Controls the style when using the "Visual representation" option */
 .workspace-graph {
   padding: 3px;
-  spacing: 3px; }
+  spacing: 6px; }
 
 .workspace-graph .workspace {
   border: 1px solid rgba(0, 0, 0, 0.4);
