@@ -168,11 +168,11 @@ GtkTextView {
     background-image: linear-gradient(to bottom, #ab6239); }
     .entry.warning:focus {
       color: #ffffff;
-      background-image: linear-gradient(to bottom, #F27835);
+      background-image: linear-gradient(to bottom, #f27835);
       box-shadow: none; }
     .entry.warning:selected, .entry.warning:selected:focus {
       background-color: #ffffff;
-      color: #F27835; }
+      color: #f27835; }
   .entry.error {
     color: #ffffff;
     border-color: #292929;
@@ -1009,10 +1009,10 @@ GtkComboBox {
     background-image: linear-gradient(to bottom, #a45b33); }
     .primary-toolbar .entry.warning:focus, .header-bar .entry.warning:focus {
       color: #ffffff;
-      background-image: linear-gradient(to bottom, #F27835); }
+      background-image: linear-gradient(to bottom, #f27835); }
     .primary-toolbar .entry.warning:selected, .header-bar .entry.warning:selected, .primary-toolbar .entry.warning:selected:focus, .header-bar .entry.warning:selected:focus {
       background-color: #ffffff;
-      color: #F27835; }
+      color: #f27835; }
   .primary-toolbar .entry.error, .header-bar .entry.error {
     color: #ffffff;
     border-color: rgba(16, 16, 16, 0.4);
@@ -2098,8 +2098,8 @@ GtkLevelBar {
     border-color: #73d216;
     background-color: #73d216; }
   .level-bar.fill-block.level-low {
-    border-color: #F27835;
-    background-color: #F27835; }
+    border-color: #f27835;
+    background-color: #f27835; }
   .level-bar.fill-block.empty-fill-block {
     background-color: #404040;
     border-color: #404040; }
@@ -2344,14 +2344,18 @@ GtkInfoBar {
 .info,
 .question,
 .warning,
-.error,
-GtkInfoBar {
+.error {
   background-color: #8fa876;
   color: #ffffff; }
 
-.warning,
+.warning {
+  background-color: #f27835; }
+
 .error {
   background-color: #F04A50; }
+
+.question {
+  background-color: #55c1ec; }
 
 .list-row:selected .button, GtkInfoBar .button {
   color: #ffffff;
@@ -3759,7 +3763,7 @@ MarlinViewWindow .source-list.sidebar.view .scrollbar .slider, GeditFileBrowserW
 @define-color theme_unfocused_base_color #404040;
 @define-color borders #292929;
 @define-color unfocused_borders #292929;
-@define-color warning_color #F27835;
+@define-color warning_color #f27835;
 @define-color error_color #FC4138;
 @define-color success_color #73d216;
 @define-color placeholder_text_color #A8A8A8;

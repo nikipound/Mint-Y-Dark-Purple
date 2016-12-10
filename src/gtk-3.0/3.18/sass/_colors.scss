@@ -18,11 +18,12 @@ $link_visited_color: if($variant == 'light', darken($selected_bg_color,20%),
                                      lighten($selected_bg_color,10%));
 
 $selection_mode_bg: $selected_bg_color;
-$warning_color: #F27835;
+$warning_color: #f27835;
 $error_color: #FC4138;
 $success_color: #73d216;
 $destructive_color: #F04A50;
 $suggested_color: #6db442;
+$question_color: #55c1ec;
 
 //insensitive state derived colors
 $insensitive_fg_color: if($variant == 'light', transparentize($fg_color, 0.45), transparentize($fg_color, 0.45));

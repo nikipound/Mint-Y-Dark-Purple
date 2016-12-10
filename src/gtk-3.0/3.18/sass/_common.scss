@@ -91,7 +91,7 @@ $darker_asset_suffix: if($darker=='true', '-dark', $asset_suffix);
   &:selected:hover {
     @extend %selected_items;
   }
-  &.dim-label { 
+  &.dim-label {
     color: transparentize($text_color, 0.45);
 
     &:selected, &:selected:focus {
@@ -2695,17 +2695,22 @@ GtkInfoBar {
 .info,
 .question,
 .warning,
-.error,
-GtkInfoBar {
+.error {
   background-color: $selected_bg_color;
   color: $selected_fg_color;
 }
 
-.warning,
+.warning {
+  background-color: $warning_color;
+}
+
 .error {
   background-color: $destructive_color;
 }
 
+.question {
+  background-color: $question_color;
+}
 
 //
 // Buttons on selected backgrounds
