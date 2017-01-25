@@ -3144,17 +3144,18 @@ ClockBox {
   font: bold; }
 
 .xfce4-panel.panel {
-  background-color: #292929; }
+  background-color: #393939; }
   .xfce4-panel.panel .button.flat, .xfce4-panel.panel .sidebar-button.button {
     color: #C3C3C3;
     background-color: rgba(41, 41, 41, 0);
-    border-radius: 0; }
+    border-radius: 0;
+    border: none; }
     .xfce4-panel.panel .button.flat:hover, .xfce4-panel.panel .sidebar-button.button:hover {
-      border-color: rgba(0, 0, 0, 0);
+      border: none;
       background-color: #434343; }
     .xfce4-panel.panel .button.flat:active, .xfce4-panel.panel .sidebar-button.button:active, .xfce4-panel.panel .button.flat:checked, .xfce4-panel.panel .sidebar-button.button:checked {
       color: #8fa876;
-      border-color: rgba(0, 0, 0, 0);
+      border: none;
       background-color: #171717; }
 
 .floating-bar {

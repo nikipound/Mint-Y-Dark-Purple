@@ -3144,11 +3144,12 @@ ClockBox {
   font: bold; }
 
 .xfce4-panel.panel {
-  background-color: #292929; }
+  background-color: #393939; }
   .xfce4-panel.panel .button.flat, .xfce4-panel.panel .sidebar-button.button {
     color: #C3C3C3;
     background-color: rgba(41, 41, 41, 0);
-    border-radius: 0; }
+    border-radius: 0;
+    border: none; }
     .xfce4-panel.panel .button.flat:hover, .xfce4-panel.panel .sidebar-button.button:hover {
       border: none;
       background-color: #434343; }

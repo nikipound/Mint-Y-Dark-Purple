@@ -614,12 +614,13 @@ ClockBox {
 
 // Xfce Panel
 .xfce4-panel.panel {
-  background-color: $panel_bg;
+  background-color: #393939;
 
   .button.flat {
     color: $panel_fg;
     background-color: transparentize($panel_bg, 1);
     border-radius: 0;
+    border: none;
 
     &:hover {
       border: none;
