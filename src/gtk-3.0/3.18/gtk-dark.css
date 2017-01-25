@@ -3150,11 +3150,11 @@ ClockBox {
     background-color: rgba(41, 41, 41, 0);
     border-radius: 0; }
     .xfce4-panel.panel .button.flat:hover, .xfce4-panel.panel .sidebar-button.button:hover {
-      border: none;
+      border-color: rgba(0, 0, 0, 0);
       background-color: #434343; }
     .xfce4-panel.panel .button.flat:active, .xfce4-panel.panel .sidebar-button.button:active, .xfce4-panel.panel .button.flat:checked, .xfce4-panel.panel .sidebar-button.button:checked {
       color: #8fa876;
-      border: none;
+      border-color: rgba(0, 0, 0, 0);
       background-color: #171717; }
 
 .floating-bar {
