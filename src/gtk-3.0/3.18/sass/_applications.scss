@@ -177,12 +177,12 @@ NemoWindow {
     & .frame { border-width: 0; }
     & .cell { padding: 0 2px; }
     & .scrollbar.vertical .trough { background-color: transparent; }
-    & .scrollbar.vertical .slider { 
+    & .scrollbar.vertical .slider {
       background-color: mix($fg_color, $bg_color, 40%);
 
-      &:hover { background-color: mix($fg_color, $bg_color, 20%); } 
+      &:hover { background-color: mix($fg_color, $bg_color, 20%); }
     }
-    
+
   }
 
   GtkSeparator.separator.horizontal { color: $borders_color; }
@@ -826,4 +826,23 @@ SwitchboardCategoryView .view:selected:focus {
 .cs-header {
   padding: 6px;
   background-color: if($variant == 'light', darken($bg_color, 1%), darken($bg_color, 1%));
+}
+
+//
+// Xapps
+//
+.xed-window {
+
+  .xed-panel {
+    &.side .notebook tab.top { padding: 8px 12px; }
+    &.bottom .notebook.frame { border: none; }
+  }
+
+  .xed-statusbar,
+  .xed-searchbar {
+    border: 0px solid $borders_color;
+    border-top-width: 1px;
+  }
+
+  .xed-goto-line-box { @extend %search_slider }
 }

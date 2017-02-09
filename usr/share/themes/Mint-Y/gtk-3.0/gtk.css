@@ -2906,7 +2906,7 @@ GeditFileBrowserWidget .toolbar, GeditFileBrowserWidget .inline-toolbar {
   margin: 2px;
   padding: 2px; }
 
-GeditViewFrame .gedit-search-slider {
+GeditViewFrame .gedit-search-slider, .xed-window .xed-goto-line-box {
   background-color: whitesmoke;
   padding: 6px;
   border-color: #d9d9d9;
@@ -3303,6 +3303,15 @@ SwitchboardCategoryView .view:selected:focus {
 .cs-header {
   padding: 6px;
   background-color: #ededed; }
+
+.xed-window .xed-panel.side .notebook tab.top {
+  padding: 8px 12px; }
+.xed-window .xed-panel.bottom .notebook.frame {
+  border: none; }
+.xed-window .xed-statusbar,
+.xed-window .xed-searchbar {
+  border: 0px solid #d9d9d9;
+  border-top-width: 1px; }
 
 #panel_window {
   background-color: #393939;
