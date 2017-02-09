@@ -2829,6 +2829,8 @@ NemoWindow .primary-toolbar NemoPathBar.linked:not(.vertical):not(.path-bar) > .
   border-left-color: rgba(16, 16, 16, 0); }
   NemoWindow .primary-toolbar NemoPathBar.linked:not(.vertical):not(.path-bar) > .button:not(:first-child):not(:only-child):last-child {
     border-left-color: rgba(16, 16, 16, 0); }
+NemoWindow .nemo-inactive-pane .view {
+  background-color: #f2f2f2; }
 
 .gedit-headerbar-paned {
   color: #252525; }

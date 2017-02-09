@@ -213,6 +213,10 @@ NemoWindow {
       &:last-child { border-left-color: $_linked_separator_color; }
     }
   }
+
+  .nemo-inactive-pane .view {
+    background-color: darken($base_color, 5%);
+  }
 }
 
 //
