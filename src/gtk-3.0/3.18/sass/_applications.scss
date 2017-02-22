@@ -842,6 +842,8 @@ SwitchboardCategoryView .view:selected:focus {
     &.bottom .notebook.frame { border: none; }
   }
 
+  XedFileBrowserWidget .small-button { padding: 2px 4px; }
+
   .xed-statusbar,
   .xed-searchbar {
     border: 0px solid $borders_color;

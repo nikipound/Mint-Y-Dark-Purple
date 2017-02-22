@@ -3303,6 +3303,8 @@ SwitchboardCategoryView .view:selected:focus {
   padding: 8px 12px; }
 .xed-window .xed-panel.bottom .notebook.frame {
   border: none; }
+.xed-window XedFileBrowserWidget .small-button {
+  padding: 2px 4px; }
 .xed-window .xed-statusbar,
 .xed-window .xed-searchbar {
   border: 0px solid #292929;
