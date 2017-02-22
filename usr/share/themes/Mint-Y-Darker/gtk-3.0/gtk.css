@@ -87,7 +87,8 @@ GtkAssistant .sidebar .label.highlight {
   color: #ffffff; }
 
 GtkTextView {
-  background-color: #f8f8f8; }
+  background-color: #f8f8f8;
+  color: #4a4a4a; }
 
 .grid-child {
   padding: 3px;
