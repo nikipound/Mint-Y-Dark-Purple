@@ -3031,14 +3031,14 @@ GbViewStack.focused GtkBox.header.notebook {
 EphyWindow .floating-bar {
   color: #4a4a4a; }
 
-.xreader-window .primary-toolbar .toolbar .button.the-button-in-the-combobox, .xreader-window .primary-toolbar .inline-toolbar .button.the-button-in-the-combobox {
+.xreader-window .primary-toolbar .button.the-button-in-the-combobox {
   color: rgba(81, 67, 67, 0.9);
   outline-color: rgba(81, 67, 67, 0.2);
   border-color: rgba(81, 67, 67, 0.2);
   background-color: rgba(245, 245, 245, 0.9); }
-  .xreader-window .primary-toolbar .toolbar .button.the-button-in-the-combobox:hover, .xreader-window .primary-toolbar .inline-toolbar .button.the-button-in-the-combobox:hover {
+  .xreader-window .primary-toolbar .button.the-button-in-the-combobox:hover {
     background-color: rgba(255, 255, 255, 0.9); }
-  .xreader-window .primary-toolbar .toolbar .button.the-button-in-the-combobox:insensitive, .xreader-window .primary-toolbar .inline-toolbar .button.the-button-in-the-combobox:insensitive {
+  .xreader-window .primary-toolbar .button.the-button-in-the-combobox:insensitive {
     color: rgba(81, 67, 67, 0.5); }
 
 .documents-load-more.button {

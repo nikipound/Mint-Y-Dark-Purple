@@ -3024,14 +3024,14 @@ GbViewStack.focused GtkBox.header.notebook {
 EphyWindow .floating-bar {
   color: #DADADA; }
 
-.xreader-window .primary-toolbar .toolbar .button.the-button-in-the-combobox, .xreader-window .primary-toolbar .inline-toolbar .button.the-button-in-the-combobox {
+.xreader-window .primary-toolbar .button.the-button-in-the-combobox {
   color: #ded6d6;
   outline-color: rgba(222, 214, 214, 0.3);
   border-color: rgba(16, 16, 16, 0.4);
   background-color: rgba(103, 103, 103, 0.4); }
-  .xreader-window .primary-toolbar .toolbar .button.the-button-in-the-combobox:hover, .xreader-window .primary-toolbar .inline-toolbar .button.the-button-in-the-combobox:hover {
+  .xreader-window .primary-toolbar .button.the-button-in-the-combobox:hover {
     background-color: rgba(141, 141, 141, 0.4); }
-  .xreader-window .primary-toolbar .toolbar .button.the-button-in-the-combobox:insensitive, .xreader-window .primary-toolbar .inline-toolbar .button.the-button-in-the-combobox:insensitive {
+  .xreader-window .primary-toolbar .button.the-button-in-the-combobox:insensitive {
     color: rgba(222, 214, 214, 0.6); }
 
 .documents-load-more.button {

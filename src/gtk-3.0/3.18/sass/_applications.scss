@@ -462,7 +462,7 @@ EphyWindow .floating-bar { // Epiphany overrides the floating-bar style, so rese
   color: $fg_color;
 }
 
-.xreader-window .primary-toolbar .toolbar .button.the-button-in-the-combobox {
+.xreader-window .primary-toolbar .button.the-button-in-the-combobox {
 	@include button(header-hover);
 
 	&:hover { background-color: lighten($header_button_bg, 15%); }
