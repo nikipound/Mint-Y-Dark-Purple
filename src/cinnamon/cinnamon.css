@@ -455,6 +455,10 @@ StScrollBar {
 .system-status-icon {
   icon-size: 16px;
   padding: 0 1px; }
+  .system-status-icon.warning {
+    color: #F27835; }
+  .system-status-icon.error {
+    color: #FC4138; }
 
 #overview {
   spacing: 12px; }
@@ -1304,6 +1308,7 @@ StScrollBar {
 .applet-box {
   padding-left: 3px;
   padding-right: 3px;
+  spacing: 4px;
   color: rgba(255, 255, 255, 0.6);
   text-shadow: none;
   transition-duration: 100; }
