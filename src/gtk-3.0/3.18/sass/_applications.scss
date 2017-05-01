@@ -548,72 +548,43 @@ SynapseGuiViewVirgilio *:selected { background-color: $selected_bg_color; }
 }
 
 //
-// Fallback Mode/Budgie Panel
+// Fallback Mode/Budgie Panel/Mate Panel
 //
 .gnome-panel-menu-bar,
-PanelApplet > GtkMenuBar.menubar,
-PanelToplevel,
-PanelWidget,
-PanelAppletFrame,
-PanelApplet {
+.mate-panel-menu-bar {
   color: $panel_fg;
-  background-image: linear-gradient(to bottom, $panel_bg);
-}
+  background-color: $panel_bg;
 
-.gnome-panel-menu-bar.menubar {
-  color: $panel_fg;
-  font: bold;
-}
+  &, .menubar { background-color: $panel_bg; }
 
-.gnome-panel-menu-bar.menubar .menu { font: regular; }
+  & GtkMenu .label {
+    color: $fg_color;
 
-PanelApplet .button, PanelApplet .button:backdrop {
-  padding: 4px;
-  border: 2px solid transparent;
-  border-radius: 0;
-  background-image: none;
-  background-color: transparent;
-  color: $panel_fg;
-}
+    &:insensitive { color: $insensitive_fg_color; }
+  }
 
-PanelApplet .button:hover {
-  color: lighten($panel_fg, 10%);
-  background-color: transparentize(black, 0.83);
-  border-color: transparentize(black, 0.83);
-}
+  .button:not(#tasklist-button) { @extend %panelbutton; }
 
-PanelApplet .button:active, PanelApplet .button:active:backdrop,
-PanelApplet .button:checked, PanelApplet .button:checked:backdrop {
-  background-clip: padding-box;
-  color: $selected_fg_color;
-  background-color: transparentize(black, 0.75);
-  border-radius: 0;
-  border-color: transparentize(black, 0.75);
-  box-shadow: inset 0 -2px $selected_bg_color;
-}
+  #tasklist-button {
+    color: $panel_fg;
+    background-color: $panel_bg;
+    border-radius: 0;
+    border: none;
 
-PanelApplet:hover {
-  color: $selected_fg_color;
-}
+    &:hover { background-color: lighten($panel_bg, 5%); }
 
-PanelApplet:active,
-PanelApplet:hover:active {
-  color: $selected_bg_color;
-}
+    &:checked,
+    &:active {
+      color: $selected_fg_color;
+      background-color: $selected_bg_color;
+    }
+  }
 
-WnckPager {
-  color: mix($panel_fg, black, 50%);
-  &:selected { color: $selected_bg_color }
-}
+  PanelSeparator { color: darken($panel_bg, 20%); }
 
-NaTrayApplet {
-  -NaTrayApplet-icon-padding: 12;
-  -NaTrayApplet-icon-size: 16;
-}
-
-ClockBox {
-  color: $panel_fg;
-  font: bold;
+  NaTrayApplet {
+    -NaTrayApplet-icon-padding: 2;
+  }
 }
 
 // Xfce Panel
@@ -635,6 +606,23 @@ ClockBox {
       border: none;
       background-color: darken($panel_bg, 7%);
     }
+  }
+}
+
+%panelbutton {
+  color: $panel_fg;
+  border-radius: 0;
+  border: none;
+  background-color: transparentize($panel_bg, 1);
+
+  &:hover {
+    border: none;
+    background-color: lighten($panel_bg, 10%);
+  }
+  &:active, &:checked {
+    color: $selected_fg_color;
+    border: none;
+    background-color: $selected_bg_color;
   }
 }
 

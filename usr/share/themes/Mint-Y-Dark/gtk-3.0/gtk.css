@@ -3089,67 +3089,44 @@ SynapseGuiViewVirgilio *:selected {
   border-color: transparent; }
 
 .gnome-panel-menu-bar,
-PanelApplet > GtkMenuBar.menubar,
-PanelToplevel,
-PanelWidget,
-PanelAppletFrame,
-PanelApplet {
-  color: #C3C3C3;
-  background-image: linear-gradient(to bottom, #292929); }
-
-.gnome-panel-menu-bar.menubar {
-  color: #C3C3C3;
-  font: bold; }
-
-.gnome-panel-menu-bar.menubar .menu {
-  font: regular; }
-
-PanelApplet .button, PanelApplet .button:backdrop {
-  padding: 4px;
-  border: 2px solid transparent;
-  border-radius: 0;
-  background-image: none;
-  background-color: transparent;
-  color: #C3C3C3; }
-
-PanelApplet .button:hover {
-  color: #dddddd;
-  background-color: rgba(0, 0, 0, 0.17);
-  border-color: rgba(0, 0, 0, 0.17); }
-
-PanelApplet .button:active, PanelApplet .button:active:backdrop,
-PanelApplet .button:checked, PanelApplet .button:checked:backdrop {
-  background-clip: padding-box;
-  color: #ffffff;
-  background-color: rgba(0, 0, 0, 0.25);
-  border-radius: 0;
-  border-color: rgba(0, 0, 0, 0.25);
-  box-shadow: inset 0 -2px #8fa876; }
-
-PanelApplet:hover {
-  color: #ffffff; }
-
-PanelApplet:active,
-PanelApplet:hover:active {
-  color: #8fa876; }
-
-WnckPager {
-  color: #626262; }
-  WnckPager:selected {
-    color: #8fa876; }
-
-NaTrayApplet {
-  -NaTrayApplet-icon-padding: 12;
-  -NaTrayApplet-icon-size: 16; }
-
-ClockBox {
-  color: #C3C3C3;
-  font: bold; }
+.mate-panel-menu-bar {
+  color: #DADADA;
+  background-color: #292929; }
+  .gnome-panel-menu-bar, .gnome-panel-menu-bar .menubar,
+  .mate-panel-menu-bar,
+  .mate-panel-menu-bar .menubar {
+    background-color: #292929; }
+  .gnome-panel-menu-bar GtkMenu .label,
+  .mate-panel-menu-bar GtkMenu .label {
+    color: #DADADA; }
+    .gnome-panel-menu-bar GtkMenu .label:insensitive,
+    .mate-panel-menu-bar GtkMenu .label:insensitive {
+      color: rgba(218, 218, 218, 0.55); }
+  .gnome-panel-menu-bar #tasklist-button,
+  .mate-panel-menu-bar #tasklist-button {
+    color: #DADADA;
+    background-color: #292929;
+    border-radius: 0;
+    border: none; }
+    .gnome-panel-menu-bar #tasklist-button:hover,
+    .mate-panel-menu-bar #tasklist-button:hover {
+      background-color: #363636; }
+    .gnome-panel-menu-bar #tasklist-button:checked, .gnome-panel-menu-bar #tasklist-button:active,
+    .mate-panel-menu-bar #tasklist-button:checked,
+    .mate-panel-menu-bar #tasklist-button:active {
+      color: #ffffff;
+      background-color: #8fa876; }
+  .gnome-panel-menu-bar PanelSeparator,
+  .mate-panel-menu-bar PanelSeparator {
+    color: black; }
+  .gnome-panel-menu-bar NaTrayApplet,
+  .mate-panel-menu-bar NaTrayApplet {
+    -NaTrayApplet-icon-padding: 2; }
 
 .xfce4-panel.panel {
   background-color: #393939; }
   .xfce4-panel.panel .button.flat, .xfce4-panel.panel .sidebar-button.button {
-    color: #C3C3C3;
+    color: #DADADA;
     background-color: rgba(41, 41, 41, 0);
     border-radius: 0;
     border: none; }
@@ -3160,6 +3137,23 @@ ClockBox {
       color: #8fa876;
       border: none;
       background-color: #171717; }
+
+.gnome-panel-menu-bar .button:not(#tasklist-button),
+.mate-panel-menu-bar .button:not(#tasklist-button) {
+  color: #DADADA;
+  border-radius: 0;
+  border: none;
+  background-color: rgba(41, 41, 41, 0); }
+  .gnome-panel-menu-bar .button:hover:not(#tasklist-button),
+  .mate-panel-menu-bar .button:hover:not(#tasklist-button) {
+    border: none;
+    background-color: #434343; }
+  .gnome-panel-menu-bar .button:active:not(#tasklist-button),
+  .mate-panel-menu-bar .button:active:not(#tasklist-button), .gnome-panel-menu-bar .button:checked:not(#tasklist-button),
+  .mate-panel-menu-bar .button:checked:not(#tasklist-button) {
+    color: #ffffff;
+    border: none;
+    background-color: #8fa876; }
 
 .floating-bar {
   background-color: #8fa876;
@@ -3313,16 +3307,16 @@ SwitchboardCategoryView .view:selected:focus {
 
 #panel_window {
   background-color: #292929;
-  color: #C3C3C3;
+  color: #DADADA;
   font: bold;
   box-shadow: inset 0 -1px #171717; }
   #panel_window .menubar,
   #panel_window .menubar > .menuitem {
     background-color: transparent;
-    color: #C3C3C3;
+    color: #DADADA;
     font: bold; }
   #panel_window .menubar .menuitem:insensitive {
-    color: rgba(195, 195, 195, 0.5); }
+    color: rgba(218, 218, 218, 0.5); }
     #panel_window .menubar .menuitem:insensitive GtkLabel {
       color: inherit; }
   #panel_window .menubar .menu .menuitem {
