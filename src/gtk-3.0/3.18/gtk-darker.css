@@ -3094,14 +3094,16 @@ SynapseGuiViewVirgilio *:selected {
 .gnome-panel-menu-bar,
 .mate-panel-menu-bar {
   color: #DADADA;
-  background-color: #393939; }
+  background-color: #393939;
+  font: bold; }
   .gnome-panel-menu-bar, .gnome-panel-menu-bar .menubar,
   .mate-panel-menu-bar,
   .mate-panel-menu-bar .menubar {
     background-color: #393939; }
   .gnome-panel-menu-bar GtkMenu .label,
   .mate-panel-menu-bar GtkMenu .label {
-    color: #4a4a4a; }
+    color: #4a4a4a;
+    font: regular; }
     .gnome-panel-menu-bar GtkMenu .label:insensitive,
     .mate-panel-menu-bar GtkMenu .label:insensitive {
       color: rgba(74, 74, 74, 0.55); }
@@ -3110,7 +3112,8 @@ SynapseGuiViewVirgilio *:selected {
     color: #DADADA;
     background-color: #393939;
     border-radius: 0;
-    border: none; }
+    border: none;
+    font: bold; }
     .gnome-panel-menu-bar #tasklist-button:hover,
     .mate-panel-menu-bar #tasklist-button:hover {
       background-color: #464646; }
