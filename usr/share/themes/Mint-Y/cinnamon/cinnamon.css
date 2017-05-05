@@ -954,7 +954,6 @@ StScrollBar {
   -boxpointer-gap: 5px; }
 
 .menu-favorites-box {
-  margin: auto;
   padding: 10px;
   transition-duration: 300;
   background-color: #ffffff;
@@ -965,7 +964,6 @@ StScrollBar {
   .menu-favorites-button:hover {
     background-color: #ebebeb; }
 .menu-places-box {
-  margin: auto;
   padding: 10px;
   border: 0px solid red; }
 .menu-places-button {
