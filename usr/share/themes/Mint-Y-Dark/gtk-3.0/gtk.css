@@ -2830,6 +2830,18 @@ NemoWindow .primary-toolbar NemoPathBar.linked:not(.vertical):not(.path-bar) > .
 NemoWindow .nemo-inactive-pane .view {
   background-color: #333333; }
 
+CajaWindow EelEditableLabel.entry {
+  transition: none; }
+CajaWindow FMTreeView .view,
+CajaWindow CajaNotesViewer .view,
+CajaWindow CajaPlacesSidebar .view,
+CajaWindow CajaHistorySidebar .view,
+CajaWindow CajaInformationPanel GtkBox,
+CajaWindow CajaEmblemSidebar GtkViewport {
+  background-color: #353535;
+  color: #C3C3C3;
+  border-width: 0px; }
+
 .gedit-headerbar-paned {
   color: #252525; }
 

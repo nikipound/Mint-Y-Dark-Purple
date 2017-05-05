@@ -220,6 +220,25 @@ NemoWindow {
 }
 
 //
+// Caja
+//
+CajaWindow {
+
+  EelEditableLabel.entry { transition: none; } // Workaround for invisible text in rename entry
+
+  FMTreeView .view,
+  CajaNotesViewer .view,
+  CajaPlacesSidebar .view,
+  CajaHistorySidebar .view,
+  CajaInformationPanel GtkBox,
+  CajaEmblemSidebar GtkViewport {
+    background-color: $dark_sidebar_bg;
+    color: $dark_sidebar_fg;
+    border-width: 0px;
+  }
+}
+
+//
 // Gedit
 //
 .gedit-headerbar-paned { color: $header_border; }
