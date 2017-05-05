@@ -602,11 +602,21 @@ SynapseGuiViewVirgilio *:selected { background-color: $selected_bg_color; }
     }
   }
 
-  PanelSeparator { color: darken($panel_bg, 20%); }
+  PanelSeparator {
+    color: transparentize(darken($panel_bg, 20%), 0.8);
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
 
   NaTrayApplet {
     -NaTrayApplet-icon-padding: 2;
   }
+}
+
+.mintmenu:hover { background-color: lighten($panel_bg, 5%); }
+.mintmenu:selected {
+  color: $selected_fg_color;
+  background-color: $selected_bg_color;
 }
 
 // Xfce Panel

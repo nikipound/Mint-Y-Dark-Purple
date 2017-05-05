@@ -3133,10 +3133,19 @@ SynapseGuiViewVirgilio *:selected {
       background-color: #8fa876; }
   .gnome-panel-menu-bar PanelSeparator,
   .mate-panel-menu-bar PanelSeparator {
-    color: black; }
+    color: rgba(0, 0, 0, 0.2);
+    padding-top: 4px;
+    padding-bottom: 4px; }
   .gnome-panel-menu-bar NaTrayApplet,
   .mate-panel-menu-bar NaTrayApplet {
     -NaTrayApplet-icon-padding: 2; }
+
+.mintmenu:hover {
+  background-color: #363636; }
+
+.mintmenu:selected {
+  color: #ffffff;
+  background-color: #8fa876; }
 
 .xfce4-panel.panel {
   background-color: #393939; }
