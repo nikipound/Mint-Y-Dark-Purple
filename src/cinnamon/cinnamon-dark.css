@@ -203,6 +203,14 @@ StScrollBar {
   font-weight: normal;
   text-align: center; }
 
+#LookingGlassDialog {
+  color: #D3D3D3;
+  border: 1px solid #202020;
+  border-radius: 3px;
+  background-color: #2f2f2f;
+  spacing: 4px;
+  padding: 8px; }
+
 .menu {
   color: #D3D3D3;
   border: 1px solid #202020;

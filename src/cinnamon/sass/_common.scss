@@ -256,6 +256,18 @@ StScrollBar {
 }
 
 //
+// Looking Glass
+//
+#LookingGlassDialog {
+    color: $fg_color;
+    border: 1px solid $borders_color;
+    border-radius: 3px;
+    background-color: $bg_color;
+    spacing: 4px;
+    padding: 8px;
+}
+
+//
 // Popvers/Menus
 //
 .menu {
