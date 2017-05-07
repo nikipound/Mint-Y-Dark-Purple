@@ -1,3 +1,26 @@
+mint-y-theme (1.1.5) sonya; urgency=medium
+
+  [ Clement Lefebvre ]
+  * Fix Xfce indicator zone
+
+  [ JosephMcc ]
+  * Gtk: Add some xed specific theming
+  * Nemo: Darken the background a bit in nemo's inactive pane
+  * gtk3: Add theming for the Xed file browser widget
+  * gtk3: Fix the color of descriptions in mintUpdate
+  * xreader: Adapt to toolbar changes in xreader
+  * cinnamon: Update for latest cinnamon changes
+  * gtk3: Update for mate panel changes
+  * metacity-2: Hardcode some color values for Mate
+  * gtk3: Use bold fonts in the mate panel
+  * cinnamon: Adapt for osdWindow changes
+  * cinnamon: Remove uses of margin: auto
+  * gtk3: Update theming for caja
+  * Make a few more tweaks for the Mate panel
+  * cinnamon: Add support the looking glass dialog
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sun, 07 May 2017 16:01:31 +0100
+
 mint-y-theme (1.1.4) serena; urgency=medium
 
   * Fix Xfce indicators jumping around when hovered
