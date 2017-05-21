@@ -29,7 +29,7 @@
 
 .background {
   color: #4a4a4a;
-  background-color: #F0F0F0; }
+  background-color: rgba(240, 240, 240, 0.999); }
 
 *:insensitive {
   -gtk-image-effect: dim; }

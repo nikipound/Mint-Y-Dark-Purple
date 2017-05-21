@@ -29,7 +29,7 @@
 
 .background {
   color: #DADADA;
-  background-color: #383838; }
+  background-color: rgba(56, 56, 56, 0.999); }
 
 *:insensitive {
   -gtk-image-effect: dim; }
