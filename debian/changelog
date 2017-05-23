@@ -1,3 +1,11 @@
+mint-y-theme (1.1.7) sonya; urgency=medium
+
+  [ JosephMcc ]
+  * metacity-3: Use rgba() values in the theme
+  * gtk3: Use an rgba value for .background
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 23 May 2017 15:18:54 +0100
+
 mint-y-theme (1.1.6) sonya; urgency=medium
 
   * 1.1.6
