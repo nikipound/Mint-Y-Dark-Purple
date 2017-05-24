@@ -108,3 +108,34 @@
   border-bottom-width: 0;
   font: bold;
 }
+
+//
+// Lightdm
+//
+
+.lightdm.menubar {
+
+  padding: 0;
+
+  & > .menuitem { padding: 0 5px 0 5px; }
+}
+
+.lightdm.button,
+.lightdm.option-button,
+.lightdm.toggle-button {
+
+  border: 1px solid transparent;
+  background-color: transparent;
+  color: #dadada;
+
+  &:hover {
+    border-color: transparentize($selected_bg_color, 0.6);
+    background-color: transparentize(black, 0.7);
+    color: #ffffff;
+  }
+}
+
+.lightdm.entry {
+  background: transparentize(black, 0.5);
+  color: white;
+}

@@ -3470,6 +3470,28 @@ SwitchboardCategoryView .view:selected:focus {
   border-bottom-width: 0;
   font: bold; }
 
+.lightdm.menubar {
+  padding: 0; }
+  .lightdm.menubar > .menuitem {
+    padding: 0 5px 0 5px; }
+
+.lightdm.button,
+.lightdm.option-button,
+.lightdm.toggle-button {
+  border: 1px solid transparent;
+  background-color: transparent;
+  color: #dadada; }
+  .lightdm.button:hover,
+  .lightdm.option-button:hover,
+  .lightdm.toggle-button:hover {
+    border-color: rgba(154, 184, 124, 0.4);
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #ffffff; }
+
+.lightdm.entry {
+  background: rgba(0, 0, 0, 0.5);
+  color: white; }
+
 .titlebar .separator, .titlebar .sidebar .view.separator, .sidebar .titlebar .view.separator {
   color: #252525; }
 
