@@ -563,20 +563,17 @@ StScrollBar {
   width: 400px; }
 
 .about-content {
-  width: 550px;
-  height: 250px;
-  spacing: 8px;
-  padding-bottom: 10px; }
+  width: 550px; }
 .about-title {
-  font-size: 2em;
+  font-size: 1.2em;
   font-weight: bold; }
 .about-uuid {
-  font-size: 10px;
+  font-size: 0.9em;
   color: #888; }
 .about-icon {
-  padding-right: 20px;
-  padding-bottom: 14px; }
+  padding-right: 12px; }
 .about-scrollBox {
+  height: 100px;
   border: 1px solid #d9d9d9;
   border-radius: 2px;
   background-color: #ffffff;
@@ -588,10 +585,9 @@ StScrollBar {
     spacing: 1.2em; }
 .about-description {
   padding-top: 4px;
-  padding-bottom: 16px; }
+  padding-bottom: 4px; }
 .about-version {
-  padding-left: 7px;
-  font-size: 10px;
+  font-size: 1.0em;
   color: #888; }
 
 .calendar {
@@ -801,11 +797,11 @@ StScrollBar {
   border-radius: 3px;
   padding: 0; }
   .modal-dialog > StBoxLayout:first-child {
-    padding: 20px 10px 10px 10px; }
+    padding: 10px; }
   .modal-dialog-button-box {
     spacing: 0;
     margin: 0px;
-    padding: 14px 10px;
+    padding: 0 10px 10px 10px;
     border: none;
     background-color: #F0F0F0; }
     .modal-dialog-button-box .modal-dialog-button {
@@ -814,7 +810,7 @@ StScrollBar {
       height: 30px; }
 
 .run-dialog {
-  padding: 0px 15px 10px 15px;
+  padding: 10px 15px 10px 15px;
   border: 1px solid #d9d9d9;
   border-radius: 3px;
   background-color: #F0F0F0; }
