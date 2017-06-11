@@ -98,9 +98,9 @@ stage {
     box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05); }
 
 StScrollView.vfade {
-  -st-vfade-offset: 0px; }
+  -st-vfade-offset: 68px; }
 StScrollView.hfade {
-  -st-hfade-offset: 0px; }
+  -st-hfade-offset: 68px; }
 
 StScrollBar {
   padding: 8px; }
