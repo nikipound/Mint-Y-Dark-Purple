@@ -1306,12 +1306,6 @@ StScrollBar {
 .applet-separator-line {
   width: 1px;
   background: rgba(255, 255, 255, 0.12); }
-.applet-spacer {
-  border-image: none; }
-.applet-spacer:highlight {
-  background-image: none;
-  border-image: none;
-  background-color: rgba(252, 65, 56, 0.5); }
 .applet-box {
   padding-left: 3px;
   padding-right: 3px;
