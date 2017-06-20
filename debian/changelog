@@ -1,3 +1,12 @@
+mint-y-theme (1.1.8) sonya; urgency=medium
+
+  [ JosephMcc ]
+  * gtk3: Add some theming for lightdm and slick-greeter
+  * Cinnamon: Add theming for the Cinnamon vfade effect
+  * cinnamon: Clean up the styling of the Cinnamon about dialog
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 20 Jun 2017 15:58:22 +0200
+
 mint-y-theme (1.1.7) sonya; urgency=medium
 
   [ JosephMcc ]
