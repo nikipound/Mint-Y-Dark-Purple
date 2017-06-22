@@ -1,10 +1,10 @@
 Credits
 =======
 
-This theme is based on the Arc theme:
-	Link: https://github.com/horst3180/arc-theme
-	Author: horst3180 http://horst3180.deviantart.com/
-	License: GPL v3
+This theme is based on the Arc theme: <br>
+&emsp;&emsp; Link: https://github.com/horst3180/arc-theme <br>
+&emsp;&emsp; Author: horst3180 http://horst3180.deviantart.com/ <br>
+&emsp;&emsp; License: GPL v3
 
 Editing
 =======
