@@ -2836,6 +2836,10 @@ NemoWindow .primary-toolbar NemoPathBar.linked:not(.vertical):not(.path-bar) > .
     border-left-color: rgba(81, 67, 67, 0); }
 NemoWindow .nemo-inactive-pane .view {
   background-color: #f2f2f2; }
+  NemoWindow .nemo-inactive-pane .view:selected {
+    background-color: #9ab87c;
+    color: #ffffff;
+    outline-color: rgba(255, 255, 255, 0.3); }
 
 CajaWindow EelEditableLabel.entry {
   transition: none; }
