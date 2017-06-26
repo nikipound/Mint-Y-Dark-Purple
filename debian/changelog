@@ -1,3 +1,14 @@
+mint-y-theme (1.1.9) sonya; urgency=medium
+
+  [ NikoKrause ]
+  * Mint-Y-Dark(er) Xfce Edition: fix close buttons (#62)
+  * Update README.md (#63)
+
+  [ JosephMcc ]
+  * gtk3: Fix the color of selected items in the nemo inactive pane
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 26 Jun 2017 09:31:59 +0200
+
 mint-y-theme (1.1.8) sonya; urgency=medium
 
   [ JosephMcc ]
