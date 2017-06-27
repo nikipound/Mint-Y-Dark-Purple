@@ -1,3 +1,11 @@
+mint-y-theme (1.2.0) sonya; urgency=medium
+
+  [ JosephMcc ]
+  * gtk3: Correct the color of the workspace switcher applet in mate panel
+  * gtk3: Don't use bold fonts on mate panel
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 27 Jun 2017 11:56:28 +0200
+
 mint-y-theme (1.1.9) sonya; urgency=medium
 
   [ NikoKrause ]
