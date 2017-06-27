@@ -3158,6 +3158,13 @@ SynapseGuiViewVirgilio *:selected {
   color: #ffffff;
   background-color: #9ab87c; }
 
+.wnck-pager {
+  background-color: #343434; }
+  .wnck-pager:selected {
+    background-color: rgba(154, 184, 124, 0.6); }
+  .wnck-pager:hover {
+    background-color: rgba(154, 184, 124, 0.2); }
+
 .xfce4-panel.panel {
   background-color: #393939; }
   .xfce4-panel.panel .button.flat, .xfce4-panel.panel .sidebar-button.button {

@@ -625,6 +625,13 @@ SynapseGuiViewVirgilio *:selected { background-color: $selected_bg_color; }
   background-color: $selected_bg_color;
 }
 
+.wnck-pager {
+    background-color: darken($panel_bg, 2%);
+
+    &:selected { background-color: transparentize($selected_bg_color, 0.4); }
+    &:hover { background-color: transparentize($selected_bg_color, 0.8); }
+}
+
 // Xfce Panel
 .xfce4-panel.panel {
   background-color: #393939;
