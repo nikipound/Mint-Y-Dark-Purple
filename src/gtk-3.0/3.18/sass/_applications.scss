@@ -579,7 +579,6 @@ SynapseGuiViewVirgilio *:selected { background-color: $selected_bg_color; }
 .mate-panel-menu-bar {
   color: $panel_fg;
   background-color: $panel_bg;
-  font: bold;
 
   &, .menubar { background-color: $panel_bg; }
 
@@ -597,7 +596,6 @@ SynapseGuiViewVirgilio *:selected { background-color: $selected_bg_color; }
     background-color: $panel_bg;
     border-radius: 0;
     border: none;
-    font: bold;
 
     &:hover { background-color: lighten($panel_bg, 5%); }
 

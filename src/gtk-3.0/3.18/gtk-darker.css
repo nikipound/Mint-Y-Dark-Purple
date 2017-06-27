@@ -3110,8 +3110,7 @@ SynapseGuiViewVirgilio *:selected {
 .gnome-panel-menu-bar,
 .mate-panel-menu-bar {
   color: #DADADA;
-  background-color: #393939;
-  font: bold; }
+  background-color: #393939; }
   .gnome-panel-menu-bar, .gnome-panel-menu-bar .menubar,
   .mate-panel-menu-bar,
   .mate-panel-menu-bar .menubar {
@@ -3128,8 +3127,7 @@ SynapseGuiViewVirgilio *:selected {
     color: #DADADA;
     background-color: #393939;
     border-radius: 0;
-    border: none;
-    font: bold; }
+    border: none; }
     .gnome-panel-menu-bar #tasklist-button:hover,
     .mate-panel-menu-bar #tasklist-button:hover {
       background-color: #464646; }
