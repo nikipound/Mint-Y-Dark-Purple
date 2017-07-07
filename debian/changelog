@@ -1,3 +1,10 @@
+mint-y-theme (1.2.1) sonya; urgency=medium
+
+  [ JosephMcc ]
+  * gtk3: Fix padding on the old style mate panel menu
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 07 Jul 2017 09:41:21 +0200
+
 mint-y-theme (1.2.0) sonya; urgency=medium
 
   [ JosephMcc ]
