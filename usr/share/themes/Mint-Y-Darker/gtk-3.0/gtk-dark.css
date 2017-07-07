@@ -3112,6 +3112,10 @@ SynapseGuiViewVirgilio *:selected {
   .mate-panel-menu-bar,
   .mate-panel-menu-bar .menubar {
     background-color: #292929; }
+  .gnome-panel-menu-bar .menubar > .menuitem,
+  .mate-panel-menu-bar .menubar > .menuitem {
+    padding-top: 0;
+    padding-bottom: 0; }
   .gnome-panel-menu-bar GtkMenu .label,
   .mate-panel-menu-bar GtkMenu .label {
     color: #DADADA;

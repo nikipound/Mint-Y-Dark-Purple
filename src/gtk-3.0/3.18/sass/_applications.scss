@@ -582,6 +582,11 @@ SynapseGuiViewVirgilio *:selected { background-color: $selected_bg_color; }
 
   &, .menubar { background-color: $panel_bg; }
 
+  & .menubar > .menuitem {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
   & GtkMenu .label {
     color: $fg_color;
     font: regular;
