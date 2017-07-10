@@ -3131,7 +3131,9 @@ SynapseGuiViewVirgilio *:selected {
     color: #DADADA;
     background-color: #393939;
     border-radius: 0;
-    border: none; }
+    border: none;
+    padding-bottom: 0;
+    padding-top: 0; }
     .gnome-panel-menu-bar #tasklist-button:hover,
     .mate-panel-menu-bar #tasklist-button:hover {
       background-color: #464646; }

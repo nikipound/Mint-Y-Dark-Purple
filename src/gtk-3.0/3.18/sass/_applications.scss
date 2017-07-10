@@ -601,6 +601,8 @@ SynapseGuiViewVirgilio *:selected { background-color: $selected_bg_color; }
     background-color: $panel_bg;
     border-radius: 0;
     border: none;
+    padding-bottom: 0;
+    padding-top: 0;
 
     &:hover { background-color: lighten($panel_bg, 5%); }
 
