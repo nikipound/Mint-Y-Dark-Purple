@@ -598,13 +598,12 @@ SynapseGuiViewVirgilio *:selected { background-color: $selected_bg_color; }
 
   #tasklist-button {
     color: $panel_fg;
-    background-color: $panel_bg;
     border-radius: 0;
     border: none;
     padding-bottom: 0;
     padding-top: 0;
 
-    &:hover { background-color: lighten($panel_bg, 5%); }
+    &:hover { background-color: transparentize(white, 0.95); }
 
     &:checked,
     &:active {
@@ -631,7 +630,7 @@ SynapseGuiViewVirgilio *:selected { background-color: $selected_bg_color; }
 }
 
 .wnck-pager {
-    background-color: darken($panel_bg, 2%);
+    background-color: transparentize(black, 0.96);
 
     &:selected { background-color: transparentize($selected_bg_color, 0.4); }
     &:hover { background-color: transparentize($selected_bg_color, 0.8); }

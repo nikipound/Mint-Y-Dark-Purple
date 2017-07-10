@@ -3129,14 +3129,13 @@ SynapseGuiViewVirgilio *:selected {
   .gnome-panel-menu-bar #tasklist-button,
   .mate-panel-menu-bar #tasklist-button {
     color: #DADADA;
-    background-color: #393939;
     border-radius: 0;
     border: none;
     padding-bottom: 0;
     padding-top: 0; }
     .gnome-panel-menu-bar #tasklist-button:hover,
     .mate-panel-menu-bar #tasklist-button:hover {
-      background-color: #464646; }
+      background-color: rgba(255, 255, 255, 0.05); }
     .gnome-panel-menu-bar #tasklist-button:checked, .gnome-panel-menu-bar #tasklist-button:active,
     .mate-panel-menu-bar #tasklist-button:checked,
     .mate-panel-menu-bar #tasklist-button:active {
@@ -3159,7 +3158,7 @@ SynapseGuiViewVirgilio *:selected {
   background-color: #9ab87c; }
 
 .wnck-pager {
-  background-color: #343434; }
+  background-color: rgba(0, 0, 0, 0.04); }
   .wnck-pager:selected {
     background-color: rgba(154, 184, 124, 0.6); }
   .wnck-pager:hover {
