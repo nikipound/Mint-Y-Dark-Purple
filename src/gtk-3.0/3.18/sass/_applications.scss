@@ -870,7 +870,7 @@ SwitchboardCategoryView .view:selected:focus {
 }
 
 //
-// Xapps
+// Xed
 //
 .xed-window {
 
@@ -888,4 +888,13 @@ SwitchboardCategoryView .view:selected:focus {
   }
 
   .xed-goto-line-box { @extend %search_slider }
+}
+
+//
+// XReader
+//
+EvWindow .content-view .view:selected,
+EvWindow .content-view .view:focused:selected {
+  background-color: $selected_bg_color;
+  color: $selected_fg_color;
 }
