@@ -1454,6 +1454,10 @@ StScrollBar {
       color: $selected_fg_color;
       border-color: $selected_bg_color;
     }
+
+    &:progress {
+      background-color: transparentize($selected_bg_color, 0.2);
+    }
   }
 
   &-item-demands-attention {

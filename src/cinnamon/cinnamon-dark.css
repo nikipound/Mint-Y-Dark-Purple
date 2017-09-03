@@ -801,7 +801,7 @@ StScrollBar {
   .modal-dialog-button-box {
     spacing: 0;
     margin: 0px;
-    padding: 0 10px 10px 10px;
+    padding: 10px;
     border: none;
     background-color: #2f2f2f; }
     .modal-dialog-button-box .modal-dialog-button {
@@ -1109,6 +1109,8 @@ StScrollBar {
   .window-list-item-box:active, .window-list-item-box:checked, .window-list-item-box:focus {
     color: #ffffff;
     border-color: #8fa876; }
+  .window-list-item-box:progress {
+    background-color: rgba(143, 168, 118, 0.8); }
 .window-list-item-demands-attention {
   background-gradient-direction: vertical;
   background-gradient-start: #F04A50;
