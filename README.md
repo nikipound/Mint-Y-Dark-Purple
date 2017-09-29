@@ -9,4 +9,4 @@ This theme is based on the Arc theme: <br>
 Editing
 =======
 
-Do not makes modifications to the theme directly in the usr/share/themes directory. These are automatically generated from the files located in the src/ directory. Each subdirectory contains its own individual instructions on how to edit. Once edits are made you can generate the final themes by running the build-themes.py script.
+Do not make modifications to the theme directly in the usr/share/themes directory. These are automatically generated from the files located in the src/ directory. Each subdirectory contains its own individual instructions on how to edit. Once edits are made you can generate the final themes by running the build-themes.py script.
