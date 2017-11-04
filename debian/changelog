@@ -1,3 +1,16 @@
+mint-y-theme (1.2.2) sylvia; urgency=medium
+
+  [ JosephMcc ]
+  * gtk3: Fix clipping of icons in the mate panel window list
+  * gtk3: Make mate's panel transparency settings work better
+  * gtk3: Fix some selected background colors in xreader
+  * Cinnamon: Add support for the window list progress indicator
+
+  [ Dorian Kurzaj ]
+  * Corrected typo (#74)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sat, 04 Nov 2017 11:18:11 +0000
+
 mint-y-theme (1.2.1) sonya; urgency=medium
 
   [ JosephMcc ]
