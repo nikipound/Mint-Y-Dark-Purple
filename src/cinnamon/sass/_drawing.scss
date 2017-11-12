@@ -67,8 +67,6 @@
 //
   //@extend %reset_style;
 
-  text-shadow: 0 1px transparentize($base_color, 1);
-
   @if $t==normal {
   //
   // normal button

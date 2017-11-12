@@ -10,7 +10,6 @@ stage {
   min-height: 20px;
   padding: 5px 32px;
   transition-duration: 0;
-  text-shadow: 0 1px rgba(64, 64, 64, 0);
   color: #D3D3D3;
   background-color: #454545;
   border: 1px solid #202020;
@@ -18,31 +17,26 @@ stage {
   .popup-menu #notification .notification-button, .popup-menu #notification .notification-icon-button, .notification-button, .notification-icon-button, .modal-dialog-button-box .modal-dialog-button, .sound-button, .popup-menu #notification .notification-button:focus, .popup-menu #notification .notification-icon-button:focus, .notification-button:focus, .notification-icon-button:focus, .modal-dialog-button-box .modal-dialog-button:focus, .sound-button:focus, .popup-menu #notification .notification-button:hover, .popup-menu #notification .notification-icon-button:hover, .notification-button:hover, .notification-icon-button:hover, .modal-dialog-button-box .modal-dialog-button:hover, .menu-application-button-selected, .menu-category-button-selected, .sound-button:hover, .popup-menu #notification .notification-button:hover:focus, .popup-menu #notification .notification-icon-button:hover:focus, .notification-button:hover:focus, .notification-icon-button:hover:focus, .modal-dialog-button-box .modal-dialog-button:hover:focus, .menu-application-button-selected:focus, .menu-category-button-selected:focus, .sound-button:hover:focus, .popup-menu #notification .notification-button:active, .popup-menu #notification .notification-icon-button:active, .notification-button:active, .notification-icon-button:active, .modal-dialog-button-box .modal-dialog-button:active, .sound-button:active, .popup-menu #notification .notification-button:active:focus, .popup-menu #notification .notification-icon-button:active:focus, .notification-button:active:focus, .notification-icon-button:active:focus, .modal-dialog-button-box .modal-dialog-button:active:focus, .sound-button:active:focus, .popup-menu #notification .notification-button:insensitive, .popup-menu #notification .notification-icon-button:insensitive, .notification-button:insensitive, .notification-icon-button:insensitive, .modal-dialog-button-box .modal-dialog-button:insensitive, .sound-button:insensitive {
     border-radius: 2px; }
   .popup-menu #notification .notification-button:focus, .popup-menu #notification .notification-icon-button:focus, .notification-button:focus, .notification-icon-button:focus, .modal-dialog-button-box .modal-dialog-button:focus, .sound-button:focus {
-    text-shadow: 0 1px rgba(64, 64, 64, 0);
     color: #D3D3D3;
     background-color: #454545;
     border: 1px solid #8fa876;
     box-shadow: inset 0 2px 4px rgba(69, 69, 69, 0.05); }
   .popup-menu #notification .notification-button:hover, .popup-menu #notification .notification-icon-button:hover, .notification-button:hover, .notification-icon-button:hover, .modal-dialog-button-box .modal-dialog-button:hover, .menu-application-button-selected, .menu-category-button-selected, .sound-button:hover {
-    text-shadow: 0 1px rgba(64, 64, 64, 0);
     color: #D3D3D3;
     background-color: #525252;
     border: 1px solid #202020;
     box-shadow: inset 0 2px 4px rgba(82, 82, 82, 0.05); }
   .popup-menu #notification .notification-button:hover:focus, .popup-menu #notification .notification-icon-button:hover:focus, .notification-button:hover:focus, .notification-icon-button:hover:focus, .modal-dialog-button-box .modal-dialog-button:hover:focus, .menu-application-button-selected:focus, .menu-category-button-selected:focus, .sound-button:hover:focus {
-    text-shadow: 0 1px rgba(64, 64, 64, 0);
     color: #D3D3D3;
     background-color: #525252;
     border: 1px solid #8fa876;
     box-shadow: inset 0 2px 4px rgba(69, 69, 69, 0.05); }
   .popup-menu #notification .notification-button:active, .popup-menu #notification .notification-icon-button:active, .notification-button:active, .notification-icon-button:active, .modal-dialog-button-box .modal-dialog-button:active, .sound-button:active, .popup-menu #notification .notification-button:active:focus, .popup-menu #notification .notification-icon-button:active:focus, .notification-button:active:focus, .notification-icon-button:active:focus, .modal-dialog-button-box .modal-dialog-button:active:focus, .sound-button:active:focus {
-    text-shadow: 0 1px rgba(64, 64, 64, 0);
     color: #ffffff;
     background-color: #8fa876;
     border: 1px solid #8fa876;
     box-shadow: inset 0 2px 4px #8fa876; }
   .popup-menu #notification .notification-button:insensitive, .popup-menu #notification .notification-icon-button:insensitive, .notification-button:insensitive, .notification-icon-button:insensitive, .modal-dialog-button-box .modal-dialog-button:insensitive, .sound-button:insensitive {
-    text-shadow: 0 1px rgba(64, 64, 64, 0);
     color: rgba(211, 211, 211, 0.45);
     border: 1px solid rgba(32, 32, 32, 0.55);
     background-color: rgba(69, 69, 69, 0.55);
@@ -926,22 +920,18 @@ StScrollBar {
   font-weight: bold;
   border-radius: 3px;
   box-shadow: none;
-  text-shadow: 0 1px rgba(64, 64, 64, 0);
   color: #c3c3c3;
   border: 1px solid #202020;
   background-color: rgba(109, 109, 109, 0.35); }
   .keyboard-key:hover {
-    text-shadow: 0 1px rgba(64, 64, 64, 0);
     color: #c3c3c3;
     border: 1px solid rgba(2, 2, 2, 0.35);
     background-color: rgba(127, 127, 127, 0.45); }
   .keyboard-key:active, .keyboard-key:checked {
-    text-shadow: 0 1px rgba(64, 64, 64, 0);
     color: #ffffff;
     border: 1px solid #8fa876;
     background-color: #8fa876; }
   .keyboard-key:grayed {
-    text-shadow: 0 1px rgba(64, 64, 64, 0);
     color: #606060;
     border: 1px solid rgba(2, 2, 2, 0.35);
     background-color: rgba(109, 109, 109, 0.2); }
@@ -1193,12 +1183,10 @@ StScrollBar {
       .sound-player-overlay StButton StIcon {
         icon-size: 16px; }
       .sound-player-overlay StButton:hover {
-        text-shadow: 0 1px rgba(64, 64, 64, 0);
         color: #c3c3c3;
         border: 1px solid rgba(2, 2, 2, 0.35);
         background-color: rgba(127, 127, 127, 0.45); }
       .sound-player-overlay StButton:active {
-        text-shadow: 0 1px rgba(64, 64, 64, 0);
         color: #ffffff;
         background-color: #8fa876;
         border: 1px solid #8fa876;
