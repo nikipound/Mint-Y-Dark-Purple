@@ -1455,7 +1455,7 @@ StScrollBar {
       border-color: $selected_bg_color;
     }
 
-    &:progress {
+    & .progress {
       background-color: transparentize($selected_bg_color, 0.2);
     }
   }

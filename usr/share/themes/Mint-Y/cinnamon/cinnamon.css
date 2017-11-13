@@ -1099,7 +1099,7 @@ StScrollBar {
   .window-list-item-box:active, .window-list-item-box:checked, .window-list-item-box:focus {
     color: #ffffff;
     border-color: #9ab87c; }
-  .window-list-item-box:progress {
+  .window-list-item-box .progress {
     background-color: rgba(154, 184, 124, 0.8); }
 .window-list-item-demands-attention {
   background-gradient-direction: vertical;
