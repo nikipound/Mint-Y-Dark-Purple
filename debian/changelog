@@ -1,3 +1,11 @@
+mint-y-theme (1.2.3) sylvia; urgency=medium
+
+  [ JosephMcc ]
+  * cinnamon: Remove a fully transparent text shadow
+  * Cinnamon: Fix support for the window list progress indicator
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 16 Nov 2017 15:08:20 +0000
+
 mint-y-theme (1.2.2) sylvia; urgency=medium
 
   [ JosephMcc ]
